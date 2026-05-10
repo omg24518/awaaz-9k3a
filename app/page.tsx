@@ -80,8 +80,25 @@ export default function Home() {
       audio.preload = 'auto';
       audioRef.current = audio;
     }
-    // Refresh user-gesture activation on every click. Silent play() against an
-    // empty src rejects, but the element stays "user-activated" for follow-up plays.
+    // CRITICAL: stop any in-flight or queued audio first. Without this, calling
+    // play() on an element whose src still holds the previous summary URL
+    // restarts that summary — which is exactly the bug where clicking the mic
+    // after a result replays the AI voice instead of starting a new recording.
+    try {
+      if (!audio.paused) audio.pause();
+      if (audio.src) {
+        URL.revokeObjectURL(audio.src);
+        audio.removeAttribute('src');
+        audio.load();
+      }
+    } catch {}
+    // Cancel any in-flight TTS fetch and any browser-TTS fallback so a slow
+    // response or queued utterance doesn't surface mid-recording.
+    ttsAbortRef.current?.abort();
+    ttsAbortRef.current = null;
+    cancelBrowserSpeech();
+    // Refresh user-gesture activation on the now-empty element. play() rejects
+    // (no src) but the element stays "user-activated" for follow-up plays.
     audio.play().catch(() => {});
     return audio;
   }, []);
