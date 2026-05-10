@@ -294,18 +294,18 @@ export function SchemeCard({
           <ApplicationMethodIcon className="w-3.5 h-3.5 mt-0.5 shrink-0 text-current" />
           <span>{applicationMethod.description}</span>
         </p>
-        <div className="flex flex-col sm:flex-row gap-2.5">
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-2.5">
         <button
           type="button"
           onClick={() => onTellMore(match)}
           className={clsx(
-            'flex-1 h-12 rounded-xl bg-saffron-500 text-white px-5 text-sm font-semibold transition-all',
+            'flex-1 h-14 sm:h-12 rounded-xl bg-saffron-500 text-white px-5 text-base sm:text-sm font-semibold transition-all',
             'hover:bg-saffron-600 active:scale-[0.98]',
             'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-saffron-700/40',
             'flex items-center justify-center gap-2',
           )}
         >
-          <SpeakerIcon className="w-4 h-4" />
+          <SpeakerIcon className="w-5 h-5 sm:w-4 sm:h-4" />
           <span className={hindiClass}>
             {language === 'hi' ? 'और बताइए' : 'Tell me more'}
           </span>
@@ -317,13 +317,13 @@ export function SchemeCard({
             rel="noopener noreferrer"
             onClick={handleApplyClick}
             className={clsx(
-              'flex-1 h-12 rounded-xl border-2 border-forest-500 text-forest-700 px-5 text-sm font-semibold transition-all',
+              'flex-1 h-14 sm:h-12 rounded-xl border-2 border-forest-500 text-forest-700 px-5 text-base sm:text-sm font-semibold transition-all',
               'hover:bg-forest-50 active:scale-[0.98]',
               'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-forest-500/40',
               'flex items-center justify-center gap-2',
             )}
           >
-            <ExternalLinkIcon className="w-4 h-4" />
+            <ExternalLinkIcon className="w-5 h-5 sm:w-4 sm:h-4" />
             <span className={hindiClass}>
               {applicationMethod.cta}
             </span>
@@ -332,13 +332,13 @@ export function SchemeCard({
           <Link
             href={`/schemes/${scheme.scheme_id}`}
             className={clsx(
-              'flex-1 h-12 rounded-xl border-2 border-forest-500 text-forest-700 px-5 text-sm font-semibold transition-all',
+              'flex-1 h-14 sm:h-12 rounded-xl border-2 border-forest-500 text-forest-700 px-5 text-base sm:text-sm font-semibold transition-all',
               'hover:bg-forest-50 active:scale-[0.98]',
               'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-forest-500/40',
               'flex items-center justify-center gap-2',
             )}
           >
-            <PinIcon className="w-4 h-4" />
+            <PinIcon className="w-5 h-5 sm:w-4 sm:h-4" />
             <span className={hindiClass}>
               {applicationMethod.cta}
             </span>
@@ -347,10 +347,10 @@ export function SchemeCard({
         </div>
       </div>
 
-      <div className="mt-3 text-center">
+      <div className="mt-4 sm:mt-3 text-center">
         <Link
           href={`/schemes/${scheme.scheme_id}`}
-          className="text-xs text-ink/60 hover:text-saffron-700 font-serif italic inline-flex items-center gap-1 transition-colors"
+          className="text-sm sm:text-xs text-ink/65 hover:text-saffron-700 font-serif italic inline-flex items-center gap-1 transition-colors py-2 px-2"
         >
           {language === 'hi' ? 'और जानकारी पढ़िए' : 'View full details'}
           <span aria-hidden>→</span>
