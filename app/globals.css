@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-saffron: #E76F00;
+  --color-forest: #1B5E20;
+  --color-cream: #FFF8F0;
+  --color-ink: #1A1A1A;
+  --color-ashoka: #0E2A6B;
+  --color-terracotta: #B5482E;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+html,
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  min-height: 100%;
+}
+
+body {
+  font-feature-settings: 'cv11', 'ss01', 'ss03';
+}
+
+::selection {
+  background: rgba(231, 111, 0, 0.22);
+}
+
+/* Decorative ornament — used under the wordmark */
+.ornament-rule {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: var(--color-saffron);
+}
+.ornament-rule::before,
+.ornament-rule::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(231, 111, 0, 0.5),
+    transparent
+  );
+}
+
+/* Stamp — used on the verified badge */
+.stamp {
+  position: relative;
+  border: 2px solid var(--color-ashoka);
+  color: var(--color-ashoka);
+  letter-spacing: 0.18em;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  font-size: 10px;
+  transform: rotate(-6deg);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(255, 248, 240, 0.55);
+  box-shadow: 0 0 0 4px rgba(14, 42, 107, 0.06);
+}
+.stamp::before,
+.stamp::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border: 1px solid currentColor;
+  opacity: 0.35;
+  pointer-events: none;
+}
+.stamp::after {
+  inset: -5px;
+  border-style: dashed;
+  opacity: 0.18;
+}
+
+/* Hero ornament — small radial mark */
+.hero-mark {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  flex: none;
+}
+.hero-mark::before,
+.hero-mark::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 999px;
+  border: 1px solid var(--color-saffron);
+  opacity: 0.55;
+}
+.hero-mark::after {
+  inset: 6px;
+  background: var(--color-saffron);
+  border: none;
+  opacity: 1;
+}
+
+/* Hide scrollbar arrows where it's distracting */
+textarea {
+  scrollbar-width: thin;
+}

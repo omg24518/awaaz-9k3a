@@ -1,0 +1,202 @@
+{
+  "scenarios": [
+    {
+      "id": "pregnant_up",
+      "icon": "🤰",
+      "label_hi": "गर्भवती महिला, UP",
+      "label_en": "Pregnant woman, Uttar Pradesh",
+      "description_hi": "पहली बार माँ बनने वाली",
+      "description_en": "First-time mother, low household income",
+      "text_hi": "मैं 26 साल की हूं, गर्भवती हूं, उत्तर प्रदेश में रहती हूं, यह मेरा पहला बच्चा है। पति की कमाई 8000 रुपये महीना है।",
+      "text_en": "I am 26 years old, pregnant, living in Uttar Pradesh. This is my first child. My husband earns ₹8,000 per month.",
+      "cached_response": {
+        "profile": {
+          "age": 26,
+          "gender": "female",
+          "marital_status": "married",
+          "pregnancy_status": "pregnant",
+          "num_children": 0,
+          "children_ages": null,
+          "state": "Uttar Pradesh",
+          "district": null,
+          "monthly_income": 8000,
+          "annual_income": 96000,
+          "occupation": null,
+          "caste_category": null,
+          "rural_or_urban": null,
+          "disability_status": null,
+          "specific_need": "Pregnancy and maternity support"
+        },
+        "matches": [
+          {
+            "scheme_id": "pmmvy",
+            "reason_hi": "आप पहली बार माँ बन रही हैं और 19+ हैं — पहले जीवित बच्चे के लिए ₹5,000 की पात्र हैं।",
+            "reason_en": "You are pregnant with your first child and are 19+ — you qualify for the ₹5,000 first-child benefit.",
+            "priority": 1
+          },
+          {
+            "scheme_id": "janani_suraksha_yojana",
+            "reason_hi": "उत्तर प्रदेश LPS राज्य है — सभी गर्भवती महिलाओं को संस्थागत प्रसव पर ₹1,400 (ग्रामीण) या ₹1,000 (शहरी) मिलता है।",
+            "reason_en": "Uttar Pradesh is a Low-Performing State — all pregnant women qualify for ₹1,400 (rural) / ₹1,000 (urban) institutional delivery cash.",
+            "priority": 2
+          },
+          {
+            "scheme_id": "anganwadi_services",
+            "reason_hi": "गर्भवती होने पर आपको आंगनवाड़ी से मुफ्त पूरक पोषण और स्वास्थ्य जांच मिलेगी।",
+            "reason_en": "As a pregnant woman you qualify for free supplementary nutrition and health checkups at the Anganwadi Centre.",
+            "priority": 3
+          },
+          {
+            "scheme_id": "ayushman_bharat_pmjay",
+            "reason_hi": "कम आय वाले परिवार होने के कारण आप PM-JAY के तहत ₹5 लाख तक के मुफ्त इलाज की पात्र हो सकती हैं — पात्रता पुष्टि करें।",
+            "reason_en": "Given low household income, your family may qualify for ₹5 lakh free hospitalisation under PM-JAY — verify eligibility on pmjay.gov.in.",
+            "priority": 4
+          },
+          {
+            "scheme_id": "ujjwala",
+            "reason_hi": "BPL महिला होने पर मुफ्त एलपीजी कनेक्शन की पात्र हो सकती हैं।",
+            "reason_en": "If your household has a BPL ration card, you qualify for a free LPG connection under PMUY.",
+            "priority": 5
+          }
+        ],
+        "summary": {
+          "hi": "आपके लिए 5 योजनाएं मिली हैं। सबसे ज़रूरी है प्रधानमंत्री मातृ वंदना योजना — पहले बच्चे पर ₹5,000 का सीधा लाभ।",
+          "en": "I found 5 schemes for you. The most important is PMMVY — ₹5,000 for your first child."
+        },
+        "cached": true
+      }
+    },
+    {
+      "id": "daughter_education",
+      "icon": "👧",
+      "label_hi": "बेटी की पढ़ाई",
+      "label_en": "Daughter's education",
+      "description_hi": "8 साल की बेटी के लिए बचत",
+      "description_en": "Saving for an 8-year-old daughter",
+      "text_hi": "मेरी एक बेटी है, उसकी उम्र 8 साल है। मैं उसकी पढ़ाई और शादी के लिए पैसे जोड़ना चाहती हूं। हम बिहार के एक गाँव में रहते हैं।",
+      "text_en": "I have one daughter, she is 8 years old. I want to save money for her education and marriage. We live in a village in Bihar.",
+      "cached_response": {
+        "profile": {
+          "age": null,
+          "gender": "female",
+          "marital_status": "married",
+          "pregnancy_status": "none",
+          "num_children": 1,
+          "children_ages": [8],
+          "state": "Bihar",
+          "district": null,
+          "monthly_income": null,
+          "annual_income": null,
+          "occupation": null,
+          "caste_category": null,
+          "rural_or_urban": "rural",
+          "disability_status": null,
+          "specific_need": "Saving for daughter's education and marriage"
+        },
+        "matches": [
+          {
+            "scheme_id": "sukanya_samriddhi",
+            "reason_hi": "आपकी बेटी 10 साल से कम है — सुकन्या समृद्धि खाता खोलकर ~8.2% कर-मुक्त ब्याज पर शिक्षा/विवाह के लिए बचत कर सकती हैं।",
+            "reason_en": "Your daughter is under 10 — open a Sukanya Samriddhi account for ~8.2% tax-free interest, ideal for education and marriage savings.",
+            "priority": 1
+          },
+          {
+            "scheme_id": "beti_bachao_beti_padhao",
+            "reason_hi": "बेटी की शिक्षा और सुरक्षा के लिए जिला महिला एवं बाल विकास कार्यालय से सहायता उपलब्ध है।",
+            "reason_en": "BBBP supports daughters' education and protection via the District Women & Child Development Office.",
+            "priority": 2
+          },
+          {
+            "scheme_id": "kgbv",
+            "reason_hi": "अगर आप SC/ST/OBC या BPL परिवार से हैं, बेटी कक्षा 6 के बाद कस्तूरबा गांधी बालिका विद्यालय में मुफ्त आवासीय शिक्षा पा सकती है।",
+            "reason_en": "If you're from an SC/ST/OBC or BPL family, your daughter can join a free residential KGBV school from Class 6 onwards.",
+            "priority": 3
+          },
+          {
+            "scheme_id": "balika_samridhi",
+            "reason_hi": "BPL परिवार में बेटी होने पर बालिका समृद्धि योजना से कक्षा 1-10 तक वार्षिक छात्रवृत्ति मिल सकती है।",
+            "reason_en": "BPL families with daughters can receive annual scholarships from Class 1 to 10 under Balika Samridhi Yojana.",
+            "priority": 4
+          },
+          {
+            "scheme_id": "anganwadi_services",
+            "reason_hi": "अगर घर में 6 साल से छोटा कोई बच्चा है, आंगनवाड़ी सेवाओं से मुफ्त पोषण और प्री-स्कूल मिलता है।",
+            "reason_en": "If you have a child under 6 at home, Anganwadi Services provides free nutrition and pre-school education.",
+            "priority": 5
+          }
+        ],
+        "summary": {
+          "hi": "आपके लिए 5 योजनाएं हैं। सबसे प्राथमिक — सुकन्या समृद्धि — बेटी के 21 साल पूरे होने तक पढ़ाई और विवाह के लिए बढ़िया बचत।",
+          "en": "I found 5 schemes. Top priority: Sukanya Samriddhi — a strong long-term savings account that matures when your daughter turns 21."
+        },
+        "cached": true
+      }
+    },
+    {
+      "id": "elderly_rural",
+      "icon": "👵",
+      "label_hi": "बुजुर्ग ग्रामीण महिला",
+      "label_en": "Elderly rural woman",
+      "description_hi": "BPL परिवार, खाना पकाने का गैस नहीं",
+      "description_en": "BPL household, no cooking gas",
+      "text_hi": "मैं 55 साल की विधवा हूं, राजस्थान के एक गाँव में रहती हूं। मेरे पास राशन कार्ड है, BPL परिवार से हूं। घर में अभी भी लकड़ी पर खाना बनाते हैं।",
+      "text_en": "I am a 55-year-old widow living in a Rajasthan village. I have a BPL ration card. We still cook on firewood at home.",
+      "cached_response": {
+        "profile": {
+          "age": 55,
+          "gender": "female",
+          "marital_status": "widowed",
+          "pregnancy_status": "none",
+          "num_children": null,
+          "children_ages": null,
+          "state": "Rajasthan",
+          "district": null,
+          "monthly_income": null,
+          "annual_income": null,
+          "occupation": null,
+          "caste_category": null,
+          "rural_or_urban": "rural",
+          "disability_status": null,
+          "specific_need": "Cooking gas; widow support"
+        },
+        "matches": [
+          {
+            "scheme_id": "ujjwala",
+            "reason_hi": "BPL परिवार की महिला हैं और LPG कनेक्शन नहीं — आप सीधे प्रधानमंत्री उज्ज्वला योजना के तहत मुफ्त गैस कनेक्शन की पात्र हैं।",
+            "reason_en": "You're a BPL household woman without LPG — you directly qualify for a free PMUY gas connection.",
+            "priority": 1
+          },
+          {
+            "scheme_id": "ignwps",
+            "reason_hi": "55 साल की विधवा और BPL परिवार से — इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना के तहत ₹300/माह पेंशन की पात्र हैं (राजस्थान सरकार इसे और बढ़ाती है)।",
+            "reason_en": "As a 55-year-old widow in a BPL household, you qualify for ₹300/month under IGNWPS (Rajasthan typically tops this up).",
+            "priority": 2
+          },
+          {
+            "scheme_id": "ayushman_bharat_pmjay",
+            "reason_hi": "BPL परिवार होने पर आप PM-JAY के तहत ₹5 लाख तक मुफ्त इलाज की पात्र हो सकती हैं।",
+            "reason_en": "Your BPL household qualifies for ₹5 lakh free hospitalisation under PM-JAY.",
+            "priority": 3
+          },
+          {
+            "scheme_id": "pmay_g",
+            "reason_hi": "ग्रामीण BPL परिवार — अगर पक्का घर नहीं है तो PMAY-G के तहत ₹1.20 लाख की सहायता मिल सकती है।",
+            "reason_en": "As a rural BPL family, if you don't own a pucca house, you can get ₹1.20 lakh under PMAY-G.",
+            "priority": 4
+          },
+          {
+            "scheme_id": "pmgkay",
+            "reason_hi": "BPL राशन कार्ड पर PMGKAY के तहत हर महीने 5 किलो प्रति व्यक्ति मुफ्त अनाज मिलता है।",
+            "reason_en": "Your BPL ration card already entitles you to 5 kg of free grain per person per month under PMGKAY.",
+            "priority": 5
+          }
+        ],
+        "summary": {
+          "hi": "आपके लिए 5 योजनाएं हैं। सबसे पहले — उज्ज्वला योजना के तहत मुफ्त गैस कनेक्शन और इंदिरा गांधी विधवा पेंशन — दोनों के लिए आप सीधे पात्र हैं।",
+          "en": "I found 5 schemes for you. The two most direct: free LPG under Ujjwala, and a widow pension under IGNWPS — you qualify for both."
+        },
+        "cached": true
+      }
+    }
+  ]
+}

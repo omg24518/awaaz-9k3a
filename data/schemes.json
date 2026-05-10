@@ -1,0 +1,3167 @@
+[
+  {
+    "scheme_id": "pmmvy",
+    "scheme_name": "Pradhan Mantri Matru Vandana Yojana",
+    "scheme_name_hi": "प्रधानमंत्री मातृ वंदना योजना",
+    "ministry": "Ministry of Women and Child Development",
+    "category": ["pregnancy", "maternity", "cash_benefit", "women"],
+    "has_online_application": false,
+    "benefit_summary_en": "₹5,000 cash help to a pregnant woman for her first child; another ₹6,000 if her second child is a girl. Money goes straight to the mother's bank account.",
+    "benefit_summary_hi": "पहले बच्चे के समय गर्भवती महिला को ₹5,000 की मदद। अगर दूसरा बच्चा बेटी है तो ₹6,000 और मिलेंगे। पैसा सीधे माँ के बैंक खाते में जाता है।",
+    "benefit_details_en": [
+      "First child: ₹5,000 in 2 installments — ₹3,000 after early pregnancy registration, ₹2,000 after the child's birth and first immunization.",
+      "If second child is a girl: ₹6,000 in one go after birth and first immunization.",
+      "Money credited directly to the mother's Aadhaar-linked bank account."
+    ],
+    "benefit_details_hi": [
+      "पहले बच्चे पर ₹5,000 — दो हिस्सों में: ₹3,000 गर्भावस्था का रजिस्ट्रेशन कराने पर, ₹2,000 बच्चे के जन्म और पहले टीके के बाद।",
+      "अगर दूसरा बच्चा बेटी है तो ₹6,000 एक साथ बच्चे के जन्म और टीके के बाद मिलेंगे।",
+      "पैसा सीधे माँ के आधार से जुड़े बैंक खाते में आता है।"
+    ],
+    "eligibility_lines_en": [
+      "You are pregnant and 19 years or older.",
+      "This is your first child (or your second child is a girl).",
+      "You are NOT a permanent central / state government or PSU employee."
+    ],
+    "eligibility_lines_hi": [
+      "आप गर्भवती हैं और उम्र 19 साल या उससे ज़्यादा है।",
+      "यह आपका पहला बच्चा है (या दूसरा बच्चा बेटी है)।",
+      "आप पक्की सरकारी नौकरी (केंद्र/राज्य/PSU) में नहीं हैं।"
+    ],
+    "application_steps_en": [
+      "Go to the nearest Anganwadi Centre or ASHA worker as soon as you know you are pregnant.",
+      "Carry Aadhaar of you and your husband, MCP card, and your bank passbook.",
+      "Anganwadi worker fills Form 1A (registration), then 1B (after delivery), then 1C (after first immunization).",
+      "Each form triggers one installment to your bank account."
+    ],
+    "application_steps_hi": [
+      "गर्भावस्था की पुष्टि होते ही पास के आंगनवाड़ी केंद्र या ASHA दीदी के पास जाएं।",
+      "अपना और पति का आधार, MCP कार्ड, और बैंक पासबुक साथ ले जाएं।",
+      "आंगनवाड़ी दीदी पहले फॉर्म 1A (रजिस्ट्रेशन), फिर 1B (बच्चे के जन्म पर), फिर 1C (पहले टीके पर) भरेंगी।",
+      "हर फॉर्म के बाद आपके बैंक खाते में एक किस्त आ जाएगी।"
+    ],
+    "helpline": "104 (Health) / 181 (Women)",
+    "timeline_en": "First installment in around 30–45 days after Form 1A.",
+    "timeline_hi": "पहली किस्त फॉर्म 1A भरने के लगभग 30 से 45 दिन में बैंक खाते में आ जाती है।",
+    "eligibility": {
+      "gender": "female",
+      "min_age": 19,
+      "max_age": null,
+      "marital_status": null,
+      "pregnancy_status": "pregnant",
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["first_living_child_or_second_if_girl"],
+      "occupation_excluded": ["central_govt_employee", "state_govt_employee", "psu_employee"],
+      "occupation_included": [],
+      "caste_categories": []
+    },
+    "documents_required": ["Aadhaar of mother and husband", "Bank or post office passbook (mother's account)", "MCP card / pregnancy certificate", "Husband's Aadhaar"],
+    "documents_required_hi": ["माँ और पति का आधार", "माँ का बैंक/पोस्ट ऑफिस पासबुक", "एमसीपी कार्ड / गर्भावस्था प्रमाण पत्र", "पति का आधार"],
+    "how_to_apply": "Visit the nearest Anganwadi Centre or ASHA worker. Use the official PMMVY website for status tracking and grievances.",
+    "how_to_apply_hi": "पास के आंगनवाड़ी केंद्र या ASHA दीदी के पास जाएं। PMMVY वेबसाइट पर स्थिति देख सकते हैं।",
+    "official_link": "https://pmmvy.wcd.gov.in/",
+    "verified": true
+  },
+  {
+    "scheme_id": "ujjwala",
+    "scheme_name": "Pradhan Mantri Ujjwala Yojana",
+    "scheme_name_hi": "प्रधानमंत्री उज्ज्वला योजना",
+    "ministry": "Ministry of Petroleum and Natural Gas",
+    "category": ["women", "rural", "household", "energy", "bpl"],
+    "benefit_summary_en": "Free LPG gas connection for women from poor households — cylinder, regulator, first refill, and stove all free.",
+    "benefit_summary_hi": "गरीब परिवार की महिला को मुफ्त एलपीजी गैस का कनेक्शन — सिलेंडर, रेगुलेटर, पहली रिफिल और चूल्हा सब मुफ्त।",
+    "benefit_details_en": [
+      "First LPG connection (security deposit + admin fees) waived — saves around ₹1,600.",
+      "Free first cylinder refill and free hotplate stove (Ujjwala 2.0).",
+      "Subsidy on every LPG refill credited to your Aadhaar-linked bank account.",
+      "Connection in the woman's name — gives her control over the household fuel."
+    ],
+    "benefit_details_hi": [
+      "पहले LPG कनेक्शन का जमा पैसा (लगभग ₹1,600) माफ — मुफ्त मिलता है।",
+      "पहली रिफिल और चूल्हा भी मुफ्त (उज्ज्वला 2.0)।",
+      "हर रिफिल पर सब्सिडी आधार से जुड़े बैंक खाते में आ जाती है।",
+      "कनेक्शन महिला के नाम पर होता है, इसलिए घर की गैस उसके नियंत्रण में रहती है।"
+    ],
+    "eligibility_lines_en": [
+      "You are an adult woman (18+) without an existing LPG connection at home.",
+      "Your family has a BPL ration card, OR is SC/ST, OR is a PMAY-G / AAY beneficiary.",
+      "Your family has not received an LPG connection earlier."
+    ],
+    "eligibility_lines_hi": [
+      "आप 18 साल या उससे बड़ी महिला हैं और घर में पहले से LPG कनेक्शन नहीं है।",
+      "आपके परिवार के पास BPL राशन कार्ड है, या आप SC/ST हैं, या PMAY-G / AAY सूची में आपका नाम है।",
+      "आपके परिवार को पहले कोई LPG कनेक्शन नहीं मिला है।"
+    ],
+    "application_steps_en": [
+      "Go to your nearest LPG distributor (Indane, Bharat Gas, or HP Gas) with documents.",
+      "Or apply online at pmuy.gov.in by clicking 'Apply for New Ujjwala 2.0 Connection'.",
+      "Distributor verifies your eligibility and issues the connection in 5–7 days."
+    ],
+    "application_steps_hi": [
+      "अपने पास के LPG डिस्ट्रीब्यूटर (इंडेन, भारत गैस या HP गैस) के पास कागज़ लेकर जाएं।",
+      "या pmuy.gov.in पर 'Apply for New Ujjwala 2.0 Connection' पर जाकर ऑनलाइन फॉर्म भरें।",
+      "डिस्ट्रीब्यूटर 5 से 7 दिन में आपका कनेक्शन दे देगा।"
+    ],
+    "helpline": "1906 (LPG emergency) / 1800-266-6696",
+    "timeline_en": "Connection issued in 5–7 working days after document verification.",
+    "timeline_hi": "कागज़ की जाँच के बाद 5 से 7 दिनों में कनेक्शन मिल जाता है।",
+    "eligibility": {
+      "gender": "female",
+      "min_age": 18,
+      "max_age": null,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["bpl_or_sc_st_or_pmayg_or_amrut_beneficiary_woman"],
+      "occupation_excluded": [],
+      "occupation_included": [],
+      "caste_categories": ["SC", "ST", "OBC"]
+    },
+    "documents_required": ["Aadhaar", "Ration card (BPL preferred)", "Bank passbook", "Passport-size photograph", "Address proof"],
+    "documents_required_hi": ["आधार कार्ड", "राशन कार्ड (BPL प्राथमिकता)", "बैंक पासबुक", "पासपोर्ट साइज फोटो", "पते का प्रमाण"],
+    "how_to_apply": "Visit the nearest LPG distributor (Indane / Bharat Gas / HP Gas) or apply online at pmuy.gov.in.",
+    "how_to_apply_hi": "नजदीकी एलपीजी डिस्ट्रीब्यूटर पर जाएं या pmuy.gov.in पर ऑनलाइन अर्ज़ी दीजिए।",
+    "official_link": "https://www.pmuy.gov.in/ujjwala2.html",
+    "verified": true
+  },
+  {
+    "scheme_id": "sukanya_samriddhi",
+    "has_online_application": false,
+    "scheme_name": "Sukanya Samriddhi Yojana",
+    "scheme_name_hi": "सुकन्या समृद्धि योजना",
+    "ministry": "Ministry of Finance / India Post",
+    "category": ["girl_child", "savings", "education"],
+    "benefit_summary_en": "A small-savings account for a girl below 10 years that grows at about 8.2% interest, tax-free. Money usable for her education (50% after age 18) or full amount on marriage / age 21.",
+    "benefit_summary_hi": "10 साल से छोटी बेटी के लिए बचत का खाता जो लगभग 8.2% ब्याज पर बढ़ता है। पढ़ाई के लिए (18 साल के बाद आधा पैसा) या शादी या 21 साल पूरे होने पर पूरा पैसा।",
+    "benefit_details_en": [
+      "Open with as little as ₹250; deposit any amount up to ₹1,50,000 per year.",
+      "Interest around 8.2% per year (revised quarterly), fully tax-free.",
+      "After your daughter turns 18, you can take out up to 50% for her higher studies.",
+      "Account matures when she turns 21 — full amount goes to her."
+    ],
+    "benefit_details_hi": [
+      "सिर्फ ₹250 से खाता खुलता है; एक साल में ज़्यादा से ज़्यादा ₹1,50,000 जमा कर सकते हैं।",
+      "ब्याज लगभग 8.2% सालाना (हर तीन महीने में बदलता है), और पूरी तरह टैक्स-फ्री।",
+      "बेटी 18 साल की हो जाए तो ऊंची पढ़ाई के लिए जमा पैसे का आधा निकाल सकते हैं।",
+      "21 साल पूरे होने पर खाता परिपक्व — पूरा पैसा बेटी को।"
+    ],
+    "eligibility_lines_en": [
+      "Your daughter is 10 years old or younger.",
+      "You are her parent or legal guardian and an Indian resident.",
+      "Maximum two girls per family (3 if twins / triplets at second pregnancy)."
+    ],
+    "eligibility_lines_hi": [
+      "आपकी बेटी की उम्र 10 साल या उससे कम है।",
+      "आप उसके माता-पिता या क़ानूनी अभिभावक हैं और भारत में रहते हैं।",
+      "एक परिवार में ज़्यादा से ज़्यादा दो बेटियाँ (अगर जुड़वाँ हैं तो तीन)।"
+    ],
+    "application_steps_en": [
+      "Visit your nearest Post Office or any authorized bank branch (SBI, PNB, BoB, Canara, etc.).",
+      "Fill the SSY account opening form (Form-1).",
+      "Submit girl's birth certificate, your ID + address proof, and photographs.",
+      "Make the first deposit (minimum ₹250). Passbook is given on the spot."
+    ],
+    "application_steps_hi": [
+      "पास के डाकघर या किसी बैंक की शाखा (SBI, PNB, BoB, केनरा आदि) में जाएं।",
+      "SSY खाता खोलने का फॉर्म-1 भरें।",
+      "बेटी का जन्म प्रमाण पत्र, आपकी पहचान और पते का सबूत, और फ़ोटो दें।",
+      "पहली बार ₹250 या उससे ज़्यादा जमा करें। पासबुक उसी दिन मिल जाती है।"
+    ],
+    "helpline": "1800-266-6868 (India Post)",
+    "timeline_en": "Account opens same day on submission of documents.",
+    "timeline_hi": "कागज़ देते ही उसी दिन खाता खुल जाता है।",
+    "eligibility": {
+      "gender": "female",
+      "min_age": 0,
+      "max_age": 10,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["account_opened_by_parent_or_guardian", "max_two_girls_per_family"],
+      "occupation_excluded": [],
+      "occupation_included": [],
+      "caste_categories": []
+    },
+    "documents_required": ["Birth certificate of the girl child", "Aadhaar / ID of parent or guardian", "Address proof", "Photographs of girl and depositor"],
+    "documents_required_hi": ["बेटी का जन्म प्रमाण पत्र", "माता-पिता/अभिभावक का आधार", "पते का प्रमाण", "बेटी और जमाकर्ता की तस्वीरें"],
+    "how_to_apply": "Open the account at any post office or authorised bank branch (SBI, PNB, BoB, Canara, etc.). Min deposit ₹250/year, max ₹1.5 lakh/year.",
+    "how_to_apply_hi": "किसी भी डाकघर या अधिकृत बैंक शाखा में खाता खोलें। कम से कम ₹250/वर्ष, ज़्यादा से ज़्यादा ₹1.5 लाख/वर्ष।",
+    "official_link": "https://transformingindia.mygov.in/scheme/sukanya-samriddhi-yojana/",
+    "verified": true
+  },
+  {
+    "scheme_id": "ayushman_bharat_pmjay",
+    "scheme_name": "Ayushman Bharat — Pradhan Mantri Jan Arogya Yojana (PM-JAY)",
+    "scheme_name_hi": "आयुष्मान भारत — प्रधानमंत्री जन आरोग्य योजना",
+    "ministry": "Ministry of Health and Family Welfare",
+    "category": ["health", "insurance", "family", "rural", "urban"],
+    "benefit_summary_en": "Free hospital treatment up to ₹5 lakh per family per year — covers serious illnesses, surgeries, ICU, dialysis, cancer care and more, in listed government and private hospitals.",
+    "benefit_summary_hi": "एक परिवार को साल में ₹5 लाख तक का मुफ्त इलाज — बड़ी बीमारियाँ, ऑपरेशन, ICU, डायलिसिस, कैंसर का इलाज वगैरह — लिस्ट में जुड़े सरकारी और प्राइवेट अस्पतालों में।",
+    "benefit_details_en": [
+      "₹5 lakh of cashless cover per family per year — no upper age limit, all family members covered.",
+      "Includes pre-hospital and 15 days of post-hospital expenses.",
+      "Around 1,949 procedures covered — cancer, cardiac surgery, dialysis, joint replacement, etc.",
+      "Cashless at all listed government and many private hospitals across India."
+    ],
+    "benefit_details_hi": [
+      "प्रति परिवार साल में ₹5 लाख तक कैशलेस इलाज — कोई उम्र की सीमा नहीं, परिवार के सभी सदस्य शामिल।",
+      "अस्पताल में भर्ती होने से पहले और बाद के 15 दिन तक के खर्च भी कवर।",
+      "लगभग 1,949 तरह के इलाज — कैंसर, दिल का ऑपरेशन, डायलिसिस, जोड़ बदलना आदि।",
+      "लिस्ट में जुड़े सरकारी और कई प्राइवेट अस्पतालों में आयुष्मान कार्ड चलता है।"
+    ],
+    "eligibility_lines_en": [
+      "Your household is on the SECC-2011 deprivation list (auto-enrolled), OR",
+      "You belong to a state-extended category (construction worker, ASHA, PVTG, transgender, senior 70+ under AB-PMJAY-VYO).",
+      "Check eligibility at beneficiary.nha.gov.in by Aadhaar / ration card."
+    ],
+    "eligibility_lines_hi": [
+      "आपका परिवार SECC-2011 की वंचित सूची में है (अपने आप जुड़े होते हैं), या",
+      "आप किसी राज्य द्वारा जोड़ी गई श्रेणी में आते हैं (कंस्ट्रक्शन वर्कर, ASHA, PVTG, ट्रांसजेंडर, 70+ बुज़ुर्ग आदि)।",
+      "beneficiary.nha.gov.in पर आधार या राशन कार्ड डालकर हक़दारी देख सकते हैं।"
+    ],
+    "application_steps_en": [
+      "Open beneficiary.nha.gov.in or call 14555 to check if you are on the list.",
+      "If yes, visit your nearest CSC, empanelled hospital, or 'Ayushman Mitra' at any government hospital.",
+      "Show Aadhaar; biometric or OTP-based verification.",
+      "Ayushman Card is generated and downloadable as PDF on the spot."
+    ],
+    "application_steps_hi": [
+      "beneficiary.nha.gov.in खोलें या 14555 पर फ़ोन करें — हक़दारी जाँचें।",
+      "अगर लिस्ट में नाम है तो पास के CSC, लिस्ट में जुड़े अस्पताल, या किसी सरकारी अस्पताल के 'आयुष्मान मित्र' के पास जाएं।",
+      "आधार दिखाएं; आँख / उंगली या OTP से पहचान पुष्टि होगी।",
+      "आयुष्मान कार्ड वहीं बन जाता है और PDF में डाउनलोड भी कर सकते हैं।"
+    ],
+    "helpline": "14555 (toll-free, 24x7)",
+    "timeline_en": "Card issued same day at CSC or hospital after verification.",
+    "timeline_hi": "जाँच के बाद उसी दिन CSC या अस्पताल में कार्ड बन जाता है।",
+    "eligibility": {
+      "gender": "any",
+      "min_age": null,
+      "max_age": null,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["secc_2011_eligible_or_state_specific_criteria"],
+      "occupation_excluded": [],
+      "occupation_included": [],
+      "caste_categories": []
+    },
+    "documents_required": ["Aadhaar (all family members)", "Ration card", "PM-JAY e-card / Ayushman card if issued", "Mobile number for OTP"],
+    "documents_required_hi": ["परिवार के सभी सदस्यों का आधार", "राशन कार्ड", "पीएम-जय ई-कार्ड (यदि बना हो)", "OTP के लिए मोबाइल नंबर"],
+    "how_to_apply": "Check eligibility at pmjay.gov.in or call 14555. Get the Ayushman Card made at the nearest CSC or empanelled hospital.",
+    "how_to_apply_hi": "pmjay.gov.in पर हक़दारी जांचें या 14555 पर कॉल करें। नजदीकी CSC या एम्पैनल्ड अस्पताल में आयुष्मान कार्ड बनवाएं।",
+    "official_link": "https://beneficiary.nha.gov.in/",
+    "verified": true
+  },
+  {
+    "scheme_id": "beti_bachao_beti_padhao",
+    "has_online_application": false,
+    "scheme_name": "Beti Bachao Beti Padhao",
+    "scheme_name_hi": "बेटी बचाओ बेटी पढ़ाओ",
+    "ministry": "Ministry of Women and Child Development",
+    "category": ["girl_child", "education", "awareness"],
+    "benefit_summary_en": "A national programme to fight discrimination against girls, encourage their education, and improve their health and safety. Works through district-level services — does NOT directly transfer cash to families.",
+    "benefit_summary_hi": "बेटियों के साथ भेदभाव रोकने, उनकी पढ़ाई बढ़ाने और सेहत और सुरक्षा सुधारने का राष्ट्रीय अभियान। ज़िला स्तर पर सरकारी विभाग मिलकर काम करते हैं — यह सीधे परिवार को पैसा नहीं देता।",
+    "benefit_details_en": [
+      "Awareness drives in villages and schools to stop sex-selection and encourage girl education.",
+      "Helps families enrol girls in school, get Aadhaar, and open Sukanya Samriddhi accounts.",
+      "Convergence with health, nutrition, education and protection schemes for girls.",
+      "Special focus on districts where number of girls is low."
+    ],
+    "benefit_details_hi": [
+      "गाँवों और स्कूलों में जागरूकता अभियान — लिंग चयन रोकने और बेटियों की पढ़ाई बढ़ाने के लिए।",
+      "बेटी को स्कूल में दाखिला, आधार बनवाना, सुकन्या समृद्धि खाता खुलवाने में मदद।",
+      "सेहत, पोषण, पढ़ाई, और सुरक्षा की दूसरी योजनाओं से जोड़ा जाता है।",
+      "जिन ज़िलों में लड़कियों की संख्या कम है, वहाँ ख़ास ध्यान।"
+    ],
+    "eligibility_lines_en": [
+      "Any family with a girl child can use BBBP-related services.",
+      "All states and Union Territories are covered."
+    ],
+    "eligibility_lines_hi": [
+      "जिस भी परिवार में बेटी है, BBBP की सेवाओं का फायदा उठा सकता है।",
+      "देश के सभी राज्यों और केंद्र शासित प्रदेशों में लागू।"
+    ],
+    "application_steps_en": [
+      "Visit your District Women and Child Development Office or block ICDS office.",
+      "Enrol your daughter at the local Anganwadi for nutrition + immunization.",
+      "Open a Sukanya Samriddhi account at any bank or post office.",
+      "Ensure school enrollment by Class 1 (most states track via Samagra Shiksha)."
+    ],
+    "application_steps_hi": [
+      "अपने ज़िले के महिला एवं बाल विकास कार्यालय या ब्लॉक ICDS दफ्तर जाएं।",
+      "पास की आंगनवाड़ी में बेटी का नाम पोषण और टीकाकरण के लिए लिखवाएं।",
+      "किसी भी बैंक या डाकघर में सुकन्या समृद्धि खाता खुलवाएं।",
+      "बेटी का दाख़िला कक्षा 1 तक स्कूल में करा दें।"
+    ],
+    "helpline": "1098 (Childline) / 181 (Women)",
+    "timeline_en": "Services are immediately available — no formal application needed.",
+    "timeline_hi": "सेवाएं तुरंत मौजूद हैं — कोई औपचारिक अर्ज़ी प्रक्रिया नहीं।",
+    "eligibility": {
+      "gender": "female",
+      "min_age": 0,
+      "max_age": 18,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["girl_child_household"],
+      "occupation_excluded": [],
+      "occupation_included": [],
+      "caste_categories": []
+    },
+    "documents_required": ["Birth certificate of girl", "Aadhaar of parent and child", "School enrolment record (if school-age)"],
+    "documents_required_hi": ["बेटी का जन्म प्रमाण पत्र", "माता-पिता और बेटी का आधार", "स्कूल नामांकन (स्कूल जाने की उम्र पर)"],
+    "how_to_apply": "Visit the District Women and Child Development Office or your local Anganwadi Centre. Pairs with Sukanya Samriddhi for the savings component.",
+    "how_to_apply_hi": "जिला महिला एवं बाल विकास कार्यालय या स्थानीय आंगनवाड़ी केंद्र पर जाएं।",
+    "official_link": "https://wcd.gov.in/women/beti-bachao-beti-padhao",
+    "verified": true
+  },
+  {
+    "scheme_id": "pm_kisan",
+    "scheme_name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+    "scheme_name_hi": "प्रधानमंत्री किसान सम्मान निधि",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "category": ["farmer", "rural", "income_support", "cash_benefit"],
+    "benefit_summary_en": "₹6,000 per year direct income support to landholding farmer families, paid in three ₹2,000 installments. Women landholders eligible in their own right.",
+    "benefit_summary_hi": "जमीन-धारी किसान परिवारों को प्रति वर्ष ₹6,000 की प्रत्यक्ष आय मदद, तीन बार (₹2,000 प्रत्येक) में। महिला किसान भी समान रूप से पात्र।",
+    "eligibility": {
+      "gender": "any",
+      "min_age": 18,
+      "max_age": null,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["landholding_farmer_family"],
+      "occupation_excluded": ["income_tax_payer", "central_govt_employee", "state_govt_employee", "psu_employee", "doctor", "engineer", "lawyer", "ca", "architect"],
+      "occupation_included": ["farmer"],
+      "caste_categories": []
+    },
+    "documents_required": ["Aadhaar", "Aadhaar-seeded bank account", "Land records (Khasra/Khatauni/RoR)", "Mobile number"],
+    "documents_required_hi": ["आधार कार्ड", "आधार से जुड़ा बैंक खाता", "जमीन के दस्तावेज (खसरा/खतौनी)", "मोबाइल नंबर"],
+    "application_steps_en": [
+      "Open the PM-KISAN New Farmer Registration page.",
+      "Enter Aadhaar, mobile number, state, and farmer details.",
+      "Fill land record and bank account details, then submit and save the registration number.",
+      "Complete e-KYC from Farmers Corner or through a CSC so installments can be released."
+    ],
+    "application_steps_hi": [
+      "PM-KISAN के New Farmer Registration पेज को खोलें।",
+      "आधार, मोबाइल नंबर, राज्य और किसान की जानकारी भरें।",
+      "जमीन के काग़ज़ और बैंक खाता विवरण भरकर फॉर्म जमा करें और रजिस्ट्रेशन नंबर संभाल लें।",
+      "किस्त पाने के लिए Farmers Corner या CSC से e-KYC पूरी करें।"
+    ],
+    "how_to_apply": "Self-register at pmkisan.gov.in → Farmers Corner → New Farmer Registration. Or apply through CSC / village patwari. Complete e-KYC for installments.",
+    "how_to_apply_hi": "pmkisan.gov.in पर खुद नाम लिखवाएं या CSC / पटवारी के माध्यम से अर्ज़ी दें। किस्तों के लिए e-KYC ज़रूरी।",
+    "official_link": "https://pmkisan.gov.in/RegistrationFormupdated.aspx",
+    "verified": true
+  },
+  {
+    "scheme_id": "janani_suraksha_yojana",
+    "has_online_application": false,
+    "scheme_name": "Janani Suraksha Yojana (JSY)",
+    "scheme_name_hi": "जननी सुरक्षा योजना",
+    "ministry": "Ministry of Health and Family Welfare (NHM)",
+    "category": ["pregnancy", "maternity", "cash_benefit", "rural"],
+    "benefit_summary_en": "Cash help when a pregnant woman delivers her baby in a government or listed private hospital. Free transport, free C-section, and free medicines under JSSK.",
+    "benefit_summary_hi": "गर्भवती महिला जब अस्पताल (सरकारी या लिस्ट में जुड़े प्राइवेट) में बच्चे को जन्म देती है तो नकद मदद। साथ में अस्पताल जाने का मुफ्त वाहन, मुफ्त सिज़ेरियन, और मुफ्त दवाइयाँ।",
+    "benefit_details_en": [
+      "Low-Performing States (UP, Bihar, MP, Rajasthan, Odisha, Jharkhand etc.): ₹1,400 rural / ₹1,000 urban to the mother on institutional delivery.",
+      "High-Performing States (rest): ₹700 rural / ₹600 urban — only BPL / SC / ST mothers.",
+      "ASHA worker also gets an incentive (₹600 rural / ₹400 urban) for taking you to hospital.",
+      "Under JSSK: drugs, diet, blood, transport, and C-section all free at the facility."
+    ],
+    "benefit_details_hi": [
+      "कम-प्रदर्शन राज्यों में (UP, बिहार, MP, राजस्थान, ओडिशा, झारखंड आदि): ग्रामीण ₹1,400 / शहरी ₹1,000 माँ को।",
+      "बाक़ी राज्यों में: ग्रामीण ₹700 / शहरी ₹600 — सिर्फ BPL / SC / ST माँ को।",
+      "ASHA दीदी को भी अस्पताल ले जाने पर पुरस्कार (₹600 गाँव में / ₹400 शहर में) मिलता है।",
+      "JSSK के तहत दवा, खाना, खून, एम्बुलेंस और सिज़ेरियन — सब अस्पताल में मुफ्त।"
+    ],
+    "eligibility_lines_en": [
+      "You are pregnant and 19 years or older.",
+      "In LPS states (UP, Bihar, MP etc.): all pregnant women qualify; in HPS states only BPL / SC / ST women.",
+      "You deliver at a government or accredited private health facility (or BPL home delivery, max 2 live births)."
+    ],
+    "eligibility_lines_hi": [
+      "आप गर्भवती हैं और उम्र 19 साल या उससे ज़्यादा है।",
+      "LPS राज्यों (UP, बिहार, MP आदि) में सब गर्भवती महिलाएँ; बाक़ी राज्यों में केवल BPL या SC / ST।",
+      "बच्चे का जन्म सरकारी अस्पताल या लिस्ट में जुड़े प्राइवेट अस्पताल में हो (या BPL माँ के लिए घर में ज़्यादा से ज़्यादा 2 बार)।"
+    ],
+    "application_steps_en": [
+      "Register pregnancy with ASHA / ANM as soon as possible — get the MCH-JSY card.",
+      "Attend antenatal check-ups; ASHA accompanies you to the chosen government / accredited facility for delivery.",
+      "Cash benefit is paid by cheque or DBT at the health facility itself (or shortly after).",
+      "ASHA's incentive is paid separately."
+    ],
+    "application_steps_hi": [
+      "गर्भावस्था का पता चलते ही ASHA दीदी या ANM के पास रजिस्टर करें — MCH-JSY कार्ड बनवाएं।",
+      "जाँच के लिए नियमित जाएं; ASHA दीदी डिलीवरी के समय अस्पताल साथ ले जाती हैं।",
+      "नकद मदद उसी अस्पताल में चेक से या सीधे बैंक खाते में मिल जाती है।",
+      "ASHA दीदी की राशि अलग से दी जाती है।"
+    ],
+    "helpline": "104 (Health helpline)",
+    "timeline_en": "Cash given at the hospital itself or within a week of discharge.",
+    "timeline_hi": "नकद मदद अस्पताल में ही या डिस्चार्ज के एक हफ्ते के अंदर मिल जाती है।",
+    "eligibility": {
+      "gender": "female",
+      "min_age": 19,
+      "max_age": null,
+      "marital_status": null,
+      "pregnancy_status": "pregnant",
+      "num_children_min": null,
+      "num_children_max": 2,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["lps_state_all_pregnant_or_hps_state_bpl_sc_st", "institutional_delivery_or_bpl_home_delivery"],
+      "occupation_excluded": [],
+      "occupation_included": [],
+      "caste_categories": ["SC", "ST"]
+    },
+    "documents_required": ["MCH / JSY card", "BPL ration card or SC/ST certificate (HPS states)", "Aadhaar", "Bank passbook", "Referral slip from ASHA / ANM"],
+    "documents_required_hi": ["MCH / JSY कार्ड", "BPL राशन कार्ड या SC/ST प्रमाण पत्र (HPS राज्यों में)", "आधार", "बैंक पासबुक", "ASHA / ANM से रेफरल स्लिप"],
+    "how_to_apply": "Register pregnancy with ASHA/ANM at sub-centre or PHC, get MCH-JSY card. ASHA accompanies you to a government or accredited facility for delivery; cash benefit paid via DBT after.",
+    "how_to_apply_hi": "ASHA/ANM को गर्भावस्था की जानकारी दें और MCH-JSY कार्ड लें। संस्थागत प्रसव के बाद DBT से नकद लाभ मिलता है।",
+    "official_link": "https://nhm.gov.in/index1.php?lang=1&level=3&lid=309&sublinkid=841",
+    "verified": true
+  },
+  {
+    "scheme_id": "stand_up_india",
+    "scheme_name": "Stand-Up India",
+    "scheme_name_hi": "स्टैंड-अप इंडिया",
+    "ministry": "Ministry of Finance / Department of Financial Services",
+    "category": ["women", "entrepreneurship", "loan", "sc_st"],
+    "benefit_summary_en": "Bank loans of ₹10 lakh to ₹1 crore for women / SC-ST entrepreneurs to set up a greenfield enterprise (manufacturing, services, trading, allied agriculture). Repayment up to 7 years; up to 18-month moratorium.",
+    "benefit_summary_hi": "महिला या SC-ST उद्यमियों को नया उद्यम (निर्माण, सेवा, व्यापार, संबद्ध कृषि) शुरू करने के लिए ₹10 लाख से ₹1 करोड़ तक का बैंक ऋण। चुकौती 7 साल, 18 महीने तक की मोहलत।",
+    "eligibility": {
+      "gender": "female",
+      "min_age": 18,
+      "max_age": null,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["greenfield_first_time_entrepreneur", "no_existing_default"],
+      "occupation_excluded": [],
+      "occupation_included": ["entrepreneur"],
+      "caste_categories": ["SC", "ST"]
+    },
+    "documents_required": ["Aadhaar / PAN / Voter ID", "Address proof", "Caste certificate (for SC/ST)", "Project report / business plan", "6-month bank statement", "Quotations for plant & machinery"],
+    "documents_required_hi": ["आधार / पैन / वोटर आईडी", "पते का प्रमाण", "जाति प्रमाण पत्र (SC/ST के लिए)", "प्रोजेक्ट रिपोर्ट / बिज़नेस प्लान", "6 माह का बैंक स्टेटमेंट"],
+    "application_steps_en": [
+      "Open the Stand-Up India applicant registration page.",
+      "Create an applicant profile with personal, category, and business details.",
+      "Upload KYC, caste certificate if SC/ST, project report, bank statement, and quotations.",
+      "Choose the preferred bank branch, submit the request, and answer any bank queries on the portal."
+    ],
+    "application_steps_hi": [
+      "Stand-Up India के applicant registration पेज को खोलें।",
+      "अपनी जानकारी, श्रेणी और कारोबार की जानकारी भरकर प्रोफ़ाइल बनाएं।",
+      "KYC, SC/ST हो तो जाति प्रमाण पत्र, प्रोजेक्ट रिपोर्ट, बैंक स्टेटमेंट और कोटेशन अपलोड करें।",
+      "अपनी पसंद की बैंक शाखा चुनकर अर्ज़ी जमा करें और पोर्टल पर बैंक के सवालों का जवाब दें।"
+    ],
+    "how_to_apply": "Register at standupmitra.in or visit your nearest scheduled commercial bank's lead district manager. Stand-Up Mitra portal hand-holds you through training and loan sanction.",
+    "how_to_apply_hi": "Stand-Up India पोर्टल पर रजिस्टर करें या नजदीकी बैंक शाखा से संपर्क करें। पोर्टल प्रशिक्षण और लोन की प्रक्रिया में मदद करता है।",
+    "official_link": "https://site.udyamimitra.in/Login/Register#NoBack",
+    "verified": true
+  },
+  {
+    "scheme_id": "mudra_yojana",
+    "scheme_name": "Pradhan Mantri Mudra Yojana (PMMY)",
+    "scheme_name_hi": "प्रधानमंत्री मुद्रा योजना",
+    "ministry": "Ministry of Finance / MUDRA Ltd.",
+    "category": ["women", "entrepreneurship", "loan", "micro_enterprise"],
+    "benefit_summary_en": "Collateral-free micro-loans for non-corporate, non-farm small businesses. Shishu (up to ₹50K), Kishore (up to ₹5 lakh), Tarun (up to ₹10 lakh), Tarun Plus (up to ₹20 lakh). Many banks offer 0.25–0.5% interest concession for women.",
+    "benefit_summary_hi": "गैर-कॉर्पोरेट, गैर-कृषि छोटे व्यवसायों के लिए बिना गारंटी का माइक्रो-लोन। शिशु (₹50 हज़ार तक), किशोर (₹5 लाख तक), तरुण (₹10 लाख तक), तरुण प्लस (₹20 लाख तक)। महिलाओं को कई बैंकों में ब्याज छूट।",
+    "eligibility": {
+      "gender": "any",
+      "min_age": 18,
+      "max_age": 65,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["indian_citizen", "no_existing_default", "non_farm_small_business"],
+      "occupation_excluded": [],
+      "occupation_included": ["small_business_owner", "trader", "service_provider", "manufacturer"],
+      "caste_categories": []
+    },
+    "documents_required": ["KYC (Aadhaar / PAN)", "Address proof", "Business address & ownership/lease proof", "Photographs", "Quotations of plant/machinery (if applicable)", "Bank statements (Kishore/Tarun)"],
+    "documents_required_hi": ["KYC (आधार / पैन)", "पते का प्रमाण", "व्यवसाय का पता / स्वामित्व प्रमाण", "तस्वीरें", "मशीनरी की कोटेशन (यदि लागू)"],
+    "application_steps_en": [
+      "Open Udyamimitra / JanSamarth, or start at the bank branch where you want the loan.",
+      "Choose the Mudra loan category: Shishu, Kishore, or Tarun.",
+      "Fill KYC, business details, loan amount, and upload required documents.",
+      "Submit the application to the selected bank; the bank verifies and sanctions or asks for corrections."
+    ],
+    "application_steps_hi": [
+      "Udyamimitra / JanSamarth खोलें, या जिस बैंक से लोन चाहिए वहां से शुरू करें।",
+      "Mudra लोन की श्रेणी चुनें: शिशु, किशोर या तरुण।",
+      "KYC, कारोबार की जानकारी, लोन राशि और ज़रूरी काग़ज़ अपलोड करें।",
+      "चुने हुए बैंक को अर्ज़ी जमा करें; बैंक जांच करके मंज़ूरी देता है या सुधार मांगता है।"
+    ],
+    "how_to_apply": "Apply online at udyamimitra.in or jansamarth.in, or visit any bank branch (PSB / private / RRB / cooperative / NBFC-MFI) participating in PMMY. Shishu loans often disbursed quickly.",
+    "how_to_apply_hi": "udyamimitra.in पर ऑनलाइन अर्ज़ी दीजिए या नजदीकी बैंक शाखा में जाएं।",
+    "official_link": "https://www.udyamimitra.in/",
+    "verified": true
+  },
+  {
+    "scheme_id": "pmay_g",
+    "has_online_application": false,
+    "scheme_name": "Pradhan Mantri Awas Yojana — Gramin (PMAY-G)",
+    "scheme_name_hi": "प्रधानमंत्री आवास योजना — ग्रामीण",
+    "ministry": "Ministry of Rural Development",
+    "category": ["housing", "rural", "women_priority", "bpl"],
+    "benefit_summary_en": "Cash help to build a pucca house — ₹1.20 lakh in plain areas, ₹1.30 lakh in hilly / difficult areas. Toilet, gas, electricity and water are linked. The house is preferably registered in the woman's name.",
+    "benefit_summary_hi": "पक्का घर बनाने के लिए नकद मदद — मैदानी इलाक़ों में ₹1.20 लाख, पहाड़ी या कठिन इलाक़ों में ₹1.30 लाख। शौचालय, गैस, बिजली और पानी की सेवाएं भी जुड़ी हैं। घर ज़्यादातर महिला के नाम पर बनाया जाता है।",
+    "benefit_details_en": [
+      "₹1,20,000 for plain areas, ₹1,30,000 for hilly / IAP areas, paid in 3 installments based on construction progress.",
+      "Add-on benefits: ₹12,000 for toilet (SBM-G), free LPG (Ujjwala), electricity (Saubhagya), tap water (Jal Jeevan).",
+      "90–95 days of MGNREGA wages for unskilled labour during construction.",
+      "House registration in the woman's name (sole or joint) is required for empowerment."
+    ],
+    "benefit_details_hi": [
+      "मैदानी इलाक़ों में ₹1,20,000, पहाड़ी या IAP इलाक़ों में ₹1,30,000 — निर्माण की प्रगति के अनुसार 3 बार में।",
+      "साथ में: शौचालय के लिए ₹12,000 (SBM-G), मुफ्त LPG (उज्ज्वला), बिजली (सौभाग्य), नल का पानी (जल जीवन)।",
+      "निर्माण के दौरान MGNREGA से 90 से 95 दिन की मज़दूरी।",
+      "घर महिला के नाम (अकेले या साझा) पर ही बनाया जाता है।"
+    ],
+    "eligibility_lines_en": [
+      "Your family is on the SECC-2011 deprivation list OR Awas+ list.",
+      "You currently live in a kutcha or dilapidated house.",
+      "Your family does not own a pucca house anywhere in India.",
+      "Monthly income generally under ₹10,000; not an income-tax payer or government employee."
+    ],
+    "eligibility_lines_hi": [
+      "आपका परिवार SECC-2011 की वंचित सूची या Awas+ सूची में दर्ज है।",
+      "अभी आप कच्चे या टूटे-फूटे घर में रहते हैं।",
+      "भारत में कहीं भी आपके परिवार का पक्का घर नहीं है।",
+      "महीने की कमाई आमतौर पर ₹10,000 से कम; आप टैक्स नहीं भरते और सरकारी नौकरी में नहीं हैं।"
+    ],
+    "application_steps_en": [
+      "Beneficiaries are auto-identified from SECC-2011 / Awas+ lists — first check pmayg.nic.in for your name.",
+      "If left out, self-register through the AwaasPlus mobile app or at the Gram Panchayat / Block Office during a survey.",
+      "Gram Sabha verifies; on selection, sanction is issued and installments start.",
+      "Geo-tagged photos via the AwaasSoft app trigger each installment."
+    ],
+    "application_steps_hi": [
+      "SECC-2011 और Awas+ सूची से अपने आप नाम चुने जाते हैं — पहले pmayg.nic.in पर अपना नाम देखें।",
+      "अगर नाम छूट गया है तो AwaasPlus मोबाइल ऐप से या ग्राम पंचायत / ब्लॉक दफ्तर में सर्वे के दौरान खुद रजिस्टर करें।",
+      "ग्राम सभा जाँच करती है; चयन होने पर मंज़ूरी और किस्तें शुरू।",
+      "हर किस्त के लिए AwaasSoft ऐप से जियो-टैग की हुई तस्वीरें भेजनी होती हैं।"
+    ],
+    "helpline": "1800-11-6446",
+    "timeline_en": "First installment within 30 days of sanction; full house in 12–18 months.",
+    "timeline_hi": "मंज़ूरी के 30 दिन में पहली किस्त; पूरा घर 12 से 18 महीने में।",
+    "eligibility": {
+      "gender": "any",
+      "min_age": 18,
+      "max_age": null,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": 10000,
+      "rural_only": true,
+      "states": "all",
+      "conditions": ["secc_2011_or_awas_plus_eligible", "no_pucca_house_owned", "kutcha_or_dilapidated_dwelling"],
+      "occupation_excluded": ["central_govt_employee", "state_govt_employee", "income_tax_payer"],
+      "occupation_included": [],
+      "caste_categories": ["SC", "ST", "OBC"]
+    },
+    "documents_required": ["Aadhaar (DBT)", "Aadhaar-seeded bank account", "SECC ID or Awas+ ID", "MGNREGA Job Card", "Caste certificate (where applicable)", "Self-declaration of no pucca house"],
+    "documents_required_hi": ["आधार (DBT के लिए)", "आधार से जुड़ा बैंक खाता", "SECC ID या Awas+ ID", "मनरेगा जॉब कार्ड", "जाति प्रमाण पत्र (यदि लागू)"],
+    "how_to_apply": "Beneficiaries are auto-identified from SECC-2011 / Awas+ list. Eligible families left out can self-register via the AwaasPlus mobile app or at the Gram Panchayat / Block Office.",
+    "how_to_apply_hi": "परिवार SECC-2011 / Awas+ सूची से अपने आप चुने जाते हैं। छूटे परिवार AwaasPlus ऐप या ग्राम पंचायत में नाम लिखवाना कर सकते हैं।",
+    "official_link": "https://pmayg.dord.gov.in/",
+    "verified": true
+  },
+  {
+    "scheme_id": "mgnrega",
+    "has_online_application": false,
+    "scheme_name": "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)",
+    "scheme_name_hi": "महात्मा गांधी राष्ट्रीय ग्रामीण रोजगार गारंटी अधिनियम (मनरेगा)",
+    "ministry": "Ministry of Rural Development",
+    "category": ["rural", "employment", "women", "wage"],
+    "benefit_summary_en": "Legal guarantee of up to 100 days of wage employment per rural household per year on demand. Wage typically ₹250–₹380/day (state-notified). Equal pay for women, statutory 33%+ women participation, crèche at worksites.",
+    "benefit_summary_hi": "ग्रामीण परिवारों को मांग पर साल में 100 दिन तक की मजदूरी का कानूनी अधिकार। दैनिक मजदूरी आमतौर पर ₹250–₹380 (राज्य-निर्धारित)। महिलाओं को समान वेतन, 33%+ महिला हिस्सा ज़रूरी।",
+    "benefit_details_en": [
+      "100 days of guaranteed wage employment per rural household per year.",
+      "Wages paid directly to your bank or post office account within 15 days of work.",
+      "Equal wages for women and men. At least 33% of jobs reserved for women.",
+      "Worksite crèche for children, drinking water, first aid, and shade by law.",
+      "If work is not provided within 15 days of demand, you are entitled to unemployment allowance."
+    ],
+    "benefit_details_hi": [
+      "हर ग्रामीण परिवार को साल में 100 दिन की पक्की मज़दूरी।",
+      "मज़दूरी सीधे आपके बैंक या पोस्ट ऑफिस खाते में 15 दिन के अंदर।",
+      "औरतों और मर्दों को बराबर मज़दूरी। कम-से-कम 33% काम औरतों के लिए।",
+      "काम की जगह पर बच्चों के लिए झूला-घर, पीने का पानी, फर्स्ट एड और छाया मिलेगी।",
+      "अगर 15 दिन में काम नहीं मिला तो बेरोज़गारी भत्ता मिलने का हक़ है।"
+    ],
+    "eligibility_lines_en": [
+      "An adult member of a rural household, age 18+.",
+      "Willing to do unskilled manual work.",
+      "No income limit — every rural family can demand a Job Card."
+    ],
+    "eligibility_lines_hi": [
+      "गाँव के परिवार का बालिग सदस्य, उम्र 18 साल से ज़्यादा।",
+      "मेहनत-मज़दूरी का काम करने को तैयार।",
+      "आय की कोई सीमा नहीं — हर गाँव का परिवार जॉब कार्ड माँग सकता है।"
+    ],
+    "application_steps_en": [
+      "Visit your Gram Panchayat office and ask for a Job Card application form.",
+      "Submit the form with Aadhaar, photos of all adult members, and address proof.",
+      "Job Card is issued within 15 days, free of cost.",
+      "Submit a written demand for work to the Gram Panchayat or Block Office.",
+      "Work must be allocated within 15 days; wages are paid within another 15 days into your linked bank/post office account."
+    ],
+    "application_steps_hi": [
+      "अपनी ग्राम पंचायत में जाएं और जॉब कार्ड का फॉर्म मांगें।",
+      "फॉर्म के साथ आधार, परिवार के सभी बालिगों की फ़ोटो और पते का सबूत जमा करें।",
+      "जॉब कार्ड 15 दिन में मुफ्त बनकर मिलेगा।",
+      "ग्राम पंचायत या ब्लॉक ऑफिस को लिखकर काम की मांग दें।",
+      "15 दिन में काम मिलेगा और मज़दूरी और 15 दिन में आपके खाते में आ जाएगी।"
+    ],
+    "helpline": "1800-345-22-44 (toll-free, MGNREGA)",
+    "timeline_en": "Job Card issued within 15 days of application. Work allocated within 15 days of written demand. Wages credited within 15 days of work.",
+    "timeline_hi": "अर्ज़ी देने के 15 दिन में जॉब कार्ड। मांग देने के 15 दिन में काम। और 15 दिन में मज़दूरी।",
+    "eligibility": {
+      "gender": "any",
+      "min_age": 18,
+      "max_age": null,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": true,
+      "states": "all",
+      "conditions": ["rural_household", "willing_for_unskilled_manual_work"],
+      "occupation_excluded": [],
+      "occupation_included": [],
+      "caste_categories": []
+    },
+    "documents_required": ["Aadhaar / family ID", "Photographs of all adult household members", "Address proof (ration card / utility bill)", "Bank or post office passbook"],
+    "documents_required_hi": ["आधार / परिवार आईडी", "सभी वयस्क सदस्यों की तस्वीरें", "पते का प्रमाण", "बैंक / पोस्ट ऑफिस पासबुक"],
+    "how_to_apply": "Apply for a Job Card at the Gram Panchayat office (issued within 15 days). Submit a written demand for work; you must be allocated work within 15 days else unemployment allowance is payable.",
+    "how_to_apply_hi": "ग्राम पंचायत में जॉब कार्ड के लिए अर्ज़ी दीजिए (15 दिन में जारी)। काम की मांग देने पर 15 दिन में काम मिलना ज़रूरी।",
+    "official_link": "https://nrega.nic.in",
+    "verified": true
+  },
+  {
+    "scheme_id": "pm_vishwakarma",
+    "scheme_name": "PM Vishwakarma Yojana",
+    "scheme_name_hi": "प्रधानमंत्री विश्वकर्मा योजना",
+    "ministry": "Ministry of MSME",
+    "category": ["artisan", "skill_training", "loan", "women_artisan"],
+    "benefit_summary_en": "For artisans in 18 traditional trades (tailor, potter, blacksmith, carpenter, etc.). PM Vishwakarma certificate, ₹500/day stipend during training, ₹15,000 toolkit voucher, and collateral-free loan up to ₹3 lakh at 5% interest.",
+    "benefit_summary_hi": "18 पारंपरिक कारीगर व्यवसायों (दर्जी, कुम्हार, लोहार, बढ़ई आदि) के लिए। पीएम विश्वकर्मा प्रमाण पत्र, प्रशिक्षण में ₹500/दिन वेतन, ₹15,000 का टूलकिट, 5% ब्याज पर ₹3 लाख तक का बिना गारंटी लोन।",
+    "eligibility": {
+      "gender": "any",
+      "min_age": 18,
+      "max_age": null,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["self_employed_artisan_in_18_listed_trades", "one_per_family"],
+      "occupation_excluded": ["central_govt_employee", "state_govt_employee"],
+      "occupation_included": ["tailor", "carpenter", "blacksmith", "potter", "cobbler", "barber", "washerman", "goldsmith", "mason", "garland_maker", "stone_carver", "boat_maker", "armourer", "locksmith", "hammer_toolkit_maker", "doll_toy_maker", "basket_maker", "fishing_net_maker"],
+      "caste_categories": []
+    },
+    "documents_required": ["Aadhaar (with biometric)", "Aadhaar-linked mobile", "Bank account", "Ration card (family proof)", "Caste certificate (where applicable)"],
+    "documents_required_hi": ["आधार (बायोमेट्रिक के साथ)", "आधार से जुड़ा मोबाइल", "बैंक खाता", "राशन कार्ड", "जाति प्रमाण पत्र (यदि लागू)"],
+    "application_steps_en": [
+      "Visit the nearest CSC; the VLE opens the PM Vishwakarma registration portal.",
+      "Complete Aadhaar biometric authentication and enter mobile, bank, ration-card, and family details.",
+      "Select your traditional trade and submit the registration.",
+      "Track Gram Panchayat / ULB, District Implementation Committee, and Screening Committee verification."
+    ],
+    "application_steps_hi": [
+      "नजदीकी CSC पर जाएं; VLE PM Vishwakarma registration portal खोलता है।",
+      "आधार बायोमेट्रिक करें और मोबाइल, बैंक, राशन कार्ड और परिवार की जानकारी भरें।",
+      "अपना पारंपरिक काम चुनें और रजिस्ट्रेशन जमा करें।",
+      "ग्राम पंचायत / ULB, जिला समिति और स्क्रीनिंग समिति की जांच पूरी होने का इंतज़ार करें।"
+    ],
+    "how_to_apply": "Visit the nearest Common Service Centre (CSC). VLE registers you with biometric authentication on the PM Vishwakarma portal. Three-tier verification (Gram Panchayat / ULB → DIC → Screening Committee).",
+    "how_to_apply_hi": "नजदीकी CSC पर जाएं। VLE आपको बायोमेट्रिक के साथ पीएम विश्वकर्मा पोर्टल पर पंजीकृत करता है।",
+    "official_link": "https://pmvishwakarma.gov.in/Login/CSCLogin?cscLoginRedirection=RegisterArtisans",
+    "verified": true
+  },
+  {
+    "scheme_id": "atal_pension",
+    "scheme_name": "Atal Pension Yojana (APY)",
+    "scheme_name_hi": "अटल पेंशन योजना",
+    "ministry": "Ministry of Finance / PFRDA",
+    "category": ["pension", "elderly", "unorganised_sector"],
+    "has_online_application": false,
+    "benefit_summary_en": "Guaranteed monthly pension of ₹1,000 / 2,000 / 3,000 / 4,000 / 5,000 after age 60. Same pension to spouse on death of subscriber; corpus returned to nominee on death of both.",
+    "benefit_summary_hi": "60 वर्ष की आयु के बाद हर महीने ₹1,000 / 2,000 / 3,000 / 4,000 / 5,000 की गारंटीकृत पेंशन। सब्सक्राइबर की मृत्यु पर पति/पत्नी को आजीवन वही पेंशन।",
+    "eligibility": {
+      "gender": "any",
+      "min_age": 18,
+      "max_age": 40,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["savings_account_with_auto_debit", "indian_citizen"],
+      "occupation_excluded": ["income_tax_payer"],
+      "occupation_included": [],
+      "caste_categories": []
+    },
+    "documents_required": ["Aadhaar", "Savings account / Post Office account", "Mobile number", "APY Subscriber Registration Form", "Nominee details"],
+    "documents_required_hi": ["आधार", "बचत खाता / पोस्ट ऑफिस खाता", "मोबाइल नंबर", "APY नाम लिखवाना फॉर्म", "नामांकित व्यक्ति का विवरण"],
+    "application_steps_en": [
+      "Go to your bank branch or authorised CBS post office with Aadhaar, bank passbook, mobile number, and nominee details.",
+      "Fill the APY Subscriber Registration Form and choose the pension slab.",
+      "Give auto-debit consent so the contribution is deducted from your savings account.",
+      "Keep the acknowledgement / PRAN details safely."
+    ],
+    "application_steps_hi": [
+      "आधार, बैंक पासबुक, मोबाइल नंबर और नॉमिनी की जानकारी लेकर बैंक शाखा या पोस्ट ऑफिस जाएं।",
+      "APY सब्सक्राइबर रजिस्ट्रेशन फॉर्म भरें और पेंशन की रकम चुनें।",
+      "बचत खाते से ऑटो-डेबिट की सहमति दें।",
+      "रसीद / PRAN की जानकारी संभालकर रखें।"
+    ],
+    "how_to_apply": "Visit your bank or post office, fill the APY Subscriber Registration Form, choose a pension slab and contribution frequency. Premiums auto-debit from your savings account. Online enrolment available on most banks' apps.",
+    "how_to_apply_hi": "बैंक या पोस्ट ऑफिस में APY फॉर्म भरें, पेंशन स्लैब चुनें। प्रीमियम बचत खाते से ऑटो-डेबिट होगा।",
+    "official_link": "https://www.indiapost.gov.in/insurance-services/apy",
+    "verified": true
+  },
+  {
+    "scheme_id": "pmsby",
+    "scheme_name": "Pradhan Mantri Suraksha Bima Yojana (PMSBY)",
+    "scheme_name_hi": "प्रधानमंत्री सुरक्षा बीमा योजना",
+    "ministry": "Ministry of Finance / DFS",
+    "category": ["insurance", "accident_cover"],
+    "benefit_summary_en": "Personal accident insurance — ₹2 lakh for accidental death / total disability, ₹1 lakh for partial disability. Annual premium just ₹20, auto-debited from your savings account.",
+    "benefit_summary_hi": "व्यक्तिगत दुर्घटना बीमा — दुर्घटना से मृत्यु / पूर्ण विकलांगता पर ₹2 लाख, आंशिक विकलांगता पर ₹1 लाख। सालाना केवल ₹20 का प्रीमियम, बचत खाते से ऑटो-डेबिट।",
+    "eligibility": {
+      "gender": "any",
+      "min_age": 18,
+      "max_age": 70,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["savings_bank_or_jan_dhan_or_post_office_account", "aadhaar_linked"],
+      "occupation_excluded": [],
+      "occupation_included": [],
+      "caste_categories": []
+    },
+    "documents_required": ["PMSBY enrolment form", "Aadhaar (KYC)", "Savings account details", "Nominee details"],
+    "documents_required_hi": ["PMSBY नाम लिखवाना फॉर्म", "आधार", "बचत खाता विवरण", "नामांकित व्यक्ति का विवरण"],
+    "application_steps_en": [
+      "Download the PMSBY form from Jan Suraksha or collect it from your bank.",
+      "Fill savings account, Aadhaar/KYC, nominee, and consent details.",
+      "Submit it at the bank, or enrol through internet/mobile banking if your bank supports it.",
+      "Keep enough balance for yearly auto-debit and save the acknowledgement."
+    ],
+    "application_steps_hi": [
+      "Jan Suraksha से PMSBY फॉर्म डाउनलोड करें या अपने बैंक से लें।",
+      "बचत खाता, आधार/KYC, नामांकित व्यक्ति और सहमति की जानकारी भरें।",
+      "फॉर्म बैंक में जमा करें, या बैंक की सुविधा हो तो internet/mobile banking से जुड़ें।",
+      "सालाना ऑटो-डेबिट के लिए खाते में पैसे रखें और रसीद संभाल लें।"
+    ],
+    "how_to_apply": "Visit your bank with savings account, fill the PMSBY consent form, give auto-debit consent for ₹20/year. Many banks also offer enrolment via internet/mobile banking.",
+    "how_to_apply_hi": "अपने बैंक में जाएं, फॉर्म भरें और ₹20/वर्ष ऑटो-डेबिट की सहमति दें। मोबाइल बैंकिंग से भी नाम लिखवाना संभव।",
+    "official_link": "https://jansuraksha.gov.in/Forms-PMSBY.aspx",
+    "verified": true
+  },
+  {
+    "scheme_id": "pmjjby",
+    "scheme_name": "Pradhan Mantri Jeevan Jyoti Bima Yojana (PMJJBY)",
+    "scheme_name_hi": "प्रधानमंत्री जीवन ज्योति बीमा योजना",
+    "ministry": "Ministry of Finance / DFS",
+    "category": ["insurance", "life_cover"],
+    "benefit_summary_en": "Term life insurance of ₹2 lakh payable to nominee on the insured's death from any cause. Annual premium ₹436, auto-debited. No medical exam needed; 30-day waiting period for first-time enrolment.",
+    "benefit_summary_hi": "₹2 लाख का टर्म लाइफ इंश्योरेंस, किसी भी कारण से मृत्यु पर नामांकित व्यक्ति को मिलेगा। सालाना प्रीमियम ₹436, ऑटो-डेबिट। मेडिकल जांच नहीं; पहली बार जुड़ने पर 30 दिन की प्रतीक्षा अवधि।",
+    "eligibility": {
+      "gender": "any",
+      "min_age": 18,
+      "max_age": 50,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["savings_account_or_jan_dhan", "aadhaar_linked", "auto_debit_consent"],
+      "occupation_excluded": [],
+      "occupation_included": [],
+      "caste_categories": []
+    },
+    "documents_required": ["PMJJBY enrolment form", "Aadhaar (mandatory KYC)", "Savings bank passbook", "Nominee details", "Auto-debit consent"],
+    "documents_required_hi": ["PMJJBY नाम लिखवाना फॉर्म", "आधार", "बचत खाता पासबुक", "नामांकित व्यक्ति का विवरण", "ऑटो-डेबिट सहमति"],
+    "application_steps_en": [
+      "Download the PMJJBY form from Jan Suraksha or collect it from your bank.",
+      "Fill savings account, Aadhaar/KYC, nominee, and auto-debit consent details.",
+      "Submit it at the bank, or enrol through internet/mobile banking if available.",
+      "Keep enough balance for yearly premium renewal and save the acknowledgement."
+    ],
+    "application_steps_hi": [
+      "Jan Suraksha से PMJJBY फॉर्म डाउनलोड करें या अपने बैंक से लें।",
+      "बचत खाता, आधार/KYC, नामांकित व्यक्ति और ऑटो-डेबिट सहमति भरें।",
+      "फॉर्म बैंक में जमा करें, या सुविधा हो तो internet/mobile banking से जुड़ें।",
+      "हर साल प्रीमियम कटने के लिए खाते में पैसे रखें और रसीद संभाल लें।"
+    ],
+    "how_to_apply": "Visit your bank where you have a savings account, fill the PMJJBY enrolment form. Auto-renews each year on June 1.",
+    "how_to_apply_hi": "बचत खाते वाले बैंक में जाएं और PMJJBY फॉर्म भरें। हर साल 1 जून को स्वतः नवीकरण।",
+    "official_link": "https://jansuraksha.gov.in/Forms-PMJJBY.aspx",
+    "verified": true
+  },
+  {
+    "scheme_id": "rashtriya_mahila_kosh",
+    "has_online_application": false,
+    "scheme_name": "Rashtriya Mahila Kosh (RMK)",
+    "scheme_name_hi": "राष्ट्रीय महिला कोष",
+    "ministry": "Ministry of Women and Child Development",
+    "category": ["women", "micro_credit", "self_help_group", "loan"],
+    "benefit_summary_en": "Micro-credit for poor women, channelled through NGOs / SHG federations / women's cooperatives. First individual loan up to ₹60,000, repeat loans up to ₹1 lakh. No collateral; group guarantee model.",
+    "benefit_summary_hi": "गरीब महिलाओं के लिए माइक्रो-क्रेडिट, NGO / SHG / महिला सहकारी समितियों के माध्यम से। पहली ऋण ₹60,000 तक, पुनः ऋण ₹1 लाख तक। बिना गारंटी, समूह आधारित।",
+    "eligibility": {
+      "gender": "female",
+      "min_age": 18,
+      "max_age": null,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["poor_women_in_informal_sector", "shg_member_or_through_imo"],
+      "occupation_excluded": [],
+      "occupation_included": ["small_farmer", "livestock", "handicraft", "service_provider", "micro_entrepreneur"],
+      "caste_categories": []
+    },
+    "documents_required": ["Aadhaar", "Bank account", "SHG membership / resolution", "Activity / business plan (simple)", "Photograph", "Address proof"],
+    "documents_required_hi": ["आधार", "बैंक खाता", "SHG सदस्यता प्रमाण", "व्यवसाय की सरल योजना", "फोटो", "पते का प्रमाण"],
+    "application_steps_en": [
+      "Join a local women's SHG, cooperative, NGO, or micro-finance group.",
+      "Prepare a simple business plan and collect Aadhaar, bank account, SHG membership proof, and address proof.",
+      "Apply through the group or NGO; RMK does not lend directly to individuals."
+    ],
+    "application_steps_hi": [
+      "स्थानीय महिला SHG, सहकारी समिति, NGO या माइक्रो-फाइनेंस समूह से जुड़ें।",
+      "छोटा व्यवसाय प्लान बनाएं और आधार, बैंक खाता, SHG सदस्यता प्रमाण और पते का प्रमाण साथ रखें।",
+      "समूह या NGO के माध्यम से अर्ज़ी दें; RMK सीधे व्यक्ति को ऋण नहीं देता।"
+    ],
+    "how_to_apply": "RMK does not lend directly to individuals. Approach a local NGO / women's cooperative / MFI that is an RMK Intermediary Organisation. Join an SHG and apply through them.",
+    "how_to_apply_hi": "RMK सीधे व्यक्तियों को ऋण नहीं देता। स्थानीय NGO / महिला सहकारी / MFI जो RMK से जुड़ा हो, उसके माध्यम से SHG में शामिल होकर अर्ज़ी दीजिए।",
+    "official_link": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1795476",
+    "verified": true
+  },
+  {
+    "scheme_id": "one_stop_centre",
+    "has_online_application": false,
+    "scheme_name": "One Stop Centre (Sakhi)",
+    "scheme_name_hi": "सखी — वन स्टॉप सेंटर",
+    "ministry": "Ministry of Women and Child Development (Mission Shakti)",
+    "category": ["women", "violence", "support", "crisis"],
+    "benefit_summary_en": "Free integrated services for women in distress: emergency rescue, medical help, police/legal aid, psycho-social counselling, 5-day temporary shelter — all free, accessible 24x7 via helpline 181.",
+    "benefit_summary_hi": "हिंसा से पीड़ित महिलाओं के लिए मुफ्त एकीकृत सेवाएं: आपात बचाव, चिकित्सा, पुलिस/कानूनी मदद, मन की बात करने वाली काउंसलर, 5 दिन तक अस्थायी आश्रय — सभी निःशुल्क, हेल्पलाइन 181 पर 24x7 मौजूद।",
+    "benefit_details_en": [
+      "Emergency rescue and shelter for up to 5 days — free.",
+      "Medical aid: first-aid, link-up with district hospital.",
+      "Police assistance: filing FIR, women's protection officer support.",
+      "Free legal aid through District Legal Services Authority (DLSA).",
+      "Psycho-social counselling by trained women counsellors.",
+      "Confidentiality is mandatory — no information shared without consent."
+    ],
+    "benefit_details_hi": [
+      "5 दिन तक मुफ्त सुरक्षित आश्रय और आपात बचाव।",
+      "तुरंत मेडिकल मदद और ज़िला अस्पताल से जोड़।",
+      "पुलिस मदद — FIR दर्ज करवाने में मदद, महिला सुरक्षा अधिकारी की देख-रेख।",
+      "ज़िला विधिक सेवा प्राधिकरण (DLSA) से मुफ्त कानूनी मदद।",
+      "ट्रेंड महिला काउंसलर द्वारा मन की बात करने वाली काउंसलर।",
+      "पूरी गोपनीयता रखी जाती है — आपकी अनुमति के बिना कोई जानकारी बाहर नहीं जाएगी।"
+    ],
+    "eligibility_lines_en": [
+      "Any woman or girl affected by violence — physical, sexual, mental, or economic.",
+      "No age, marital status, income, or location restriction.",
+      "Indian citizen or foreign national in India."
+    ],
+    "eligibility_lines_hi": [
+      "हिंसा से पीड़ित कोई भी महिला या लड़की — मारपीट, यौन, मानसिक या पैसे की।",
+      "उम्र, शादीशुदा हालत, आय या जगह की कोई शर्त नहीं।",
+      "भारतीय नागरिक या भारत में रह रही विदेशी नागरिक।"
+    ],
+    "application_steps_en": [
+      "Call 181 (women's helpline) or 112 (national emergency). Both are toll-free, 24x7.",
+      "OR walk into the nearest One Stop Centre — usually attached to the District Hospital.",
+      "OR ask any police station to refer you to OSC (mandatory by law).",
+      "On arrival you are given a private room, water, and a counsellor.",
+      "Within hours you can get medical aid, file an FIR, and start legal aid — all in one place.",
+      "If shelter is needed, OSC provides up to 5 days; longer-term shelter via Shakti Sadan / Sakhi Niwas."
+    ],
+    "application_steps_hi": [
+      "181 (महिला हेल्पलाइन) या 112 (आपातकाल) पर फ़ोन करें — दोनों टोल फ्री, 24 घंटे।",
+      "या नज़दीकी वन स्टॉप सेंटर सीधे जाएं — आमतौर पर ज़िला अस्पताल के अंदर ही होता है।",
+      "या किसी भी पुलिस थाने से OSC रेफर करवा सकती हैं (कानून से ज़रूरी)।",
+      "पहुँचते ही आपको अकेला कमरा, पानी और काउंसलर मिलेगा।",
+      "घंटों के अंदर मेडिकल मदद, FIR और कानूनी मदद एक ही जगह मिल जाती है।",
+      "रुकने की ज़रूरत हो तो OSC में 5 दिन तक और उसके बाद शक्ति सदन / सखी निवास में लम्बे समय का आश्रय।"
+    ],
+    "helpline": "181 (women's helpline, 24x7) · 112 (emergency)",
+    "timeline_en": "Immediate response — same hour for emergency. Counselling and legal aid begin within 24 hours.",
+    "timeline_hi": "तुरंत मदद — आपात स्थिति में उसी घंटे। परामर्श और कानूनी मदद 24 घंटे में।",
+    "eligibility": {
+      "gender": "female",
+      "min_age": null,
+      "max_age": null,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["affected_by_violence_or_distress"],
+      "occupation_excluded": [],
+      "occupation_included": [],
+      "caste_categories": []
+    },
+    "documents_required": ["No documents needed for initial help", "Helpful for follow-up: Aadhaar, FIR copy (if any), medical reports, marriage certificate (if applicable)"],
+    "documents_required_hi": ["प्रारंभिक मदद के लिए दस्तावेज की आवश्यकता नहीं", "बाद में: आधार, FIR की कॉपी (यदि हो), चिकित्सा रिपोर्ट"],
+    "how_to_apply": "Walk in to the nearest One Stop Centre (typically attached to district hospital), or dial 181 (24x7 women's helpline) or 112 (national emergency). Hospitals and police stations are mandated to refer cases.",
+    "how_to_apply_hi": "नजदीकी वन स्टॉप सेंटर पर सीधे जाएं, या 181 (महिला हेल्पलाइन) या 112 (राष्ट्रीय आपातकाल) पर कॉल करें।",
+    "official_link": "https://missionshakti.wcd.gov.in",
+    "verified": true
+  },
+  {
+    "scheme_id": "sakhi_niwas",
+    "has_online_application": false,
+    "scheme_name": "Sakhi Niwas (Working Women Hostel)",
+    "scheme_name_hi": "सखी निवास (कामकाजी महिला छात्रावास)",
+    "ministry": "Ministry of Women and Child Development (Mission Shakti)",
+    "category": ["women", "shelter", "working_women", "urban"],
+    "benefit_summary_en": "Safe, affordable hostel accommodation in urban / semi-urban areas for working women, with day-care for their children. Available to single, married, widowed and divorced working women.",
+    "benefit_summary_hi": "कामकाजी महिलाओं के लिए शहरी/अर्ध-शहरी क्षेत्रों में सुरक्षित, सस्ती छात्रावास सुविधा, उनके बच्चों के लिए डे-केयर के साथ।",
+    "benefit_details_en": [
+      "Safe and affordable hostel rooms in urban/semi-urban areas.",
+      "Day-care for children of resident women — peace of mind while you work.",
+      "Open to single, married, widowed and divorced working women.",
+      "Lower-middle income women prioritised; rent kept affordable.",
+      "Trained warden, security, and basic facilities (mess, common room)."
+    ],
+    "benefit_details_hi": [
+      "शहर / कस्बे में सुरक्षित और सस्ती छात्रावास के कमरे।",
+      "रहने वाली महिलाओं के बच्चों के लिए डे-केयर — आप काम करते वक़्त चिंता-मुक्त।",
+      "कुंवारी, शादीशुदा, विधवा और तलाक़शुदा कामकाजी महिलाओं के लिए खुला।",
+      "निम्न-मध्यम आय की महिलाओं को प्राथमिकता; किराया सस्ता रखा जाता है।",
+      "ट्रेंड वार्डन, सुरक्षा और बुनियादी सेवाएं (मेस, कॉमन रूम)।"
+    ],
+    "eligibility_lines_en": [
+      "Working woman or woman in vocational/professional training, age 18+.",
+      "Low to middle income (specific limits set state-wise).",
+      "Currently posted/training away from home in an urban or semi-urban area."
+    ],
+    "eligibility_lines_hi": [
+      "कामकाजी महिला या ट्रेनिंग ले रही महिला, 18 साल से ज़्यादा।",
+      "निम्न-मध्यम आय (राज्य के हिसाब से तय)।",
+      "घर से दूर शहर या कस्बे में नौकरी / ट्रेनिंग कर रही हों।"
+    ],
+    "application_steps_en": [
+      "Contact your District Women & Child Development Officer (DWCDO) or the State Mission Shakti Cell.",
+      "Get the list of Sakhi Niwas hostels in your district.",
+      "Submit application with Aadhaar, employer/training certificate, income proof, address proof, photo.",
+      "Hostel administration verifies and confirms a vacancy.",
+      "Check-in once the application is approved; rent is paid monthly."
+    ],
+    "application_steps_hi": [
+      "अपने ज़िले की महिला एवं बाल विकास अधिकारी (DWCDO) या राज्य की मिशन शक्ति सेल से मिलें।",
+      "ज़िले में सखी निवास हॉस्टलों की लिस्ट लें।",
+      "आधार, नौकरी/ट्रेनिंग का सर्टिफिकेट, आय प्रमाण, पते का सबूत और फ़ोटो के साथ अर्ज़ी दें।",
+      "हॉस्टल प्रशासन जांच करके सीट की पुष्टि करेगा।",
+      "अनुमति मिलते ही चेक-इन करें; किराया महीने-महीने जमा होता है।"
+    ],
+    "helpline": "181 (women's helpline) · State Mission Shakti Cell",
+    "timeline_en": "Allocation typically within 2-4 weeks depending on vacancy.",
+    "timeline_hi": "सीट खाली होने पर आम तौर पर 2-4 हफ़्तों में आवंटन हो जाता है।",
+    "eligibility": {
+      "gender": "female",
+      "min_age": 18,
+      "max_age": null,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["working_woman_or_in_training", "low_to_middle_income"],
+      "occupation_excluded": [],
+      "occupation_included": [],
+      "caste_categories": []
+    },
+    "documents_required": ["Aadhaar", "Employment / training proof", "Income certificate", "Address proof (current and permanent)", "Photographs"],
+    "documents_required_hi": ["आधार", "रोजगार / प्रशिक्षण प्रमाण", "आय प्रमाण पत्र", "पते का प्रमाण", "फोटो"],
+    "how_to_apply": "Approach the District Women and Child Development Officer or the State Mission Shakti Cell. Hostels are run by NGOs/state authorities under MoWCD funding.",
+    "how_to_apply_hi": "जिला महिला एवं बाल विकास अधिकारी या राज्य मिशन शक्ति सेल से संपर्क करें।",
+    "official_link": "https://missionshakti.wcd.gov.in",
+    "verified": true
+  },
+  {
+    "scheme_id": "shakti_sadan",
+    "has_online_application": false,
+    "scheme_name": "Shakti Sadan (formerly Swadhar Greh + Ujjawala)",
+    "scheme_name_hi": "शक्ति सदन (पूर्व स्वाधार गृह + उज्ज्वला)",
+    "ministry": "Ministry of Women and Child Development (Mission Shakti)",
+    "category": ["women", "shelter", "rehabilitation", "rescue"],
+    "benefit_summary_en": "Long-term shelter and rehabilitation for women in difficult circumstances — survivors of violence, trafficked women, deserted/destitute women, women released from prison. Free boarding, lodging, vocational training, legal aid, counselling.",
+    "benefit_summary_hi": "मुश्किल हालात में महिलाओं के लिए लम्बे समय का आश्रय और वापस ज़िंदगी में लाना — हिंसा पीड़ित, तस्करी से छुड़ाई गई, पति-घर से छूटी, या जेल से रिहा महिलाएं। मुफ्त रहना, खाना, व्यावसायिक प्रशिक्षण, कानूनी मदद, परामर्श।",
+    "benefit_details_en": [
+      "Free long-term shelter (months to years) — safe roof and food.",
+      "Vocational training so you can earn and stand on your own feet.",
+      "Free legal aid for divorce, custody, FIR, restraining orders.",
+      "On-site or referred medical care including mental health support.",
+      "Counselling for trauma, addiction, and reintegration with family or society.",
+      "Children may stay with the mother (special arrangements for sons up to 8 years)."
+    ],
+    "benefit_details_hi": [
+      "मुफ्त लम्बे समय का आश्रय (महीनों से सालों तक) — सुरक्षित छत और खाना।",
+      "रोज़गार-कुशलता का प्रशिक्षण ताकि आप अपने पैरों पर खड़ी हो सकें।",
+      "तलाक़, बच्चों की हिफ़ाज़त, FIR, और निरोध आदेश के लिए मुफ्त कानूनी मदद।",
+      "ऑन-साइट या रेफर की गई मेडिकल मदद, मानसिक स्वास्थ्य मदद समेत।",
+      "सदमे, नशा-छुड़ाने और परिवार/समाज से वापसी के लिए परामर्श।",
+      "बच्चे माँ के साथ रह सकते हैं (8 साल तक के बेटों के लिए ख़ास इंतज़ाम)।"
+    ],
+    "eligibility_lines_en": [
+      "Woman aged 18+ in difficult circumstances — survivor of violence, trafficked, deserted, destitute, or released from prison.",
+      "No income or marital-status restriction.",
+      "Indian citizen or refugee/foreign woman in distress."
+    ],
+    "eligibility_lines_hi": [
+      "18 साल से ज़्यादा की कोई भी महिला जो मुश्किल हालात में हो — हिंसा पीड़ित, तस्करी से छुड़ाई, पति-घर से छूटी, बेसहारा, या जेल से रिहा।",
+      "आय या शादीशुदा हालत की कोई शर्त नहीं।",
+      "भारतीय नागरिक या भारत में मुश्किल में फँसी विदेशी / शरणार्थी महिला।"
+    ],
+    "application_steps_en": [
+      "Get referred through One Stop Centre (OSC), helpline 181, police, court, or an NGO.",
+      "OR walk in directly to a Shakti Sadan in your district / state.",
+      "Initial intake interview with the Superintendent — your safety is the priority.",
+      "Medical examination on entry, then admission.",
+      "Stay duration is decided case-by-case (often 6 months to 3 years).",
+      "Reintegration plan made with you — family return, independent housing, or vocational placement."
+    ],
+    "application_steps_hi": [
+      "वन स्टॉप सेंटर (OSC), हेल्पलाइन 181, पुलिस, कोर्ट या किसी NGO से रेफर हो सकती हैं।",
+      "या सीधे अपने ज़िले / राज्य के शक्ति सदन में जा सकती हैं।",
+      "मुख्य अधिकारी के साथ शुरुआती बातचीत — आपकी सुरक्षा सबसे ज़रूरी है।",
+      "प्रवेश पर मेडिकल जांच, फिर भर्ती।",
+      "ठहरने की अवधि केस-दर-केस तय होती है (आम तौर पर 6 महीने से 3 साल)।",
+      "आपके साथ मिलकर वापसी की योजना बनेगी — परिवार में वापसी, ख़ुद का घर, या नौकरी।"
+    ],
+    "helpline": "181 (women's helpline) · 1098 (CHILDLINE for accompanying children)",
+    "timeline_en": "Same-day admission for emergencies. Long-stay program reviewed every 6 months.",
+    "timeline_hi": "आपात स्थिति में उसी दिन प्रवेश। लम्बे ठहराव का हर 6 महीने में पुनरावलोकन।",
+    "eligibility": {
+      "gender": "female",
+      "min_age": 18,
+      "max_age": null,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["destitute_or_trafficked_or_deserted_or_violence_survivor"],
+      "occupation_excluded": [],
+      "occupation_included": [],
+      "caste_categories": []
+    },
+    "documents_required": ["Referral from court / police / OSC / NGO (preferred)", "Aadhaar (if available)", "Medical examination at intake"],
+    "documents_required_hi": ["कोर्ट / पुलिस / OSC / NGO से रेफरल (प्राथमिकता)", "आधार (यदि मौजूद)", "प्रवेश पर चिकित्सा जांच"],
+    "how_to_apply": "Referral via One Stop Centre, police, court, helpline 181, or directly through a Shakti Sadan run by NGOs / state government. Available in every state under Mission Shakti's Sambal vertical.",
+    "how_to_apply_hi": "वन स्टॉप सेंटर, पुलिस, कोर्ट, या हेल्पलाइन 181 के माध्यम से रेफरल। हर राज्य में मिशन शक्ति के तहत मौजूद।",
+    "official_link": "https://missionshakti.wcd.gov.in",
+    "verified": true
+  },
+  {
+    "scheme_id": "anganwadi_services",
+    "has_online_application": false,
+    "scheme_name": "Anganwadi Services (ICDS)",
+    "scheme_name_hi": "आंगनवाड़ी सेवाएं (ICDS)",
+    "ministry": "Ministry of Women and Child Development",
+    "category": ["children", "nutrition", "early_childhood", "pregnancy", "lactating"],
+    "benefit_summary_en": "Free services through Anganwadi Centres for pregnant women, mothers feeding their child, and children below 6 — supplementary nutrition, immunization, health check-ups, and pre-school education.",
+    "benefit_summary_hi": "आंगनवाड़ी केंद्रों से मुफ्त सेवाएं — गर्भवती महिलाओं, बच्चे को दूध पिलाने वाली माँओं, और 6 साल से छोटे बच्चों के लिए। पोषण, टीकाकरण, स्वास्थ्य जाँच, और प्री-स्कूल पढ़ाई।",
+    "benefit_details_en": [
+      "Take-home ration (THR) to pregnant / lactating women and to children under 3.",
+      "Hot cooked meal at the centre for children 3–6 years.",
+      "Immunization, growth monitoring, regular health check-ups.",
+      "Pre-school (ECCE) education for 3–6 year olds.",
+      "Health and nutrition counselling for pregnant and new mothers."
+    ],
+    "benefit_details_hi": [
+      "गर्भवती / दूध पिलाने वाली माँओं और 3 साल से छोटे बच्चों को घर ले जाने का राशन।",
+      "3 से 6 साल के बच्चों को केंद्र पर पका हुआ गरम खाना।",
+      "टीकाकरण, बच्चे की बढ़त की निगरानी, और नियमित जाँच।",
+      "3 से 6 साल के बच्चों के लिए प्री-स्कूल पढ़ाई।",
+      "गर्भवती और नई माँओं के लिए स्वास्थ्य और पोषण की सलाह।"
+    ],
+    "eligibility_lines_en": [
+      "Pregnant woman / lactating mother (up to 6 months after birth).",
+      "Children below 6 years.",
+      "Adolescent girls (11–14, out of school) for nutrition under SAG.",
+      "Available to all — services are universal and free."
+    ],
+    "eligibility_lines_hi": [
+      "गर्भवती महिला / बच्चे को दूध पिलाने वाली माँ (बच्चे के जन्म के 6 महीने बाद तक)।",
+      "6 साल से छोटे बच्चे।",
+      "स्कूल छोड़ चुकी 11 से 14 साल की किशोरियाँ (SAG के तहत पोषण के लिए)।",
+      "सबके लिए खुली — सेवाएं सार्वभौमिक और निःशुल्क।"
+    ],
+    "application_steps_en": [
+      "Walk in to your nearest Anganwadi Centre — every village / urban ward has one.",
+      "The Anganwadi worker registers eligible beneficiaries on the spot.",
+      "Take-home ration is collected at the centre on fixed days each week.",
+      "Children attend the centre for daily meals and pre-school activities."
+    ],
+    "application_steps_hi": [
+      "पास की आंगनवाड़ी केंद्र पर जाएं — हर गाँव / शहरी वार्ड में एक होती है।",
+      "आंगनवाड़ी दीदी उसी समय पात्र लाभार्थियों को रजिस्टर करती हैं।",
+      "हर हफ्ते तय दिनों पर केंद्र से घर ले जाने का राशन मिलता है।",
+      "बच्चे रोज़ केंद्र जाते हैं — खाना और प्री-स्कूल गतिविधियाँ।"
+    ],
+    "helpline": "Local Anganwadi worker / 181",
+    "timeline_en": "Registration is immediate; services begin the same day.",
+    "timeline_hi": "रजिस्ट्रेशन तुरंत; सेवाएं उसी दिन शुरू।",
+    "eligibility": {
+      "gender": "any",
+      "min_age": null,
+      "max_age": 6,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["child_under_6_or_pregnant_woman_or_lactating_mother_or_adolescent_girl"],
+      "occupation_excluded": [],
+      "occupation_included": [],
+      "caste_categories": []
+    },
+    "documents_required": ["Aadhaar of mother / child", "MCP card (if pregnant/lactating)", "Address proof"],
+    "documents_required_hi": ["माँ / बच्चे का आधार", "MCP कार्ड (गर्भवती/स्तनपान)", "पते का प्रमाण"],
+    "how_to_apply": "Visit your nearest Anganwadi Centre. Services are universal and free; the Anganwadi worker registers eligible beneficiaries and provides take-home rations + on-site services.",
+    "how_to_apply_hi": "नजदीकी आंगनवाड़ी केंद्र पर जाएं। सेवाएं निःशुल्क हैं।",
+    "official_link": "https://www.spniwcd.wcd.gov.in/mission-saksham-anganwadi-and-poshan-2-0",
+    "verified": true
+  },
+  {
+    "scheme_id": "poshan_abhiyaan",
+    "has_online_application": false,
+    "scheme_name": "POSHAN Abhiyaan / Saksham Anganwadi & Poshan 2.0",
+    "scheme_name_hi": "पोषण अभियान / सक्षम आंगनवाड़ी और पोषण 2.0",
+    "ministry": "Ministry of Women and Child Development",
+    "category": ["nutrition", "children", "pregnancy", "anaemia"],
+    "benefit_summary_en": "National flagship to reduce malnutrition, anaemia, low birth weight, and stunting. Targets pregnant women, lactating mothers, children 0–6 years, and adolescent girls. Take-home rations + behavioural change communication + Poshan Tracker.",
+    "benefit_summary_hi": "कुपोषण, एनीमिया, कम वजन और स्टंटिंग कम करने का राष्ट्रीय अभियान। गर्भवती महिलाओं, बच्चे को दूध पिलाने वाली माताओं, 0-6 साल के बच्चों और 10–14 साल की लड़कियों के लिए। होम राशन + पोषण ट्रैकर।",
+    "benefit_details_en": [
+      "Take-home ration (THR) for pregnant women, lactating mothers, and children under 3.",
+      "Hot cooked meal at the Anganwadi for children aged 3-6.",
+      "Iron, folic acid, and vitamin A doses to prevent anaemia.",
+      "Regular weight & growth tracking via the Poshan Tracker app.",
+      "Counselling on breastfeeding, complementary feeding, and hygiene at the Anganwadi.",
+      "Adolescent girl programme (11-14 years) with iron tablets and life-skills."
+    ],
+    "benefit_details_hi": [
+      "गर्भवती महिलाओं, बच्चे को दूध पिलाने वाली माताओं और 3 साल तक के बच्चों के लिए घर ले जाने वाला राशन (THR)।",
+      "3-6 साल के बच्चों को आंगनवाड़ी में गरम पका हुआ खाना।",
+      "ख़ून की कमी रोकने के लिए आयरन, फ़ॉलिक एसिड और विटामिन A।",
+      "पोषण ट्रैकर ऐप से बच्चे के वज़न और बढ़त की नियमित निगरानी।",
+      "स्तनपान, ऊपरी आहार और साफ़-सफ़ाई की सलाह आंगनवाड़ी पर।",
+      "11-14 साल की 10–14 साल की लड़कियों के लिए आयरन की गोलियाँ और जीवन-कौशल कार्यक्रम।"
+    ],
+    "eligibility_lines_en": [
+      "Pregnant or lactating woman.",
+      "OR child aged 0 to 6 years.",
+      "OR adolescent girl aged 11 to 14 years (out of school).",
+      "No income limit; available to every Indian woman/child."
+    ],
+    "eligibility_lines_hi": [
+      "गर्भवती या बच्चे को दूध पिलाने वाली महिला।",
+      "या 0 से 6 साल का बच्चा।",
+      "या 11 से 14 साल की बड़ी लड़की (स्कूल छोड़ चुकी)।",
+      "आय की कोई सीमा नहीं; हर भारतीय महिला / बच्चे के लिए मौजूद।"
+    ],
+    "application_steps_en": [
+      "Visit your nearest Anganwadi Centre with Aadhaar (mother/child) and MCP card.",
+      "Anganwadi Worker (AWW) registers you on the Poshan Tracker.",
+      "Take-home ration distributed monthly; cooked meal daily.",
+      "Regular weighing and growth-tracking visits.",
+      "Refer to ASHA / PHC if growth issues are flagged."
+    ],
+    "application_steps_hi": [
+      "आधार (माँ / बच्चे का) और MCP कार्ड लेकर नज़दीकी आंगनवाड़ी जाएं।",
+      "आंगनवाड़ी वर्कर (AWW) आपको पोषण ट्रैकर में रजिस्टर करेगी।",
+      "हर महीने घर ले जाने वाला राशन; और रोज़ पका हुआ खाना।",
+      "नियमित तौर पर वज़न और बढ़त की जांच।",
+      "अगर बढ़त ठीक न हो तो ASHA / PHC के पास भेजा जाएगा।"
+    ],
+    "helpline": "1800-11-2010 (POSHAN helpline) · 181 (women's helpline)",
+    "timeline_en": "Services start the day you register at the Anganwadi.",
+    "timeline_hi": "आंगनवाड़ी पर रजिस्टर होते ही सेवाएं शुरू।",
+    "eligibility": {
+      "gender": "any",
+      "min_age": null,
+      "max_age": null,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["pregnant_or_lactating_or_child_0_to_6_or_adolescent_girl_11_to_14"],
+      "occupation_excluded": [],
+      "occupation_included": [],
+      "caste_categories": []
+    },
+    "documents_required": ["Aadhaar (mother / child)", "MCP card", "Address proof"],
+    "documents_required_hi": ["आधार (माँ / बच्चे का)", "MCP कार्ड", "पते का प्रमाण"],
+    "how_to_apply": "Register through your local Anganwadi Centre. Services delivered alongside Anganwadi Services / ICDS.",
+    "how_to_apply_hi": "स्थानीय आंगनवाड़ी केंद्र पर नाम लिखवाएं।",
+    "official_link": "https://poshanabhiyaan.gov.in",
+    "verified": true
+  },
+  {
+    "scheme_id": "annapurna_scheme",
+    "has_online_application": false,
+    "scheme_name": "Annapurna Scheme",
+    "scheme_name_hi": "अन्नपूर्णा योजना",
+    "ministry": "Ministry of Rural Development (NSAP)",
+    "category": ["elderly", "food_security", "rural"],
+    "benefit_summary_en": "10 kg of free food grain (rice/wheat) per month to indigent senior citizens (65+) who are eligible for old-age pension under NSAP but not currently receiving it.",
+    "benefit_summary_hi": "65+ बेसहारा बुज़ुर्गों को प्रति माह 10 किलो मुफ्त खाद्यान्न (चावल/गेहूं) — जो NSAP वृद्धावस्था पेंशन के पात्र हैं पर अभी प्राप्त नहीं कर रहे।",
+    "benefit_details_en": [
+      "10 kg free rice or wheat every month — picked up from your nearest fair-price (PDS) shop.",
+      "Available for life as long as eligibility holds.",
+      "No queueing in long lines: ration shop has a separate Annapurna list.",
+      "Stacks with other PDS / Antyodaya benefits if you are eligible."
+    ],
+    "benefit_details_hi": [
+      "हर महीने 10 किलो मुफ्त चावल या गेहूं — आपकी नज़दीकी राशन की दुकान से।",
+      "जब तक हक़दारी बनी रहे, ज़िंदगी भर मिलता है।",
+      "लम्बी क़तार नहीं — राशन दुकान पर अन्नपूर्णा की अलग लिस्ट होती है।",
+      "अगर आप PDS / अंत्योदय के लिए भी पात्र हैं, तो वो भी साथ में मिलता है।"
+    ],
+    "eligibility_lines_en": [
+      "Senior citizen aged 65 years or older.",
+      "Indigent / destitute (no regular income, no family support).",
+      "Eligible for NSAP old-age pension BUT not currently receiving it.",
+      "Listed by Gram Panchayat / Block Office as an Annapurna beneficiary."
+    ],
+    "eligibility_lines_hi": [
+      "65 साल या उससे बड़े बुज़ुर्ग।",
+      "बेसहारा — नियमित आय नहीं, परिवार का सहारा नहीं।",
+      "NSAP वृद्धावस्था पेंशन के लिए पात्र हैं पर अभी मिल नहीं रही।",
+      "ग्राम पंचायत / ब्लॉक ऑफिस ने अन्नपूर्णा सूची में आपका नाम शामिल किया हो।"
+    ],
+    "application_steps_en": [
+      "Visit the Gram Panchayat (rural) or Block / Tahsil Office (urban) with Aadhaar and age proof.",
+      "Submit the NSAP application form with income/BPL proof and address proof.",
+      "Gram Sabha verifies and approves your case.",
+      "Block Officer adds your name to the Annapurna list.",
+      "Collect 10 kg ration each month from your designated fair-price shop on showing the card."
+    ],
+    "application_steps_hi": [
+      "अपने आधार और उम्र के सबूत के साथ ग्राम पंचायत (गाँव) या ब्लॉक / तहसील ऑफिस (शहर) जाएं।",
+      "NSAP अर्ज़ी का फॉर्म भरें — आय / BPL प्रमाण और पते का सबूत के साथ।",
+      "ग्राम सभा में आपका मामला जांचा जाता है और मंज़ूर किया जाता है।",
+      "ब्लॉक अधिकारी आपका नाम अन्नपूर्णा लिस्ट में जोड़ेंगे।",
+      "हर महीने तय राशन दुकान से कार्ड दिखाकर 10 किलो राशन उठा लीजिए।"
+    ],
+    "helpline": "1967 (PDS / NFSA helpline) · State Rural Development Dept",
+    "timeline_en": "Approval typically within 30-60 days of Gram Sabha verification.",
+    "timeline_hi": "ग्राम सभा जांच के 30-60 दिन में मंज़ूरी मिल जाती है।",
+    "eligibility": {
+      "gender": "any",
+      "min_age": 65,
+      "max_age": null,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["destitute_senior", "nsap_pension_eligible_but_not_receiving"],
+      "occupation_excluded": [],
+      "occupation_included": [],
+      "caste_categories": []
+    },
+    "documents_required": ["Aadhaar", "Age proof (65+)", "Income / BPL certificate", "Address proof"],
+    "documents_required_hi": ["आधार", "आयु प्रमाण (65+)", "आय / BPL प्रमाण पत्र", "पते का प्रमाण"],
+    "how_to_apply": "Apply at the Block Office or Gram Panchayat with required documents. State Rural Development Department implements via PDS and NSAP.",
+    "how_to_apply_hi": "ब्लॉक कार्यालय या ग्राम पंचायत में अर्ज़ी दीजिए।",
+    "official_link": "https://nsap.dord.gov.in/",
+    "verified": true
+  },
+  {
+    "scheme_id": "ignoaps",
+    "has_online_application": false,
+    "scheme_name": "Indira Gandhi National Old Age Pension Scheme (IGNOAPS)",
+    "scheme_name_hi": "इंदिरा गांधी राष्ट्रीय वृद्धावस्था पेंशन योजना",
+    "ministry": "Ministry of Rural Development (NSAP)",
+    "category": ["elderly", "pension", "bpl"],
+    "benefit_summary_en": "Monthly pension of ₹200 (60–79 years) or ₹500 (80+) for senior citizens in BPL families. State governments often top this up to ₹1,000–₹2,000.",
+    "benefit_summary_hi": "BPL परिवारों के बुज़ुर्गों को ₹200/माह (60-79 वर्ष) या ₹500/माह (80+ वर्ष) पेंशन। राज्य सरकारें अक्सर इसे ₹1,000-2,000 तक बढ़ाती हैं।",
+    "benefit_details_en": [
+      "₹200 per month if you are aged 60 to 79 years.",
+      "₹500 per month from age 80 onwards.",
+      "Most states top this up — actual pension is usually ₹1,000 to ₹2,000.",
+      "Direct Benefit Transfer to your Aadhaar-linked bank or post office account.",
+      "Lifelong — no need to re-apply yearly once approved."
+    ],
+    "benefit_details_hi": [
+      "60 से 79 साल की उम्र पर ₹200 हर महीने।",
+      "80 साल या उससे ऊपर पर ₹500 हर महीने।",
+      "ज़्यादातर राज्य इसमें टॉप-अप जोड़ते हैं — असली पेंशन आमतौर पर ₹1,000 से ₹2,000 तक होती है।",
+      "आधार से जुड़े आपके बैंक या पोस्ट ऑफिस खाते में सीधा पैसा (DBT)।",
+      "ज़िंदगी भर मिलती है — एक बार मंज़ूरी मिलने पर हर साल अर्ज़ी नहीं करना पड़ता।"
+    ],
+    "eligibility_lines_en": [
+      "60 years or older.",
+      "From a BPL (below poverty line) household.",
+      "Indian citizen with Aadhaar.",
+      "Aadhaar-linked bank or post office account."
+    ],
+    "eligibility_lines_hi": [
+      "उम्र 60 साल या उससे ज़्यादा।",
+      "BPL (ग़रीबी रेखा से नीचे) परिवार से।",
+      "भारतीय नागरिक, आधार के साथ।",
+      "आधार से जुड़ा बैंक या पोस्ट ऑफिस खाता।"
+    ],
+    "application_steps_en": [
+      "Visit your Gram Panchayat (rural) or Block / Tehsil Office (urban) with all documents.",
+      "Get the NSAP IGNOAPS application form and fill it.",
+      "Submit Aadhaar, age proof, BPL certificate, bank passbook copy, and photo.",
+      "Gram Sabha verifies and recommends your name.",
+      "Block Officer approves; the first pension reaches your account in 1-2 months.",
+      "Some states (UP, Bihar, MP, Rajasthan) also accept online applications via the state Social Welfare portal — ask your local CSC."
+    ],
+    "application_steps_hi": [
+      "अपने सभी काग़ज़ात के साथ ग्राम पंचायत (गाँव) या ब्लॉक / तहसील ऑफिस (शहर) जाएं।",
+      "NSAP / IGNOAPS अर्ज़ी का फॉर्म लें और भरें।",
+      "आधार, उम्र का सबूत, BPL प्रमाण, बैंक पासबुक की कॉपी और फ़ोटो जमा करें।",
+      "ग्राम सभा आपका नाम जांचकर सिफ़ारिश करेगी।",
+      "ब्लॉक अधिकारी मंज़ूरी देंगे; पहली पेंशन 1-2 महीने में आपके खाते में आएगी।",
+      "कुछ राज्यों (UP, बिहार, MP, राजस्थान) में ऑनलाइन अर्ज़ी भी होता है — नज़दीकी CSC पूछें।"
+    ],
+    "helpline": "1800-345-22-44 (Rural Development helpline) · State Social Welfare Dept",
+    "timeline_en": "Approval typically within 45-60 days of Gram Sabha verification. Pension monthly thereafter.",
+    "timeline_hi": "ग्राम सभा जांच के 45-60 दिन में मंज़ूरी। उसके बाद पेंशन हर महीने।",
+    "eligibility": {
+      "gender": "any",
+      "min_age": 60,
+      "max_age": null,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["bpl_household"],
+      "occupation_excluded": [],
+      "occupation_included": [],
+      "caste_categories": []
+    },
+    "documents_required": ["Aadhaar", "Age proof", "BPL certificate", "Bank passbook (Aadhaar-linked)", "Photographs"],
+    "documents_required_hi": ["आधार", "आयु प्रमाण", "BPL प्रमाण पत्र", "आधार से जुड़ी बैंक पासबुक", "फोटो"],
+    "how_to_apply": "Apply at the Block Office / Tehsil / Gram Panchayat with required documents. Some states allow online application via the state social welfare portal.",
+    "how_to_apply_hi": "ब्लॉक कार्यालय / तहसील / ग्राम पंचायत में अर्ज़ी दीजिए।",
+    "official_link": "https://nsap.dord.gov.in/",
+    "verified": true
+  },
+  {
+    "scheme_id": "ignwps",
+    "has_online_application": false,
+    "scheme_name": "Indira Gandhi National Widow Pension Scheme (IGNWPS)",
+    "scheme_name_hi": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना",
+    "ministry": "Ministry of Rural Development (NSAP)",
+    "category": ["widow", "women", "pension", "bpl"],
+    "benefit_summary_en": "Monthly pension of ₹300 for widows aged 40–79 in BPL families. States often top this up to ₹500–₹2,000. Switches to old-age pension after 80.",
+    "benefit_summary_hi": "BPL परिवारों की 40 से 79 साल की विधवाओं को ₹300/महीना पेंशन। राज्य अक्सर इसे ₹500 से ₹2,000 तक बढ़ाते हैं। 80 साल के बाद वृद्धावस्था पेंशन में बदल जाती है।",
+    "benefit_details_en": [
+      "₹300/month from the Centre.",
+      "States typically top this up — total often ₹500 to ₹2,000 per month (varies by state).",
+      "Paid monthly via DBT to Aadhaar-linked bank account.",
+      "After age 80 the woman moves to IGNOAPS at the higher slab."
+    ],
+    "benefit_details_hi": [
+      "केंद्र से ₹300/महीना।",
+      "राज्य अक्सर बढ़ाते हैं — कुल आमतौर पर ₹500 से ₹2,000 (राज्य के अनुसार)।",
+      "हर महीने आधार से जुड़े बैंक खाते में DBT से पैसे।",
+      "80 साल के बाद IGNOAPS के ज़्यादा स्लैब पर चली जाती है।"
+    ],
+    "eligibility_lines_en": [
+      "You are a widow aged 40 to 79 years.",
+      "Your family is on the BPL list.",
+      "Husband's death certificate is required."
+    ],
+    "eligibility_lines_hi": [
+      "आप 40 से 79 साल की विधवा हैं।",
+      "आपका परिवार BPL सूची में है।",
+      "पति का मृत्यु प्रमाण पत्र ज़रूरी।"
+    ],
+    "application_steps_en": [
+      "Apply at the Block Office / Tehsil / Gram Panchayat with husband's death certificate + BPL certificate + Aadhaar.",
+      "BDO / Tehsildar verifies; approval typically in 30–60 days.",
+      "Pension credited monthly via DBT from the date of approval.",
+      "Many state social welfare portals also allow online application."
+    ],
+    "application_steps_hi": [
+      "पति के मृत्यु प्रमाण पत्र, BPL प्रमाण पत्र और आधार के साथ ब्लॉक कार्यालय / तहसील / ग्राम पंचायत में अर्ज़ी दीजिए।",
+      "BDO / तहसीलदार जाँच करते हैं; मंज़ूरी आमतौर पर 30 से 60 दिनों में।",
+      "मंज़ूरी की तारीख़ से हर महीने DBT से पेंशन।",
+      "कई राज्यों के सामाजिक कल्याण पोर्टल से ऑनलाइन अर्ज़ी भी हो सकता है।"
+    ],
+    "helpline": "1800-11-1313 / Local Block Office",
+    "timeline_en": "Pension begins 30–60 days after approval.",
+    "timeline_hi": "मंज़ूरी के 30 से 60 दिन में पेंशन शुरू।",
+    "eligibility": {
+      "gender": "female",
+      "min_age": 40,
+      "max_age": 79,
+      "marital_status": "widowed",
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["bpl_household", "widow"],
+      "occupation_excluded": [],
+      "occupation_included": [],
+      "caste_categories": []
+    },
+    "documents_required": ["Aadhaar", "Husband's death certificate", "BPL certificate", "Aadhaar-linked bank passbook", "Photographs"],
+    "documents_required_hi": ["आधार", "पति का मृत्यु प्रमाण पत्र", "BPL प्रमाण पत्र", "आधार से जुड़ी बैंक पासबुक", "फोटो"],
+    "how_to_apply": "Apply at Block Office / Tehsil / Gram Panchayat with required documents. State social welfare departments process the applications under NSAP.",
+    "how_to_apply_hi": "ब्लॉक कार्यालय / तहसील / ग्राम पंचायत में अर्ज़ी दीजिए।",
+    "official_link": "https://nsap.dord.gov.in/",
+    "verified": true
+  },
+  {
+    "scheme_id": "igndps",
+    "has_online_application": false,
+    "scheme_name": "Indira Gandhi National Disability Pension Scheme (IGNDPS)",
+    "scheme_name_hi": "इंदिरा गांधी राष्ट्रीय विकलांगता पेंशन योजना",
+    "ministry": "Ministry of Rural Development (NSAP)",
+    "category": ["disability", "pension", "bpl"],
+    "benefit_summary_en": "Monthly pension of ₹300 for persons with severe or multiple disabilities (80%+) aged 18–79 from BPL families. State governments often top this up.",
+    "benefit_summary_hi": "BPL परिवारों के 18-79 वर्ष के बड़ी विकलांगता या कई तरह की विकलांगता वाले (80%+) व्यक्तियों को ₹300/माह की पेंशन।",
+    "benefit_details_en": [
+      "₹300 per month for adults aged 18 to 79 with severe or multiple disability (80%+).",
+      "Many states top this up — actual pension often ₹1,000 to ₹2,500.",
+      "Direct Benefit Transfer to your Aadhaar-linked bank or post office account.",
+      "Lifelong as long as eligibility holds; no annual re-application.",
+      "Stacks with other disability schemes (UDID, scholarships, free travel)."
+    ],
+    "benefit_details_hi": [
+      "18 से 79 साल के बालिगों को ₹300 हर महीने, अगर विकलांगता गंभीर या बहु (80%+) हो।",
+      "ज़्यादातर राज्य इसमें टॉप-अप जोड़ते हैं — असली पेंशन अक्सर ₹1,000 से ₹2,500 तक।",
+      "आधार से जुड़े बैंक या पोस्ट ऑफिस खाते में सीधा पैसा (DBT)।",
+      "जब तक हक़दारी रहे, ज़िंदगी भर — हर साल फिर से अर्ज़ी नहीं।",
+      "दूसरी विकलांगता योजनाओं (UDID, छात्रवृत्ति, मुफ्त यात्रा) के साथ-साथ मिलती है।"
+    ],
+    "eligibility_lines_en": [
+      "Aged 18 to 79 years.",
+      "Severe or multiple disability — 80% or more (CMO/Civil Surgeon certificate).",
+      "From a BPL household.",
+      "Indian citizen with Aadhaar and Aadhaar-linked bank/post office account."
+    ],
+    "eligibility_lines_hi": [
+      "उम्र 18 से 79 साल के बीच।",
+      "गंभीर या बहु विकलांगता — 80% या ज़्यादा (CMO / सिविल सर्जन का प्रमाण पत्र)।",
+      "BPL परिवार से।",
+      "भारतीय नागरिक, आधार के साथ; बैंक / पोस्ट ऑफिस खाता आधार से जुड़ा हो।"
+    ],
+    "application_steps_en": [
+      "Get the disability certificate from your District Hospital CMO / Civil Surgeon (free, on the spot at most disability camps).",
+      "Apply for a UDID (Unique Disability ID) card at swavlambancard.gov.in or the local DDR office.",
+      "Visit your Gram Panchayat (rural) or Block / Tehsil Office (urban) with all documents.",
+      "Fill the IGNDPS form; submit Aadhaar, disability certificate, BPL proof, bank passbook, and photo.",
+      "Gram Sabha verifies; Block Officer approves and your pension begins within 45-60 days."
+    ],
+    "application_steps_hi": [
+      "ज़िला अस्पताल के CMO / सिविल सर्जन से विकलांगता का सर्टिफिकेट लें (मुफ्त — ज़्यादातर विकलांगता शिविरों में मौके पर बनता है)।",
+      "UDID (विशिष्ट विकलांगता पहचान) कार्ड के लिए swavlambancard.gov.in पर या स्थानीय DDR कार्यालय में अर्ज़ी दीजिए।",
+      "अपने सभी काग़ज़ात के साथ ग्राम पंचायत (गाँव) या ब्लॉक / तहसील ऑफिस (शहर) जाएं।",
+      "IGNDPS फॉर्म भरें; आधार, विकलांगता प्रमाण, BPL सबूत, बैंक पासबुक और फ़ोटो जमा करें।",
+      "ग्राम सभा जांच करेगी; ब्लॉक अधिकारी मंज़ूरी देंगे, पेंशन 45-60 दिन में शुरू।"
+    ],
+    "helpline": "1800-345-22-44 (Rural Development) · 1800-11-7100 (Department of Empowerment of PwD)",
+    "timeline_en": "Approval typically within 45-60 days. Pension begins from the month after approval.",
+    "timeline_hi": "मंज़ूरी आम तौर पर 45-60 दिन में। मंज़ूरी के अगले महीने से पेंशन शुरू।",
+    "eligibility": {
+      "gender": "any",
+      "min_age": 18,
+      "max_age": 79,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["bpl_household", "severe_or_multiple_disability_80_percent_plus"],
+      "occupation_excluded": [],
+      "occupation_included": [],
+      "caste_categories": []
+    },
+    "documents_required": ["Aadhaar", "Disability certificate (CMO / Civil Surgeon)", "BPL certificate", "Aadhaar-linked bank passbook", "Photographs"],
+    "documents_required_hi": ["आधार", "विकलांगता का सर्टिफिकेट (CMO / सिविल सर्जन)", "BPL प्रमाण पत्र", "आधार से जुड़ी बैंक पासबुक", "फोटो"],
+    "how_to_apply": "Apply at the Block Office / Tehsil / Gram Panchayat with the disability certificate and required documents.",
+    "how_to_apply_hi": "ब्लॉक कार्यालय / तहसील / ग्राम पंचायत में विकलांगता का सर्टिफिकेट के साथ अर्ज़ी दीजिए।",
+    "official_link": "https://nsap.dord.gov.in/",
+    "verified": true
+  },
+  {
+    "scheme_id": "pmjdy",
+    "has_online_application": false,
+    "scheme_name": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+    "scheme_name_hi": "प्रधानमंत्री जन धन योजना",
+    "ministry": "Ministry of Finance / DFS",
+    "category": ["financial_inclusion", "banking", "women"],
+    "benefit_summary_en": "Zero-balance savings account with RuPay debit card, ₹2 lakh accident insurance, ₹10,000 overdraft facility (after 6 months). Mandatory pillar for receiving DBT from most central schemes.",
+    "benefit_summary_hi": "शून्य बैलेंस बचत खाता, RuPay डेबिट कार्ड, ₹2 लाख दुर्घटना बीमा, ₹10,000 ओवरड्राफ्ट सुविधा (6 महीने बाद)। केंद्रीय योजनाओं से DBT प्राप्त करने के लिए ज़रूरी।",
+    "eligibility": {
+      "gender": "any",
+      "min_age": 10,
+      "max_age": null,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["indian_resident"],
+      "occupation_excluded": [],
+      "occupation_included": [],
+      "caste_categories": []
+    },
+    "documents_required": ["Aadhaar (preferred)", "Or any one valid ID: Voter ID, PAN, Driving Licence, Passport, NREGA Job Card"],
+    "documents_required_hi": ["आधार (प्राथमिकता)", "या वैध पहचान: वोटर आईडी, पैन, ड्राइविंग लाइसेंस, पासपोर्ट, मनरेगा जॉब कार्ड"],
+    "application_steps_en": [
+      "Go to any bank branch or Bank Mitra / BC point with Aadhaar or another valid ID.",
+      "Fill the PMJDY account opening form and give mobile number if available.",
+      "The bank opens a Basic Savings Bank Deposit Account; ask for the RuPay card and passbook.",
+      "Link Aadhaar later if it was not linked at opening, so DBT benefits can arrive."
+    ],
+    "application_steps_hi": [
+      "आधार या कोई वैध पहचान लेकर बैंक शाखा या बैंक मित्र / BC पॉइंट पर जाएं।",
+      "PMJDY खाता खोलने का फॉर्म भरें और मोबाइल नंबर हो तो दें।",
+      "बैंक बेसिक बचत खाता खोलता है; RuPay कार्ड और पासबुक के बारे में पूछें।",
+      "अगर आधार पहले नहीं जुड़ा है, तो बाद में जुड़वा दें ताकि DBT की रकम आ सके।"
+    ],
+    "how_to_apply": "Visit any bank branch or Bank Mitra (BC) point. Account opens same day with valid ID. Online opening also available via banks' apps and India Post Payments Bank.",
+    "how_to_apply_hi": "किसी भी बैंक शाखा या बैंक मित्र पॉइंट पर जाएं। उसी दिन खाता खुलता है।",
+    "official_link": "https://www.pmjdy.gov.in/",
+    "verified": true
+  },
+  {
+    "scheme_id": "pmay_u",
+    "scheme_name": "Pradhan Mantri Awas Yojana — Urban (PMAY-U)",
+    "scheme_name_hi": "प्रधानमंत्री आवास योजना — शहरी",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "category": ["housing", "urban", "women_priority", "ews", "lig"],
+    "benefit_summary_en": "Affordable urban housing with central assistance up to ~₹2.67 lakh under credit-linked subsidy / in-situ slum redevelopment / beneficiary-led / partnership components. Female ownership or joint ownership preferred.",
+    "benefit_summary_hi": "शहरी क्षेत्रों में किफायती आवास के लिए ~₹2.67 लाख तक की केंद्रीय मदद। महिला स्वामित्व या संयुक्त स्वामित्व प्राथमिकता।",
+    "eligibility": {
+      "gender": "any",
+      "min_age": 18,
+      "max_age": null,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": 1800000,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["urban_household", "no_pucca_house_owned", "ews_or_lig_or_mig_household"],
+      "occupation_excluded": [],
+      "occupation_included": [],
+      "caste_categories": []
+    },
+    "documents_required": ["Aadhaar (mandatory)", "Income certificate / Form-16 / IT Return", "Address proof", "Bank passbook", "Self-declaration of no pucca house owned"],
+    "documents_required_hi": ["आधार", "आय प्रमाण पत्र / Form-16", "पते का प्रमाण", "बैंक पासबुक", "पक्का घर न होने का स्वघोषणा पत्र"],
+    "application_steps_en": [
+      "Open the PMAY-U 2.0 citizen application page or visit a CSC / urban local body.",
+      "Enter Aadhaar, state, family, income, and housing-need details.",
+      "Upload income proof, address proof, bank details, and self-declaration of no pucca house.",
+      "Submit the application, save the application number, and wait for city/state verification."
+    ],
+    "application_steps_hi": [
+      "PMAY-U 2.0 citizen application पेज खोलें, या CSC / नगर निकाय में जाएं।",
+      "आधार, राज्य, परिवार, आय और घर की ज़रूरत की जानकारी भरें।",
+      "आय प्रमाण, पते का सबूत, बैंक विवरण और पक्का घर न होने का स्वघोषणा पत्र अपलोड करें।",
+      "अर्ज़ी जमा करें, application number संभाल लें और शहर/राज्य की जांच का इंतज़ार करें।"
+    ],
+    "how_to_apply": "Apply online at pmaymis.gov.in or through CSC / state nodal urban authority. PMAY-U 2.0 announced 2024 — verify component you qualify for.",
+    "how_to_apply_hi": "pmaymis.gov.in पर ऑनलाइन अर्ज़ी दीजिए या CSC के माध्यम से।",
+    "official_link": "https://pmaymis.gov.in/PMAYMIS2_2024/PmayDefault.aspx",
+    "verified": true
+  },
+  {
+    "scheme_id": "pmgkay",
+    "has_online_application": false,
+    "scheme_name": "Pradhan Mantri Garib Kalyan Anna Yojana (PMGKAY)",
+    "scheme_name_hi": "प्रधानमंत्री गरीब कल्याण अन्न योजना",
+    "ministry": "Ministry of Consumer Affairs, Food & Public Distribution",
+    "category": ["food_security", "rural", "urban", "bpl"],
+    "benefit_summary_en": "Free 5 kg of food grain (rice or wheat) per person per month for all NFSA priority households and Antyodaya Anna Yojana cardholders. Extended through 2028.",
+    "benefit_summary_hi": "हर NFSA प्राथमिक परिवार और अंत्योदय अन्न योजना कार्ड वालों को प्रति व्यक्ति महीने में 5 किलो मुफ्त अनाज (चावल या गेहूं)। 2028 तक बढ़ाया गया।",
+    "benefit_details_en": [
+      "5 kg per person per month — rice or wheat (or coarse grains in some states).",
+      "Free of cost — earlier the price was ₹1–₹3/kg; now zero.",
+      "Antyodaya Anna Yojana families also get the same free grain.",
+      "Distributed at your designated Fair Price Shop on assigned days each month."
+    ],
+    "benefit_details_hi": [
+      "प्रति व्यक्ति प्रति माह 5 किलो — चावल या गेहूं (कुछ राज्यों में मोटे अनाज)।",
+      "पूरी तरह मुफ्त — पहले ₹1 से ₹3 प्रति किलो लगता था, अब शून्य।",
+      "अंत्योदय अन्न योजना परिवारों को भी वही मुफ्त अनाज।",
+      "हर महीने तय दिनों पर नियत राशन की दुकान से।"
+    ],
+    "eligibility_lines_en": [
+      "You have an NFSA priority household ration card OR an Antyodaya Anna Yojana card.",
+      "Aadhaar must be linked to ration card for free grain.",
+      "If you do not have a ration card, apply at the State Food and Civil Supplies department."
+    ],
+    "eligibility_lines_hi": [
+      "आपके पास NFSA प्राथमिक परिवार राशन कार्ड या अंत्योदय अन्न योजना कार्ड है।",
+      "मुफ्त अनाज के लिए आधार राशन कार्ड से जुड़ा होना ज़रूरी।",
+      "अगर राशन कार्ड नहीं है तो राज्य खाद्य आपूर्ति विभाग में अर्ज़ी दीजिए।"
+    ],
+    "application_steps_en": [
+      "If you have an NFSA / Antyodaya ration card, just collect free grain from your assigned Fair Price Shop.",
+      "Ensure your Aadhaar is seeded with the ration card (ePoS verification at the FPS).",
+      "If you don't have a card, apply at the State Food and Civil Supplies department (online or block office).",
+      "Track quotas and ePoS history on the state's PDS portal."
+    ],
+    "application_steps_hi": [
+      "अगर NFSA / अंत्योदय कार्ड है तो नियत राशन की दुकान से मुफ्त अनाज ले लें।",
+      "राशन कार्ड में आधार जुड़ा होना सुनिश्चित करें (FPS पर ePoS से जाँच होती है)।",
+      "अगर कार्ड नहीं है तो राज्य खाद्य आपूर्ति विभाग में अर्ज़ी दीजिए (ऑनलाइन या ब्लॉक दफ्तर)।",
+      "राज्य के PDS पोर्टल पर राशन और ePoS की हिस्ट्री देख सकते हैं।"
+    ],
+    "helpline": "1967 / 1800-11-2233",
+    "timeline_en": "Free grain available from the next ration cycle once Aadhaar-linked card is active.",
+    "timeline_hi": "आधार से जुड़ा कार्ड सक्रिय होते ही अगले राशन चक्र से मुफ्त अनाज।",
+    "eligibility": {
+      "gender": "any",
+      "min_age": null,
+      "max_age": null,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["nfsa_priority_household_or_antyodaya_card_holder"],
+      "occupation_excluded": [],
+      "occupation_included": [],
+      "caste_categories": []
+    },
+    "documents_required": ["Ration card (priority household / Antyodaya)", "Aadhaar"],
+    "documents_required_hi": ["राशन कार्ड (प्राथमिक परिवार / अंत्योदय)", "आधार"],
+    "how_to_apply": "If you have an NFSA / Antyodaya ration card, you receive the free grain at your designated Fair Price Shop (PDS). For new ration cards, apply at the State Food and Civil Supplies department.",
+    "how_to_apply_hi": "NFSA / अंत्योदय राशन कार्ड हो तो नजदीकी राशन की दुकान पर मुफ्त अनाज मिलता है। नया कार्ड के लिए राज्य खाद्य आपूर्ति विभाग में अर्ज़ी दीजिए।",
+    "official_link": "https://nfsa.gov.in",
+    "verified": true
+  },
+  {
+    "scheme_id": "kgbv",
+    "has_online_application": false,
+    "scheme_name": "Kasturba Gandhi Balika Vidyalaya (KGBV)",
+    "scheme_name_hi": "कस्तूरबा गांधी बालिका विद्यालय",
+    "ministry": "Ministry of Education / Samagra Shiksha",
+    "category": ["girl_child", "education", "residential", "sc_st_obc"],
+    "benefit_summary_en": "Free residential schools for girls from Class 6 to 12 from SC, ST, OBC, minority and BPL families in educationally backward blocks. Free boarding, food, books, uniforms, study material.",
+    "benefit_summary_hi": "शैक्षिक रूप से पिछड़े ब्लॉकों में SC, ST, OBC, अल्पसंख्यक और BPL परिवारों की बेटियों के लिए कक्षा 6 से 12 तक मुफ्त आवासीय स्कूल। मुफ्त रहना, खाना, किताबें, यूनिफॉर्म, पढ़ाई का सामान।",
+    "benefit_details_en": [
+      "Free residential education from Class 6 to Class 12 (under Samagra Shiksha).",
+      "Boarding, lodging, food, uniforms, textbooks, and stationery — all free.",
+      "Special focus on SC, ST, OBC, minority, and BPL girls who are out-of-school or married early.",
+      "Bridge courses for girls re-entering school after a long gap."
+    ],
+    "benefit_details_hi": [
+      "कक्षा 6 से 12 तक मुफ्त आवासीय शिक्षा (समग्र शिक्षा के तहत)।",
+      "रहना, खाना, यूनिफॉर्म, किताबें और स्टेशनरी — सब मुफ्त।",
+      "जो SC, ST, OBC, अल्पसंख्यक, BPL बेटियाँ स्कूल छोड़ चुकी हैं या जल्दी शादी हो गई थी, उन पर ख़ास ध्यान।",
+      "स्कूल लौटने वाली बेटियों के लिए ब्रिज कोर्स।"
+    ],
+    "eligibility_lines_en": [
+      "Girl child aged about 10–18, currently or due to be in Class 6–12.",
+      "From SC, ST, OBC, minority, or BPL family.",
+      "In an educationally backward block (state govt identifies).",
+      "Priority for girls who were out-of-school or dropped out."
+    ],
+    "eligibility_lines_hi": [
+      "बेटी की उम्र लगभग 10 से 18 साल, कक्षा 6 से 12 में या होने वाली।",
+      "SC, ST, OBC, अल्पसंख्यक या BPL परिवार से।",
+      "शैक्षिक रूप से पिछड़े ब्लॉक से (राज्य सरकार चिह्नित करती है)।",
+      "स्कूल छोड़ चुकी या स्कूल से बाहर रही बेटियों को प्राथमिकता।"
+    ],
+    "application_steps_en": [
+      "Find your nearest KGBV — list available with the Block Education Officer (BEO) or on the state Samagra Shiksha portal.",
+      "Submit the admission form with birth certificate, caste / BPL certificate, and previous school records.",
+      "Selection by the BEO; admission usually before the academic session begins.",
+      "After admission, all costs are borne by the school."
+    ],
+    "application_steps_hi": [
+      "अपने पास के KGBV का पता ब्लॉक शिक्षा अधिकारी (BEO) से या राज्य के समग्र शिक्षा पोर्टल से लें।",
+      "जन्म प्रमाण पत्र, जाति / BPL प्रमाण पत्र, पिछले स्कूल के रिकॉर्ड के साथ प्रवेश फॉर्म दें।",
+      "BEO चयन करते हैं; आमतौर पर सत्र शुरू होने से पहले प्रवेश।",
+      "प्रवेश के बाद सारा खर्च स्कूल उठाता है।"
+    ],
+    "helpline": "Local Block Education Officer (BEO)",
+    "timeline_en": "Admissions are typically before the academic year (April–June).",
+    "timeline_hi": "प्रवेश आमतौर पर शैक्षिक सत्र (अप्रैल से जून) से पहले।",
+    "eligibility": {
+      "gender": "female",
+      "min_age": 10,
+      "max_age": 18,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["sc_st_obc_minority_or_bpl_family", "in_class_6_to_12", "in_educationally_backward_block"],
+      "occupation_excluded": [],
+      "occupation_included": [],
+      "caste_categories": ["SC", "ST", "OBC"]
+    },
+    "documents_required": ["Birth certificate of girl", "Caste certificate (SC/ST/OBC) or BPL certificate", "Previous school records", "Aadhaar of girl and parent"],
+    "documents_required_hi": ["बेटी का जन्म प्रमाण पत्र", "जाति प्रमाण पत्र या BPL प्रमाण पत्र", "पिछले स्कूल के रिकॉर्ड", "बेटी और माता-पिता का आधार"],
+    "how_to_apply": "Apply at the local KGBV / nearest Education Department office. Selection by the Block Education Officer.",
+    "how_to_apply_hi": "नजदीकी KGBV या शिक्षा विभाग कार्यालय में अर्ज़ी दीजिए।",
+    "official_link": "https://www.samagra.education.gov.in/kgbv.html",
+    "verified": true
+  },
+  {
+    "scheme_id": "balika_samridhi",
+    "has_online_application": false,
+    "scheme_name": "Balika Samridhi Yojana",
+    "scheme_name_hi": "बालिका समृद्धि योजना",
+    "ministry": "Ministry of Women and Child Development",
+    "category": ["girl_child", "scholarship", "bpl"],
+    "benefit_summary_en": "₹500 grant on the birth of a girl in a BPL family, plus annual scholarships from Class 1 to 10 (₹300 to ₹1,000 each year). Implementation varies by state.",
+    "benefit_summary_hi": "BPL परिवार में बेटी के जन्म पर ₹500 की राशि, और कक्षा 1 से 10 तक हर साल छात्रवृत्ति (₹300 से ₹1,000)। राज्य के हिसाब से थोड़ा अंतर हो सकता है।",
+    "benefit_details_en": [
+      "₹500 post-birth grant on birth of a girl child in a BPL family.",
+      "Annual scholarships from Class 1 to 10: ranging from ₹300 (Class 1) to ₹1,000 (Class 10).",
+      "Money is credited to a savings account in the girl's name; she can withdraw on turning 18 if unmarried.",
+      "Implementation handled by the state Department of Women & Child Development."
+    ],
+    "benefit_details_hi": [
+      "BPL परिवार में बेटी के जन्म पर ₹500 की राशि।",
+      "कक्षा 1 से 10 तक हर साल छात्रवृत्ति: ₹300 (कक्षा 1) से ₹1,000 (कक्षा 10) तक।",
+      "पैसा बेटी के नाम के बचत खाते में जमा होता है; 18 साल पर अविवाहित होने पर निकाल सकती है।",
+      "राज्य महिला एवं बाल विकास विभाग लागू करता है।"
+    ],
+    "eligibility_lines_en": [
+      "Girl born after 15 August 1997, in a BPL family.",
+      "Application within one year of birth (for the post-birth grant).",
+      "School enrolment record needed for annual scholarships."
+    ],
+    "eligibility_lines_hi": [
+      "15 अगस्त 1997 के बाद जन्मी बेटी, BPL परिवार से।",
+      "जन्म के एक साल के भीतर अर्ज़ी (जन्म-राशि के लिए)।",
+      "हर साल की छात्रवृत्ति के लिए स्कूल में दाखिले का रिकॉर्ड ज़रूरी।"
+    ],
+    "application_steps_en": [
+      "Apply at the Anganwadi Centre (rural) or Health Centre (urban) within one year of girl's birth.",
+      "Submit birth certificate, BPL certificate, and mother's Aadhaar.",
+      "Open the girl's savings account once approved; post-birth grant is credited there.",
+      "Annual scholarships are released on submission of school enrolment proof every year."
+    ],
+    "application_steps_hi": [
+      "बेटी के जन्म के एक साल के भीतर आंगनवाड़ी केंद्र (गाँव में) या स्वास्थ्य केंद्र (शहर में) पर अर्ज़ी दीजिए।",
+      "जन्म प्रमाण पत्र, BPL प्रमाण पत्र, माँ का आधार जमा करें।",
+      "मंज़ूरी मिलने पर बेटी का बचत खाता खुलता है; जन्म-राशि उसमें आती है।",
+      "हर साल छात्रवृत्ति के लिए स्कूल में दाखिले का सबूत जमा करें।"
+    ],
+    "helpline": "Local Anganwadi worker / District WCD Office",
+    "timeline_en": "Post-birth grant within 30–60 days of approval; scholarships annually after enrolment proof.",
+    "timeline_hi": "जन्म-राशि मंज़ूरी के 30 से 60 दिन में; छात्रवृत्ति हर साल दाखिले के सबूत के बाद।",
+    "eligibility": {
+      "gender": "female",
+      "min_age": 0,
+      "max_age": 18,
+      "marital_status": null,
+      "pregnancy_status": null,
+      "num_children_min": null,
+      "num_children_max": null,
+      "income_max_annual": null,
+      "income_max_monthly": null,
+      "rural_only": false,
+      "states": "all",
+      "conditions": ["bpl_household", "girl_child_born_after_15_aug_1997"],
+      "occupation_excluded": [],
+      "occupation_included": [],
+      "caste_categories": []
+    },
+    "documents_required": ["Birth certificate of the girl", "BPL certificate / ration card", "Aadhaar of mother and child", "School records (for scholarship)"],
+    "documents_required_hi": ["बेटी का जन्म प्रमाण पत्र", "BPL प्रमाण पत्र / राशन कार्ड", "माँ और बेटी का आधार", "स्कूल रिकॉर्ड (छात्रवृत्ति के लिए)"],
+    "how_to_apply": "Apply at the Anganwadi Centre (rural) or the Health Centre (urban) within one year of girl's birth. Scholarships are released on enrolment evidence.",
+    "how_to_apply_hi": "बेटी के जन्म के एक वर्ष के भीतर ग्रामीण क्षेत्रों में आंगनवाड़ी केंद्र या शहरी क्षेत्रों में स्वास्थ्य केंद्र पर अर्ज़ी दीजिए।",
+    "official_link": "https://www.spniwcd.wcd.gov.in/archive/download/1zr5zt",
+    "verified": true
+  },
+  {
+    "scheme_id": "pm_surya_ghar",
+    "scheme_name": "PM Surya Ghar — Muft Bijli Yojana",
+    "scheme_name_hi": "पीएम सूर्य घर — मुफ्त बिजली योजना",
+    "ministry": "Ministry of New and Renewable Energy",
+    "category": ["energy", "rural", "urban", "subsidy", "rooftop_solar"],
+    "benefit_summary_en": "Up to ₹78,000 subsidy for installing rooftop solar at home, plus 300 free units of electricity per month. Launched 2024.",
+    "benefit_summary_hi": "घर पर सोलर पैनल लगवाने पर ₹78,000 तक की सब्सिडी, साथ ही हर महीने 300 यूनिट तक मुफ्त बिजली। 2024 में शुरू।",
+    "benefit_details_en": [
+      "Subsidy: ₹30,000 for 1 kW system, ₹60,000 for 2 kW, ₹78,000 for 3 kW or higher.",
+      "Up to 300 units of electricity per month free for the household.",
+      "Surplus power can be sold back to the grid (net metering).",
+      "Concessional collateral-free loans up to ₹2 lakh for the rest of the cost."
+    ],
+    "benefit_details_hi": [
+      "सब्सिडी: 1 kW पर ₹30,000, 2 kW पर ₹60,000, 3 kW या उससे ऊपर पर ₹78,000।",
+      "हर महीने 300 यूनिट तक की बिजली मुफ्त।",
+      "ज़्यादा बिजली बनी तो ग्रिड को बेच सकते हैं (नेट मीटरिंग)।",
+      "बाक़ी ख़र्च के लिए ₹2 लाख तक का बिना गिरवी सस्ता लोन।"
+    ],
+    "eligibility_lines_en": [
+      "You own a house with a roof suitable for solar panels.",
+      "Your household has an active electricity connection in your name.",
+      "You haven't already taken solar subsidy under any other scheme."
+    ],
+    "eligibility_lines_hi": [
+      "आपके पास अपना घर है और छत पर सोलर पैनल लग सकता है।",
+      "आपके नाम पर बिजली का कनेक्शन है और चल रहा है।",
+      "आपने पहले किसी और योजना से सोलर सब्सिडी नहीं ली है।"
+    ],
+    "application_steps_en": [
+      "Register at pmsuryaghar.gov.in with your state, electricity bill number, and mobile.",
+      "Choose an empanelled vendor from the portal list.",
+      "Vendor installs the system; DISCOM verifies and approves.",
+      "Subsidy credited to your bank account within 30 days of installation."
+    ],
+    "application_steps_hi": [
+      "pmsuryaghar.gov.in पर अपना राज्य, बिजली बिल नंबर और मोबाइल डालकर रजिस्टर करें।",
+      "पोर्टल पर लिस्टेड वेंडर में से एक चुनें।",
+      "वेंडर सिस्टम लगाता है; DISCOM जाँच के बाद मंज़ूरी देता है।",
+      "लगने के 30 दिन के अंदर सब्सिडी आपके बैंक खाते में आ जाती है।"
+    ],
+    "helpline": "1800-180-3333 / 15555",
+    "timeline_en": "Installation in 30–60 days; subsidy in 30 days post-installation.",
+    "timeline_hi": "लगने में 30 से 60 दिन; उसके बाद 30 दिन में सब्सिडी।",
+    "has_online_application": true,
+    "eligibility": {
+      "gender": "any", "min_age": 18, "max_age": null,
+      "marital_status": null, "pregnancy_status": null,
+      "num_children_min": null, "num_children_max": null,
+      "income_max_annual": null, "income_max_monthly": null,
+      "rural_only": false, "states": "all",
+      "conditions": ["own_house_with_suitable_roof", "active_electricity_connection"],
+      "occupation_excluded": [], "occupation_included": [], "caste_categories": []
+    },
+    "documents_required": ["Aadhaar", "Latest electricity bill", "House ownership proof", "Bank passbook (Aadhaar-linked)", "Mobile number"],
+    "documents_required_hi": ["आधार", "हाल का बिजली बिल", "घर के मालिकाना हक़ का सबूत", "आधार से जुड़ा बैंक पासबुक", "मोबाइल नंबर"],
+    "how_to_apply": "Register at pmsuryaghar.gov.in, choose a vendor, install, get subsidy.",
+    "how_to_apply_hi": "pmsuryaghar.gov.in पर रजिस्टर करें, वेंडर चुनें, सोलर लगवाएं, सब्सिडी पाएं।",
+    "official_link": "https://pmsuryaghar.gov.in/consumerLogin",
+    "verified": true
+  },
+  {
+    "scheme_id": "lakhpati_didi",
+    "scheme_name": "Lakhpati Didi",
+    "scheme_name_hi": "लखपति दीदी",
+    "ministry": "Ministry of Rural Development (DAY-NRLM)",
+    "category": ["women", "rural", "shg", "income_generation", "skill"],
+    "benefit_summary_en": "Mission to make 3 crore SHG women in rural India earn ₹1 lakh+ per year through skill training, micro-enterprise support, and easier credit. Launched 2023.",
+    "benefit_summary_hi": "ग्रामीण भारत की 3 करोड़ SHG महिलाओं की सालाना कमाई ₹1 लाख से ज़्यादा करने का मिशन। हुनर ट्रेनिंग, छोटे व्यवसाय में मदद, और आसान लोन। 2023 में शुरू।",
+    "benefit_details_en": [
+      "Training in livelihood activities — handicraft, food processing, dairy, retail, etc.",
+      "Easier access to bank loans through SHG and Bank Sakhi.",
+      "Marketing support, branding, and links to GeM / e-commerce.",
+      "Convergence with Mudra, Stand-Up India, and PM Vishwakarma where applicable."
+    ],
+    "benefit_details_hi": [
+      "रोज़गार के काम (हस्तकला, खाने की प्रोसेसिंग, डेयरी, खुदरा आदि) की ट्रेनिंग।",
+      "SHG और बैंक सखी के ज़रिए आसान बैंक लोन।",
+      "बाज़ार में बिक्री, ब्रांडिंग, और GeM / ई-कॉमर्स से जोड़ने में मदद।",
+      "जहाँ लागू हो — मुद्रा, स्टैंड-अप इंडिया और पीएम विश्वकर्मा से जुड़ाव।"
+    ],
+    "eligibility_lines_en": [
+      "You are a rural woman, member of an SHG under DAY-NRLM.",
+      "You wish to start or scale up an income-generating activity.",
+      "Available across all states implementing DAY-NRLM."
+    ],
+    "eligibility_lines_hi": [
+      "आप ग्रामीण महिला हैं और DAY-NRLM के तहत किसी SHG में हैं।",
+      "आप कमाई का काम शुरू या बड़ा करना चाहती हैं।",
+      "सभी DAY-NRLM लागू राज्यों में मौजूद।"
+    ],
+    "application_steps_en": [
+      "Join your village SHG under DAY-NRLM (if not already a member).",
+      "Speak with the SHG Bank Sakhi or Cluster Coordinator about a Lakhpati plan.",
+      "Get training scheduled through the State Rural Livelihoods Mission.",
+      "Apply for credit through the SHG-bank linkage; start your activity."
+    ],
+    "application_steps_hi": [
+      "अपने गाँव के DAY-NRLM SHG में शामिल हों (अगर नहीं हैं तो)।",
+      "बैंक सखी या क्लस्टर समन्वयक से लखपति योजना की बात करें।",
+      "राज्य ग्रामीण आजीविका मिशन से ट्रेनिंग का समय तय कराएं।",
+      "SHG-बैंक लिंक से लोन के लिए अर्ज़ी दीजिए; काम शुरू करें।"
+    ],
+    "helpline": "Local SHG Bank Sakhi / Block NRLM Office",
+    "timeline_en": "Training: as per batch schedule; credit linkage: 30–60 days.",
+    "timeline_hi": "ट्रेनिंग: बैच के हिसाब से; लोन: 30 से 60 दिनों में।",
+    "has_online_application": false,
+    "eligibility": {
+      "gender": "female", "min_age": 18, "max_age": null,
+      "marital_status": null, "pregnancy_status": null,
+      "num_children_min": null, "num_children_max": null,
+      "income_max_annual": null, "income_max_monthly": null,
+      "rural_only": true, "states": "all",
+      "conditions": ["shg_member_under_day_nrlm"],
+      "occupation_excluded": [], "occupation_included": [], "caste_categories": []
+    },
+    "documents_required": ["Aadhaar", "SHG membership proof", "Bank passbook", "Activity / business plan"],
+    "documents_required_hi": ["आधार", "SHG सदस्यता का सबूत", "बैंक पासबुक", "व्यवसाय की सरल योजना"],
+    "how_to_apply": "Join your local SHG; speak with Bank Sakhi for training and credit.",
+    "how_to_apply_hi": "गाँव के SHG में जुड़ें; बैंक सखी से ट्रेनिंग और लोन की बात करें।",
+    "official_link": "https://lakhpatididi.gov.in/",
+    "verified": true
+  },
+  {
+    "scheme_id": "namo_drone_didi",
+    "scheme_name": "Namo Drone Didi",
+    "scheme_name_hi": "नमो ड्रोन दीदी",
+    "ministry": "Ministry of Rural Development / Agriculture",
+    "category": ["women", "rural", "shg", "skill", "agriculture"],
+    "benefit_summary_en": "Provides drones and pilot training to women SHGs so they can offer drone services to farmers (spraying fertiliser, pesticide, surveys). Each SHG gets a drone worth up to ₹8 lakh.",
+    "benefit_summary_hi": "महिला SHG को ड्रोन और उड़ाने की ट्रेनिंग — ताकि वे किसानों को ड्रोन से सेवा दे सकें (खाद, दवा का छिड़काव, सर्वे आदि)। हर SHG को ₹8 लाख तक का ड्रोन मिलता है।",
+    "benefit_details_en": [
+      "One drone (worth up to ₹8 lakh) per selected SHG, with kit and accessories.",
+      "15-day pilot training certificate for one woman from the SHG.",
+      "80% subsidy + 15% AIF interest subvention; SHG pays only 5% upfront.",
+      "Earn around ₹1 lakh per year by leasing drone services to nearby farmers."
+    ],
+    "benefit_details_hi": [
+      "हर चुने हुए SHG को एक ड्रोन (₹8 लाख तक का) और सहायक सामान।",
+      "SHG की एक महिला को 15 दिन की ड्रोन पायलट ट्रेनिंग सर्टिफिकेट।",
+      "80% सब्सिडी + 15% AIF ब्याज छूट; SHG को केवल 5% ख़ुद देना।",
+      "किसानों को ड्रोन से सेवा देकर साल में लगभग ₹1 लाख कमा सकती हैं।"
+    ],
+    "eligibility_lines_en": [
+      "Your SHG is recognised under DAY-NRLM and operates in an agricultural area.",
+      "One woman from the SHG (10th pass, age 18–37) for the pilot training.",
+      "Selection by State Rural Livelihoods Mission."
+    ],
+    "eligibility_lines_hi": [
+      "आपका SHG DAY-NRLM के तहत है और खेती-बाड़ी वाले इलाक़े में है।",
+      "SHG की एक महिला (10वीं पास, उम्र 18 से 37 साल) को ट्रेनिंग के लिए चुना जाएगा।",
+      "चयन राज्य ग्रामीण आजीविका मिशन करता है।"
+    ],
+    "application_steps_en": [
+      "Through your SHG, express interest at the Block NRLM Office.",
+      "State Rural Livelihoods Mission selects clusters and pilot candidates.",
+      "Pilot completes 15-day training; drone is delivered to the SHG.",
+      "SHG advertises drone services to farmers in surrounding villages."
+    ],
+    "application_steps_hi": [
+      "अपने SHG के ज़रिए ब्लॉक NRLM दफ्तर में रुचि बताएं।",
+      "राज्य ग्रामीण आजीविका मिशन क्लस्टर और पायलट चुनता है।",
+      "पायलट 15 दिन की ट्रेनिंग पूरी करती है; SHG को ड्रोन मिल जाता है।",
+      "SHG आसपास के गाँवों के किसानों को ड्रोन सेवा देती है।"
+    ],
+    "helpline": "Block NRLM Office",
+    "timeline_en": "Selection cycles run periodically; drone delivery 3–6 months after selection.",
+    "timeline_hi": "चयन समय-समय पर; चयन के बाद 3 से 6 महीनों में ड्रोन।",
+    "has_online_application": false,
+    "eligibility": {
+      "gender": "female", "min_age": 18, "max_age": 37,
+      "marital_status": null, "pregnancy_status": null,
+      "num_children_min": null, "num_children_max": null,
+      "income_max_annual": null, "income_max_monthly": null,
+      "rural_only": true, "states": "all",
+      "conditions": ["shg_member_under_day_nrlm", "tenth_pass_for_pilot"],
+      "occupation_excluded": [], "occupation_included": [], "caste_categories": []
+    },
+    "documents_required": ["Aadhaar", "SHG membership", "10th pass marksheet (for pilot)", "Bank passbook"],
+    "documents_required_hi": ["आधार", "SHG सदस्यता", "10वीं की मार्कशीट (पायलट के लिए)", "बैंक पासबुक"],
+    "how_to_apply": "Through SHG → Block NRLM Office → State selection.",
+    "how_to_apply_hi": "SHG के ज़रिए ब्लॉक NRLM दफ्तर से शुरू करें; राज्य चयन करता है।",
+    "official_link": "https://lakhpatididi.gov.in/power_to_empower/namo-drone-didi/",
+    "verified": true
+  },
+  {
+    "scheme_id": "nsap_nfbs",
+    "scheme_name": "National Family Benefit Scheme (NFBS)",
+    "scheme_name_hi": "राष्ट्रीय परिवार लाभ योजना",
+    "ministry": "Ministry of Rural Development (NSAP)",
+    "category": ["bpl", "death_benefit", "family", "widow"],
+    "benefit_summary_en": "One-time payment of ₹20,000 to a BPL family on the death of the primary breadwinner aged 18–59. Helps the family during the immediate crisis.",
+    "benefit_summary_hi": "BPL परिवार में मुख्य कमाने वाले (उम्र 18 से 59 साल) की मृत्यु पर परिवार को एक बार में ₹20,000 की मदद। अचानक के संकट में सहारा।",
+    "benefit_details_en": [
+      "₹20,000 one-time, lump-sum payment.",
+      "Paid to the surviving spouse, or the eldest adult member of the household.",
+      "Money credited via DBT to Aadhaar-linked bank account.",
+      "Application must be made within 1 year of breadwinner's death."
+    ],
+    "benefit_details_hi": [
+      "एक बार में ₹20,000 की रक़म।",
+      "जीवित पति/पत्नी, या परिवार के सबसे बड़े बालिग़ सदस्य को मिलती है।",
+      "आधार से जुड़े बैंक खाते में DBT से आती है।",
+      "मृत्यु के 1 साल के अंदर अर्ज़ी करना ज़रूरी।"
+    ],
+    "eligibility_lines_en": [
+      "Family is on the BPL list.",
+      "Primary breadwinner died aged 18–59 years.",
+      "Application made within 1 year of the death."
+    ],
+    "eligibility_lines_hi": [
+      "परिवार BPL सूची में है।",
+      "मुख्य कमाने वाला सदस्य 18 से 59 साल की उम्र में गुज़रा।",
+      "मृत्यु के 1 साल के अंदर अर्ज़ी।"
+    ],
+    "application_steps_en": [
+      "Apply at the Block Office / Tehsil / Gram Panchayat with documents.",
+      "Submit death certificate + BPL certificate + applicant's Aadhaar + bank passbook.",
+      "BDO / Tehsildar verifies; approval typically in 30–45 days.",
+      "Lump-sum credited to applicant's bank account on approval."
+    ],
+    "application_steps_hi": [
+      "ब्लॉक कार्यालय / तहसील / ग्राम पंचायत में अर्ज़ी दीजिए।",
+      "मृत्यु प्रमाण पत्र, BPL प्रमाण पत्र, आवेदक का आधार और बैंक पासबुक जमा करें।",
+      "BDO / तहसीलदार जाँच करते हैं; मंज़ूरी आमतौर पर 30 से 45 दिनों में।",
+      "मंज़ूरी पर रक़म एक साथ बैंक खाते में आ जाती है।"
+    ],
+    "helpline": "1800-11-1313 / Block Office",
+    "timeline_en": "Lump-sum within 30–45 days of approval.",
+    "timeline_hi": "मंज़ूरी के 30 से 45 दिन में रक़म मिल जाती है।",
+    "has_online_application": false,
+    "eligibility": {
+      "gender": "any", "min_age": 18, "max_age": null,
+      "marital_status": null, "pregnancy_status": null,
+      "num_children_min": null, "num_children_max": null,
+      "income_max_annual": null, "income_max_monthly": null,
+      "rural_only": false, "states": "all",
+      "conditions": ["bpl_household", "primary_breadwinner_death_age_18_to_59", "apply_within_1_year"],
+      "occupation_excluded": [], "occupation_included": [], "caste_categories": []
+    },
+    "documents_required": ["Death certificate of breadwinner", "BPL certificate", "Aadhaar of applicant", "Bank passbook (Aadhaar-linked)", "Photographs"],
+    "documents_required_hi": ["मृत व्यक्ति का मृत्यु प्रमाण पत्र", "BPL प्रमाण पत्र", "आवेदक का आधार", "आधार से जुड़ी बैंक पासबुक", "फ़ोटो"],
+    "how_to_apply": "Apply at Block Office / Tehsil / Gram Panchayat within 1 year of death.",
+    "how_to_apply_hi": "मृत्यु के 1 साल के अंदर ब्लॉक कार्यालय / तहसील / ग्राम पंचायत में अर्ज़ी दीजिए।",
+    "official_link": "https://nsap.dord.gov.in/",
+    "verified": true
+  },
+  {
+    "scheme_id": "pm_kisan_maan_dhan",
+    "scheme_name": "PM Kisan Maan Dhan Yojana",
+    "scheme_name_hi": "पीएम किसान मानधन योजना",
+    "ministry": "Ministry of Agriculture (PM-KMY)",
+    "category": ["farmer", "pension", "rural", "small_marginal"],
+    "benefit_summary_en": "A guaranteed monthly pension of ₹3,000 after age 60 for small and marginal farmers. Government matches your contribution rupee-for-rupee.",
+    "benefit_summary_hi": "छोटे और सीमांत किसानों को 60 साल के बाद हर महीने ₹3,000 की पक्की पेंशन। सरकार आपकी जमा रक़म के बराबर अपना योगदान देती है।",
+    "benefit_details_en": [
+      "Guaranteed pension of ₹3,000/month after age 60.",
+      "Monthly contribution: ₹55 (if joining at 18) to ₹200 (at 40); Centre matches it.",
+      "PM-KISAN beneficiaries can opt to deduct contribution from their installments.",
+      "On subscriber's death, spouse gets 50% pension."
+    ],
+    "benefit_details_hi": [
+      "60 साल के बाद हर महीने ₹3,000 की पक्की पेंशन।",
+      "मासिक योगदान: 18 साल पर ₹55, 40 साल पर ₹200 तक; केंद्र भी उतना ही देता है।",
+      "PM-KISAN की किस्त पाने वाले किसान अपनी किस्त से योगदान कटवा सकते हैं।",
+      "सब्सक्राइबर की मृत्यु पर पति/पत्नी को 50% पेंशन।"
+    ],
+    "eligibility_lines_en": [
+      "Small or marginal farmer with up to 2 hectares of cultivable land.",
+      "Age 18 to 40 years at joining.",
+      "Not covered under EPF, ESIC, NPS, or any other social-security pension."
+    ],
+    "eligibility_lines_hi": [
+      "छोटे या सीमांत किसान, जिसके पास 2 हेक्टेयर तक खेत है।",
+      "जुड़ने के समय उम्र 18 से 40 साल।",
+      "EPF, ESIC, NPS या किसी और पेंशन योजना में नहीं हैं।"
+    ],
+    "application_steps_en": [
+      "Visit your nearest Common Service Centre (CSC) with Aadhaar, land records, bank passbook.",
+      "Or self-register at maandhan.in (guided form).",
+      "Choose contribution amount; auto-debit set up from your savings account.",
+      "Pension Account Number (PRAN) issued; pension begins after age 60."
+    ],
+    "application_steps_hi": [
+      "पास के CSC पर आधार, ज़मीन के काग़ज़ और बैंक पासबुक के साथ जाएं।",
+      "या maandhan.in पर ख़ुद रजिस्टर करें।",
+      "योगदान की रक़म चुनें; बचत खाते से ऑटो-डेबिट सेट होगा।",
+      "PRAN नंबर मिलता है; 60 साल के बाद पेंशन शुरू।"
+    ],
+    "helpline": "1800-3000-3468",
+    "timeline_en": "Registration is immediate; pension starts on the month after age 60.",
+    "timeline_hi": "रजिस्ट्रेशन तुरंत; 60 साल के अगले महीने से पेंशन शुरू।",
+    "has_online_application": true,
+    "eligibility": {
+      "gender": "any", "min_age": 18, "max_age": 40,
+      "marital_status": null, "pregnancy_status": null,
+      "num_children_min": null, "num_children_max": null,
+      "income_max_annual": null, "income_max_monthly": null,
+      "rural_only": false, "states": "all",
+      "conditions": ["small_or_marginal_farmer_2ha_or_less", "not_in_other_pension_scheme"],
+      "occupation_excluded": [], "occupation_included": ["farmer"], "caste_categories": []
+    },
+    "documents_required": ["Aadhaar", "Land records (Khasra/Khatauni)", "Savings bank passbook", "Mobile number"],
+    "documents_required_hi": ["आधार", "ज़मीन के काग़ज़ (खसरा/खतौनी)", "बचत बैंक पासबुक", "मोबाइल नंबर"],
+    "how_to_apply": "Register at maandhan.in or through nearest CSC.",
+    "how_to_apply_hi": "maandhan.in पर रजिस्टर करें या पास के CSC के ज़रिए।",
+    "official_link": "https://maandhan.in/showlink.php?lang=1&level=1&ls_id=160&lid=251&page=159",
+    "verified": true
+  },
+  {
+    "scheme_id": "kcc",
+    "scheme_name": "Kisan Credit Card (KCC)",
+    "scheme_name_hi": "किसान क्रेडिट कार्ड",
+    "ministry": "Ministry of Agriculture / DFS",
+    "category": ["farmer", "credit", "rural", "agriculture"],
+    "benefit_summary_en": "Easy short-term credit for farmers up to ₹5 lakh (raised in Budget 2024-25), at 4% effective interest if repaid on time. Covers crop loans, equipment, dairy, fishery.",
+    "benefit_summary_hi": "किसानों के लिए ₹5 लाख तक का आसान कम अवधि का लोन (बजट 2024-25 में बढ़ा), समय पर चुकाने पर असली ब्याज सिर्फ 4%। फसल, मशीनरी, डेयरी, मछली पालन सब के लिए।",
+    "benefit_details_en": [
+      "Credit limit up to ₹5 lakh (raised from ₹3 lakh in Budget 2024-25).",
+      "Interest 7%, with 3% prompt-payment incentive — effective 4% if repaid on time.",
+      "RuPay debit card with the credit; can be used at ATMs and POS.",
+      "Covers cultivation cost, allied activities (dairy, fishery), and household needs.",
+      "Renewable annually; 5-year cycle for limits."
+    ],
+    "benefit_details_hi": [
+      "लोन की सीमा ₹5 लाख तक (बजट 2024-25 में ₹3 लाख से बढ़ाई गई)।",
+      "ब्याज 7%, समय पर चुकाने पर 3% की छूट — असली ब्याज 4%।",
+      "RuPay डेबिट कार्ड साथ; ATM और POS पर इस्तेमाल कर सकते हैं।",
+      "खेती का ख़र्च, डेयरी, मछली पालन, और घर की ज़रूरतें — सब के लिए।",
+      "हर साल नवीनीकरण; सीमा 5 साल के लिए।"
+    ],
+    "eligibility_lines_en": [
+      "You are a farmer (own / tenant / sharecropper / oral lessee) cultivating land.",
+      "You are an SHG / JLG of farmers, including women SHGs.",
+      "No prior default to any bank."
+    ],
+    "eligibility_lines_hi": [
+      "आप किसान हैं (अपनी / किराए की / बँटाई / ज़बानी पट्टे की ज़मीन)।",
+      "किसानों का SHG / JLG, महिला SHG भी शामिल।",
+      "किसी बैंक का बकाया लोन नहीं।"
+    ],
+    "application_steps_en": [
+      "Apply online at jansamarth.in (KCC section) — Aadhaar OTP based.",
+      "Or visit any bank branch (PSB / RRB / Cooperative) with land records.",
+      "Bank verifies; KCC issued usually within 14 days.",
+      "RuPay debit card delivered to your address."
+    ],
+    "application_steps_hi": [
+      "jansamarth.in (KCC सेक्शन) पर ऑनलाइन अर्ज़ी दीजिए — आधार OTP से।",
+      "या किसी बैंक शाखा (PSB / RRB / सहकारी) में ज़मीन के काग़ज़ के साथ जाएं।",
+      "बैंक जाँच करता है; आमतौर पर 14 दिनों में KCC मिल जाता है।",
+      "RuPay डेबिट कार्ड डाक से आपके पते पर आता है।"
+    ],
+    "helpline": "1800-180-1551",
+    "timeline_en": "KCC issued in ~14 days; debit card in 10–15 more days.",
+    "timeline_hi": "KCC लगभग 14 दिनों में; डेबिट कार्ड उसके 10 से 15 दिन में।",
+    "has_online_application": true,
+    "eligibility": {
+      "gender": "any", "min_age": 18, "max_age": null,
+      "marital_status": null, "pregnancy_status": null,
+      "num_children_min": null, "num_children_max": null,
+      "income_max_annual": null, "income_max_monthly": null,
+      "rural_only": false, "states": "all",
+      "conditions": ["farmer_owner_or_tenant_or_shg_member", "no_existing_default"],
+      "occupation_excluded": [], "occupation_included": ["farmer"], "caste_categories": []
+    },
+    "documents_required": ["Aadhaar / PAN", "Land records (or tenancy proof)", "Passport-size photo", "Bank account proof"],
+    "documents_required_hi": ["आधार / पैन", "ज़मीन के काग़ज़ (या काश्तकारी का सबूत)", "पासपोर्ट साइज़ फ़ोटो", "बैंक खाता का सबूत"],
+    "how_to_apply": "Apply at jansamarth.in or any bank branch.",
+    "how_to_apply_hi": "jansamarth.in पर या किसी बैंक शाखा में अर्ज़ी दीजिए।",
+    "official_link": "https://www.jansamarth.in/kcc-loan",
+    "verified": true
+  },
+  {
+    "scheme_id": "vaya_vandana_70plus",
+    "scheme_name": "Ayushman Bharat — Vaya Vandana (70+ senior cover)",
+    "scheme_name_hi": "आयुष्मान भारत वय वंदना (70+ बुज़ुर्ग कवर)",
+    "ministry": "Ministry of Health and Family Welfare",
+    "category": ["health", "elderly", "insurance"],
+    "benefit_summary_en": "Free hospital cover up to ₹5 lakh per year for ALL citizens aged 70+, regardless of income. Launched October 2024.",
+    "benefit_summary_hi": "70 साल या उससे बड़े सब नागरिकों के लिए साल में ₹5 लाख तक का मुफ्त इलाज, कमाई जितनी भी हो। अक्टूबर 2024 में शुरू।",
+    "benefit_details_en": [
+      "₹5 lakh family health cover per year — same as PM-JAY.",
+      "Income-blind: every Indian aged 70+ qualifies.",
+      "If your family is already on PM-JAY, you get an additional ₹5 lakh top-up just for the senior.",
+      "Use Ayushman card at any empanelled hospital — cashless treatment."
+    ],
+    "benefit_details_hi": [
+      "साल में ₹5 लाख तक का परिवार स्वास्थ्य कवर — PM-JAY की तरह।",
+      "आय से कोई फ़र्क़ नहीं: 70 साल या उससे बड़े हर भारतीय को मिलेगा।",
+      "अगर परिवार पहले से PM-JAY पर है तो बुज़ुर्ग को ₹5 लाख का अलग टॉप-अप।",
+      "लिस्ट में जुड़े किसी भी अस्पताल में आयुष्मान कार्ड दिखाएं — कैशलेस इलाज।"
+    ],
+    "eligibility_lines_en": [
+      "You or a family member is 70 years or older.",
+      "Any income — no BPL or SECC criteria.",
+      "Indian citizen with Aadhaar."
+    ],
+    "eligibility_lines_hi": [
+      "आप या परिवार का कोई सदस्य 70 साल या उससे बड़ा है।",
+      "कोई भी आय — BPL या SECC की शर्त नहीं।",
+      "आधार वाले भारतीय नागरिक।"
+    ],
+    "application_steps_en": [
+      "Open beneficiary.nha.gov.in or call 14555.",
+      "Verify yourself / senior family member with Aadhaar OTP.",
+      "Make / download the Ayushman Vaya Vandana card.",
+      "Show the card at any empanelled hospital for cashless treatment."
+    ],
+    "application_steps_hi": [
+      "beneficiary.nha.gov.in खोलें या 14555 पर फ़ोन करें।",
+      "आधार OTP से ख़ुद को / बुज़ुर्ग सदस्य को सत्यापित करें।",
+      "आयुष्मान वय वंदना कार्ड बनाएं / डाउनलोड करें।",
+      "लिस्ट में जुड़े किसी भी अस्पताल में कार्ड दिखाकर कैशलेस इलाज लें।"
+    ],
+    "helpline": "14555 (toll-free, 24x7)",
+    "timeline_en": "Card generated same day on Aadhaar verification.",
+    "timeline_hi": "आधार जांच के बाद उसी दिन कार्ड बन जाता है।",
+    "has_online_application": true,
+    "eligibility": {
+      "gender": "any", "min_age": 70, "max_age": null,
+      "marital_status": null, "pregnancy_status": null,
+      "num_children_min": null, "num_children_max": null,
+      "income_max_annual": null, "income_max_monthly": null,
+      "rural_only": false, "states": "all",
+      "conditions": ["senior_70_plus"],
+      "occupation_excluded": [], "occupation_included": [], "caste_categories": []
+    },
+    "documents_required": ["Aadhaar (Aadhaar-linked mobile)", "Optional: existing PM-JAY card if family is already covered"],
+    "documents_required_hi": ["आधार (आधार से जुड़ा मोबाइल)", "वैकल्पिक: अगर परिवार पहले से PM-JAY पर है तो वह कार्ड"],
+    "how_to_apply": "Self-register at beneficiary.nha.gov.in or via CSC; Aadhaar OTP based.",
+    "how_to_apply_hi": "beneficiary.nha.gov.in पर ख़ुद रजिस्टर करें या CSC के ज़रिए; आधार OTP से।",
+    "official_link": "https://beneficiary.nha.gov.in",
+    "verified": true
+  },
+  {
+    "scheme_id": "tele_manas",
+    "scheme_name": "Tele-MANAS (National Mental Health Helpline)",
+    "scheme_name_hi": "टेली-मानस (राष्ट्रीय मानसिक स्वास्थ्य हेल्पलाइन)",
+    "ministry": "Ministry of Health and Family Welfare",
+    "category": ["health", "mental_health", "helpline", "free"],
+    "benefit_summary_en": "Free, 24x7 mental health support over the phone in 20+ languages. Trained counsellors and, if needed, referral to specialist psychiatrists. Launched October 2022.",
+    "benefit_summary_hi": "मुफ्त, 24x7 मानसिक स्वास्थ्य मदद — फ़ोन पर, 20+ भाषाओं में। ट्रेनिंग प्राप्त परामर्शदाता और ज़रूरत होने पर मनोचिकित्सक से जोड़ने की सुविधा। अक्टूबर 2022 में शुरू।",
+    "benefit_details_en": [
+      "Toll-free 24x7 helpline 14416 — talk to a trained mental-health counsellor.",
+      "Available in Hindi, English, Tamil, Telugu, Bengali, Kannada, Malayalam, Marathi, Punjabi, and 11+ more languages.",
+      "Free referral to psychiatrist via video consultation if needed.",
+      "Anonymous and confidential — no Aadhaar, no documents needed."
+    ],
+    "benefit_details_hi": [
+      "टोल-फ्री 24x7 हेल्पलाइन 14416 — ट्रेनिंग प्राप्त मानसिक स्वास्थ्य परामर्शदाता से बात करें।",
+      "हिंदी, अंग्रेज़ी, तमिल, तेलुगु, बांग्ला, कन्नड़, मलयालम, मराठी, पंजाबी और 11+ अन्य भाषाओं में।",
+      "ज़रूरत होने पर मनोचिकित्सक से वीडियो कॉल भी मुफ्त।",
+      "गुमनाम और गोपनीय — आधार या कोई काग़ज़ नहीं चाहिए।"
+    ],
+    "eligibility_lines_en": [
+      "Anyone in India experiencing emotional distress, anxiety, depression, or suicidal thoughts.",
+      "All ages, all genders, all incomes — universal.",
+      "No documents required."
+    ],
+    "eligibility_lines_hi": [
+      "भारत में जो भी मानसिक तनाव, चिंता, अवसाद या आत्महत्या के विचारों से जूझ रहा है।",
+      "हर उम्र, हर लिंग, हर आय वर्ग के लिए।",
+      "कोई काग़ज़ ज़रूरी नहीं।"
+    ],
+    "application_steps_en": [
+      "Dial 14416 or 1-800-891-4416 from any phone (toll-free, 24x7).",
+      "Choose your preferred language when prompted.",
+      "Talk to a counsellor — anonymously if you wish.",
+      "If recommended, the counsellor connects you to a psychiatrist via video."
+    ],
+    "application_steps_hi": [
+      "किसी भी फ़ोन से 14416 या 1-800-891-4416 डायल करें (मुफ्त, 24x7)।",
+      "पूछे जाने पर अपनी भाषा चुनें।",
+      "परामर्शदाता से बात करें — चाहें तो गुमनाम।",
+      "अगर ज़रूरी हो तो परामर्शदाता आपको वीडियो कॉल पर मनोचिकित्सक से जोड़ देगा।"
+    ],
+    "helpline": "14416 / 1-800-891-4416",
+    "timeline_en": "Available immediately, 24x7.",
+    "timeline_hi": "तुरंत मौजूद, 24x7।",
+    "has_online_application": false,
+    "eligibility": {
+      "gender": "any", "min_age": null, "max_age": null,
+      "marital_status": null, "pregnancy_status": null,
+      "num_children_min": null, "num_children_max": null,
+      "income_max_annual": null, "income_max_monthly": null,
+      "rural_only": false, "states": "all",
+      "conditions": ["any_person_in_distress"],
+      "occupation_excluded": [], "occupation_included": [], "caste_categories": []
+    },
+    "documents_required": ["None — completely free and anonymous"],
+    "documents_required_hi": ["कोई काग़ज़ नहीं चाहिए — पूरी तरह मुफ्त और गुमनाम"],
+    "how_to_apply": "Just dial 14416 from any phone, 24x7.",
+    "how_to_apply_hi": "किसी भी फ़ोन से 14416 डायल करें, 24x7।",
+    "official_link": "https://telemanas.mohfw.gov.in",
+    "verified": true
+  },
+  {
+    "scheme_id": "pmsma",
+    "scheme_name": "Pradhan Mantri Surakshit Matritva Abhiyan (PMSMA)",
+    "scheme_name_hi": "प्रधानमंत्री सुरक्षित मातृत्व अभियान",
+    "ministry": "Ministry of Health and Family Welfare",
+    "category": ["pregnancy", "maternity", "free_check_up"],
+    "benefit_summary_en": "Free comprehensive antenatal check-up for pregnant women on the 9th of every month at all government health facilities — by an OB-GYN specialist where available.",
+    "benefit_summary_hi": "हर महीने की 9 तारीख़ को सरकारी अस्पतालों में गर्भवती महिलाओं की मुफ्त पूरी जाँच — जहाँ मौजूद हो वहाँ स्त्री रोग विशेषज्ञ से।",
+    "benefit_details_en": [
+      "Free antenatal check-up on the 9th of every month at every government health facility.",
+      "Includes blood pressure, weight, urine test, blood test (Hb, blood group, HIV, syphilis), ultrasound where available.",
+      "Free iron-folic acid and calcium supplements.",
+      "Identifies high-risk pregnancies and schedules follow-up."
+    ],
+    "benefit_details_hi": [
+      "हर महीने की 9 तारीख़ को हर सरकारी स्वास्थ्य केंद्र पर मुफ्त गर्भावस्था जाँच।",
+      "ब्लड प्रेशर, वज़न, पेशाब और ख़ून की जाँच (Hb, ब्लड ग्रुप, HIV, सिफलिस), जहाँ मौजूद हो वहाँ अल्ट्रासाउंड।",
+      "मुफ्त आयरन-फ़ोलिक एसिड और कैल्शियम की गोलियाँ।",
+      "जो गर्भावस्था ख़तरे में होती है उसे पहचान कर अगली जाँच तय करते हैं।"
+    ],
+    "eligibility_lines_en": [
+      "You are pregnant in your 2nd or 3rd trimester (after the 4th month).",
+      "Available to all pregnant women — no income, age, or other criteria.",
+      "Visit any government health facility on the 9th of any month."
+    ],
+    "eligibility_lines_hi": [
+      "आप दूसरी या तीसरी तिमाही में हैं (4 महीने के बाद)।",
+      "हर गर्भवती महिला के लिए मौजूद — आय, उम्र या कोई और शर्त नहीं।",
+      "किसी भी सरकारी स्वास्थ्य केंद्र पर महीने की 9 तारीख़ को जाएं।"
+    ],
+    "application_steps_en": [
+      "On the 9th of any month, walk in to your nearest government health facility (PHC / CHC / district hospital).",
+      "Bring your MCP (Mother and Child Protection) card — get a new one if you don't have it.",
+      "Free check-up + lab tests + ultrasound (where available).",
+      "Collect free supplements; follow-up date will be given."
+    ],
+    "application_steps_hi": [
+      "किसी भी महीने की 9 तारीख़ को अपने पास के सरकारी स्वास्थ्य केंद्र (PHC / CHC / ज़िला अस्पताल) जाएं।",
+      "अपना MCP (मातृ एवं शिशु सुरक्षा) कार्ड साथ ले जाएं — नहीं है तो वहीं बनवाएं।",
+      "मुफ्त जाँच, लैब टेस्ट और अल्ट्रासाउंड (जहाँ मौजूद हो)।",
+      "मुफ्त गोलियाँ लें; अगली जाँच की तारीख़ बताई जाएगी।"
+    ],
+    "helpline": "104 (Health) / 181 (Women)",
+    "timeline_en": "Same-day check-up; high-risk cases get scheduled follow-up.",
+    "timeline_hi": "उसी दिन जाँच; ख़तरे वाली स्थिति में अगली जाँच तय कर दी जाती है।",
+    "has_online_application": false,
+    "eligibility": {
+      "gender": "female", "min_age": null, "max_age": null,
+      "marital_status": null, "pregnancy_status": "pregnant",
+      "num_children_min": null, "num_children_max": null,
+      "income_max_annual": null, "income_max_monthly": null,
+      "rural_only": false, "states": "all",
+      "conditions": ["pregnant_2nd_or_3rd_trimester"],
+      "occupation_excluded": [], "occupation_included": [], "caste_categories": []
+    },
+    "documents_required": ["MCP card", "Aadhaar (helpful but not mandatory)"],
+    "documents_required_hi": ["MCP कार्ड", "आधार (मदद के लिए, ज़रूरी नहीं)"],
+    "how_to_apply": "Walk in on the 9th of any month to a government health facility.",
+    "how_to_apply_hi": "महीने की 9 तारीख़ को सरकारी स्वास्थ्य केंद्र पर सीधे जाएं।",
+    "official_link": "https://nhm.gov.in/index1.php?lang=1&level=3&lid=689&sublinkid=1308",
+    "verified": true
+  },
+  {
+    "scheme_id": "day_nrlm",
+    "scheme_name": "Deendayal Antyodaya Yojana — National Rural Livelihoods Mission (DAY-NRLM)",
+    "scheme_name_hi": "दीनदयाल अंत्योदय योजना — राष्ट्रीय ग्रामीण आजीविका मिशन",
+    "ministry": "Ministry of Rural Development",
+    "category": ["women", "rural", "shg", "credit", "skill"],
+    "benefit_summary_en": "Forms women's Self-Help Groups (SHGs) in villages, gives them seed money (Revolving Fund ₹15K), bigger working capital (Community Investment Fund ₹2.5L), and bank loans at 4–7% interest. Foundation of Lakhpati Didi.",
+    "benefit_summary_hi": "गाँवों में महिला स्वयं मदद समूह (SHG) बनाता है — शुरुआत में ₹15,000 (रिवॉल्विंग फंड), फिर ₹2.5 लाख का कम्युनिटी इन्वेस्टमेंट फंड, और 4 से 7% ब्याज पर बैंक लोन। लखपति दीदी की नींव।",
+    "benefit_details_en": [
+      "Revolving Fund: ₹15,000 grant to each SHG after 3 months of regular savings.",
+      "Community Investment Fund (CIF): up to ₹2.5 lakh for collective enterprise activities.",
+      "Bank loans at 4% (rural) / 7% (general) effective interest with subvention.",
+      "Free training in livelihood activities, financial literacy, group management.",
+      "Bank Sakhi posted in every village to help SHG-bank linkages."
+    ],
+    "benefit_details_hi": [
+      "रिवॉल्विंग फंड: 3 महीने नियमित बचत के बाद हर SHG को ₹15,000 का अनुदान।",
+      "कम्युनिटी इन्वेस्टमेंट फंड (CIF): सामूहिक कारोबार के लिए ₹2.5 लाख तक।",
+      "ब्याज छूट के बाद बैंक लोन पर 4% (ग्रामीण) / 7% (सामान्य) असली ब्याज।",
+      "कमाई के काम, पैसों की समझ, और समूह चलाने की मुफ्त ट्रेनिंग।",
+      "हर गाँव में बैंक सखी, ताकि SHG को बैंक से आसानी से लोन मिले।"
+    ],
+    "eligibility_lines_en": [
+      "Rural household; any woman 18+ from a poor / vulnerable household.",
+      "Form or join an SHG of 10–20 women.",
+      "Available in all states implementing DAY-NRLM."
+    ],
+    "eligibility_lines_hi": [
+      "ग्रामीण परिवार; ग़रीब / कमज़ोर परिवार की 18+ कोई भी महिला।",
+      "10 से 20 महिलाओं का SHG बनाएं या उसमें जुड़ें।",
+      "सभी DAY-NRLM लागू राज्यों में मौजूद।"
+    ],
+    "application_steps_en": [
+      "Approach the Bank Sakhi or Cluster Coordinator in your village.",
+      "Form an SHG with 10–20 women neighbours; start regular savings.",
+      "After 3 months of savings, apply for the Revolving Fund.",
+      "Through SHG, apply for credit linkage with the bank for individual / group enterprise."
+    ],
+    "application_steps_hi": [
+      "अपने गाँव की बैंक सखी या क्लस्टर समन्वयक से मिलें।",
+      "10 से 20 आसपास की महिलाओं के साथ SHG बनाएं; नियमित बचत शुरू करें।",
+      "3 महीने की बचत के बाद रिवॉल्विंग फंड के लिए अर्ज़ी दीजिए।",
+      "SHG के ज़रिए व्यक्तिगत / सामूहिक कारोबार के लिए बैंक लोन की अर्ज़ी दीजिए।"
+    ],
+    "helpline": "Local Bank Sakhi / Block NRLM Office",
+    "timeline_en": "SHG formation: 1–2 weeks; Revolving Fund: 3 months later; CIF / bank loan: 6+ months.",
+    "timeline_hi": "SHG बनना: 1 से 2 हफ्ते; रिवॉल्विंग फंड: 3 महीने बाद; CIF / बैंक लोन: 6 महीने बाद।",
+    "has_online_application": false,
+    "eligibility": {
+      "gender": "female", "min_age": 18, "max_age": null,
+      "marital_status": null, "pregnancy_status": null,
+      "num_children_min": null, "num_children_max": null,
+      "income_max_annual": null, "income_max_monthly": null,
+      "rural_only": true, "states": "all",
+      "conditions": ["poor_vulnerable_rural_household", "shg_member_or_willing_to_form"],
+      "occupation_excluded": [], "occupation_included": [], "caste_categories": []
+    },
+    "documents_required": ["Aadhaar", "Address proof", "Photograph", "SHG resolution (after joining)"],
+    "documents_required_hi": ["आधार", "पते का सबूत", "फ़ोटो", "SHG प्रस्ताव (शामिल होने के बाद)"],
+    "how_to_apply": "Approach Bank Sakhi or Block NRLM Office to form / join an SHG.",
+    "how_to_apply_hi": "बैंक सखी या ब्लॉक NRLM दफ्तर से मिलें — SHG बनाएं या उसमें जुड़ें।",
+    "official_link": "https://nrlm.gov.in/outerReportAction.do?methodName=showIndex",
+    "verified": true
+  },
+  {
+    "scheme_id": "day_nulm",
+    "scheme_name": "Deendayal Antyodaya Yojana — National Urban Livelihoods Mission (DAY-NULM)",
+    "scheme_name_hi": "दीनदयाल अंत्योदय योजना — राष्ट्रीय शहरी आजीविका मिशन",
+    "ministry": "Ministry of Housing and Urban Affairs",
+    "category": ["women", "urban", "credit", "skill", "self_employment"],
+    "benefit_summary_en": "Urban version of NRLM: skill training, individual loans up to ₹2 lakh, group loans up to ₹10 lakh — at 7% interest with subsidy. Special focus on urban poor women SHGs.",
+    "benefit_summary_hi": "NRLM का शहरी संस्करण: हुनर ट्रेनिंग, व्यक्तिगत लोन ₹2 लाख तक, सामूहिक लोन ₹10 लाख तक — 7% ब्याज (सब्सिडी के साथ)। शहरी ग़रीब महिला SHG पर ख़ास ध्यान।",
+    "benefit_details_en": [
+      "Self-Employment Programme (SEP) loans: ₹2 lakh individual / ₹10 lakh group.",
+      "7% effective interest after 5–7% interest subsidy by govt.",
+      "Free skill training (200+ hours) in market-linked trades.",
+      "Urban shelters for the homeless under SUH component.",
+      "Street-vendor support (now under PM-SVANidhi)."
+    ],
+    "benefit_details_hi": [
+      "स्व-रोज़गार लोन (SEP): व्यक्तिगत ₹2 लाख / सामूहिक ₹10 लाख।",
+      "5 से 7% सरकारी सब्सिडी के बाद असली ब्याज 7%।",
+      "बाज़ार से जुड़े धंधों में 200+ घंटे की मुफ्त हुनर ट्रेनिंग।",
+      "बेघर लोगों के लिए शहरी आश्रय (SUH घटक के तहत)।",
+      "रेहड़ी-पटरी वालों को PM-SVANidhi के तहत मदद।"
+    ],
+    "eligibility_lines_en": [
+      "You live in an urban / town area and are 18+.",
+      "Annual household income below the state-defined urban poverty line.",
+      "Indian citizen with bank account."
+    ],
+    "eligibility_lines_hi": [
+      "आप शहर / क़स्बे में रहती हैं और उम्र 18+ है।",
+      "परिवार की साल भर की कमाई राज्य की शहरी ग़रीबी रेखा से नीचे है।",
+      "भारतीय नागरिक जिसके पास बैंक खाता है।"
+    ],
+    "application_steps_en": [
+      "Visit the City Mission Management Unit (CMMU) at your municipality / corporation office.",
+      "Apply through the State Urban Livelihoods Mission portal where available.",
+      "Complete skill training (if applicable) before SEP loan.",
+      "Bank disburses loan after CMMU recommendation; subsidy auto-credited."
+    ],
+    "application_steps_hi": [
+      "अपने नगर निगम / नगरपालिका के City Mission Management Unit (CMMU) में जाएं।",
+      "जहाँ मौजूद हो वहाँ राज्य शहरी आजीविका मिशन के पोर्टल से अर्ज़ी।",
+      "SEP लोन से पहले (यदि लागू हो) हुनर ट्रेनिंग पूरी करें।",
+      "CMMU की सिफ़ारिश के बाद बैंक लोन देता है; सब्सिडी अपने आप जुड़ती है।"
+    ],
+    "helpline": "Local CMMU / 1916 (state helpline varies)",
+    "timeline_en": "Training: 1–3 months; loan disbursal: 30–60 days post-recommendation.",
+    "timeline_hi": "ट्रेनिंग: 1 से 3 महीने; सिफ़ारिश के बाद 30 से 60 दिन में लोन।",
+    "has_online_application": false,
+    "eligibility": {
+      "gender": "any", "min_age": 18, "max_age": null,
+      "marital_status": null, "pregnancy_status": null,
+      "num_children_min": null, "num_children_max": null,
+      "income_max_annual": null, "income_max_monthly": null,
+      "rural_only": false, "states": "all",
+      "conditions": ["urban_household", "below_state_urban_poverty_line"],
+      "occupation_excluded": [], "occupation_included": [], "caste_categories": []
+    },
+    "documents_required": ["Aadhaar", "Income certificate / BPL card", "Address proof", "Photograph", "Bank passbook"],
+    "documents_required_hi": ["आधार", "आय प्रमाण पत्र / BPL कार्ड", "पते का सबूत", "फ़ोटो", "बैंक पासबुक"],
+    "how_to_apply": "Apply at CMMU in your municipality or via state urban livelihoods portal.",
+    "how_to_apply_hi": "नगर निगम के CMMU में या राज्य शहरी आजीविका पोर्टल से अर्ज़ी दीजिए।",
+    "official_link": "https://nulm.gov.in",
+    "verified": true
+  },
+  {
+    "scheme_id": "pmegp",
+    "scheme_name": "Prime Minister's Employment Generation Programme (PMEGP)",
+    "scheme_name_hi": "प्रधानमंत्री रोज़गार सृजन कार्यक्रम",
+    "ministry": "Ministry of MSME / KVIC",
+    "category": ["women", "entrepreneurship", "loan", "rural", "manufacturing"],
+    "benefit_summary_en": "Loan-cum-subsidy for setting up a new manufacturing unit (up to ₹50 lakh) or service unit (up to ₹20 lakh). Rural women get 35% margin-money subsidy; urban women get 25%.",
+    "benefit_summary_hi": "नया निर्माण कारख़ाना (₹50 लाख तक) या सेवा यूनिट (₹20 लाख तक) शुरू करने के लिए लोन और सब्सिडी। ग्रामीण महिलाओं को 35% मार्जिन मनी सब्सिडी; शहरी महिलाओं को 25%।",
+    "benefit_details_en": [
+      "Project cost: up to ₹50 lakh (manufacturing) / ₹20 lakh (services).",
+      "Margin money subsidy: 35% rural women, 25% urban women, 25% rural general, 15% urban general.",
+      "Beneficiary contribution: 5% (special category) or 10% (general).",
+      "Loan tenure 3–7 years from PSB / RRB / Cooperative / SFB.",
+      "Mandatory 2-week EDP (Entrepreneurship Development Programme) training."
+    ],
+    "benefit_details_hi": [
+      "प्रोजेक्ट लागत: निर्माण ₹50 लाख तक, सेवा ₹20 लाख तक।",
+      "मार्जिन मनी सब्सिडी: ग्रामीण महिलाएँ 35%, शहरी महिलाएँ 25%, ग्रामीण सामान्य 25%, शहरी सामान्य 15%।",
+      "आपका अपना हिस्सा: ख़ास श्रेणी 5%, सामान्य 10%।",
+      "PSB / RRB / सहकारी / SFB बैंक से 3 से 7 साल का लोन।",
+      "2 हफ्ते की EDP (उद्यमिता विकास) ट्रेनिंग ज़रूरी।"
+    ],
+    "eligibility_lines_en": [
+      "You are 18+ and starting a new (greenfield) manufacturing or service unit.",
+      "8th-pass or above for projects above ₹10 lakh.",
+      "Self-help groups, cooperatives, registered trusts also eligible.",
+      "Have not availed PMEGP earlier."
+    ],
+    "eligibility_lines_hi": [
+      "आप 18+ की हैं और नया (पहली बार वाला) निर्माण या सेवा का धंधा शुरू कर रही हैं।",
+      "₹10 लाख से ऊपर के प्रोजेक्ट के लिए 8वीं पास।",
+      "SHG, सहकारी, रजिस्टर्ड ट्रस्ट भी पात्र।",
+      "पहले PMEGP का लाभ नहीं लिया है।"
+    ],
+    "application_steps_en": [
+      "Apply online at kviconline.gov.in/pmegpeportal — Aadhaar OTP based.",
+      "Upload project report, photo, address proof, education certificate.",
+      "Application reviewed by district / state task force.",
+      "On approval, attend EDP training; bank disburses loan; subsidy locked-in."
+    ],
+    "application_steps_hi": [
+      "kviconline.gov.in/pmegpeportal पर ऑनलाइन अर्ज़ी दीजिए — आधार OTP से।",
+      "प्रोजेक्ट रिपोर्ट, फ़ोटो, पते का सबूत और शिक्षा का प्रमाण अपलोड करें।",
+      "ज़िला / राज्य की टास्क फोर्स अर्ज़ी जाँचती है।",
+      "मंज़ूरी पर EDP ट्रेनिंग करें; बैंक लोन देता है; सब्सिडी रिज़र्व हो जाती है।"
+    ],
+    "helpline": "1800-3000-0034",
+    "timeline_en": "Approval: 60–90 days; loan disbursal post-EDP: another 30 days.",
+    "timeline_hi": "मंज़ूरी: 60 से 90 दिन; EDP के बाद लोन: और 30 दिन।",
+    "has_online_application": true,
+    "eligibility": {
+      "gender": "any", "min_age": 18, "max_age": null,
+      "marital_status": null, "pregnancy_status": null,
+      "num_children_min": null, "num_children_max": null,
+      "income_max_annual": null, "income_max_monthly": null,
+      "rural_only": false, "states": "all",
+      "conditions": ["greenfield_first_time_entrepreneur", "8th_pass_for_projects_above_10_lakh"],
+      "occupation_excluded": [], "occupation_included": ["entrepreneur"], "caste_categories": []
+    },
+    "documents_required": ["Aadhaar", "PAN", "Project report", "Education certificate (8th+ for projects above ₹10L)", "Caste / minority certificate (if applicable)", "Address proof"],
+    "documents_required_hi": ["आधार", "पैन", "प्रोजेक्ट रिपोर्ट", "शिक्षा का प्रमाण (₹10 लाख से ऊपर के प्रोजेक्ट के लिए 8वीं+)", "जाति / अल्पसंख्यक प्रमाण पत्र (अगर लागू)", "पते का सबूत"],
+    "how_to_apply": "Apply online at kviconline.gov.in/pmegpeportal.",
+    "how_to_apply_hi": "kviconline.gov.in/pmegpeportal पर ऑनलाइन अर्ज़ी दीजिए।",
+    "official_link": "https://www.kviconline.gov.in/pmegpeportal",
+    "verified": true
+  },
+  {
+    "scheme_id": "pmkvy",
+    "scheme_name": "Pradhan Mantri Kaushal Vikas Yojana 4.0 (PMKVY)",
+    "scheme_name_hi": "प्रधानमंत्री कौशल विकास योजना 4.0",
+    "ministry": "Ministry of Skill Development & Entrepreneurship",
+    "category": ["skill", "training", "youth", "free", "certificate"],
+    "benefit_summary_en": "Free short-term skill training (3–12 months) in 400+ market-linked job roles, with stipend during training and a Skill India certificate at the end. Special focus on women, SC/ST, and rural youth.",
+    "benefit_summary_hi": "400+ बाज़ार से जुड़े काम के लिए मुफ्त छोटी अवधि की हुनर ट्रेनिंग (3 से 12 महीने), ट्रेनिंग के दौरान वज़ीफ़ा और अंत में स्किल इंडिया सर्टिफिकेट। महिलाओं, SC/ST और ग्रामीण युवाओं पर ख़ास ध्यान।",
+    "benefit_details_en": [
+      "Free training in 400+ job roles — beauty, healthcare, retail, garment, electronics, IT, etc.",
+      "Daily stipend during training (varies by sector).",
+      "Free training kit, books, uniform.",
+      "Skill India certificate recognised by employers and for further studies.",
+      "Placement assistance after course completion."
+    ],
+    "benefit_details_hi": [
+      "400+ कामों में मुफ्त ट्रेनिंग — ब्यूटी, स्वास्थ्य, खुदरा, कपड़ा, इलेक्ट्रॉनिक्स, IT आदि।",
+      "ट्रेनिंग के दौरान रोज़ाना वज़ीफ़ा (क्षेत्र के हिसाब से)।",
+      "मुफ्त ट्रेनिंग किट, किताबें, यूनिफॉर्म।",
+      "स्किल इंडिया सर्टिफिकेट जो कंपनियाँ और आगे की पढ़ाई दोनों मानती हैं।",
+      "कोर्स पूरा होने पर नौकरी ढूँढने में मदद।"
+    ],
+    "eligibility_lines_en": [
+      "Indian citizen, age 15–45 (varies by course).",
+      "Out-of-school / out-of-job youth preferred.",
+      "Specific job roles may have minimum education (8th / 10th)."
+    ],
+    "eligibility_lines_hi": [
+      "भारतीय नागरिक, उम्र 15 से 45 (कोर्स के हिसाब से)।",
+      "स्कूल / नौकरी से बाहर के युवाओं को प्राथमिकता।",
+      "कुछ कोर्स में कम से कम पढ़ाई (8वीं / 10वीं) ज़रूरी।"
+    ],
+    "application_steps_en": [
+      "Open skillindiadigital.gov.in and create a Skill India profile.",
+      "Search courses by your interest / location; check the training centre near you.",
+      "Register for the chosen course; admission after a brief screening.",
+      "Attend training; pass assessment; receive certificate + placement support."
+    ],
+    "application_steps_hi": [
+      "skillindiadigital.gov.in पर जाएं और स्किल इंडिया प्रोफ़ाइल बनाएं।",
+      "अपनी रुचि / जगह से कोर्स ढूंढें; पास का ट्रेनिंग केंद्र देखें।",
+      "चुने हुए कोर्स के लिए रजिस्टर करें; छोटी सी जाँच के बाद दाख़िला।",
+      "ट्रेनिंग पूरी करें; परीक्षा पास करें; सर्टिफिकेट और नौकरी की मदद मिलती है।"
+    ],
+    "helpline": "1800-123-9626 (Skill India)",
+    "timeline_en": "Course duration: 3–12 months depending on job role.",
+    "timeline_hi": "कोर्स की अवधि: काम के हिसाब से 3 से 12 महीने।",
+    "has_online_application": true,
+    "eligibility": {
+      "gender": "any", "min_age": 15, "max_age": 45,
+      "marital_status": null, "pregnancy_status": null,
+      "num_children_min": null, "num_children_max": null,
+      "income_max_annual": null, "income_max_monthly": null,
+      "rural_only": false, "states": "all",
+      "conditions": ["indian_citizen", "out_of_school_or_out_of_job_preferred"],
+      "occupation_excluded": [], "occupation_included": [], "caste_categories": []
+    },
+    "documents_required": ["Aadhaar", "Education certificate (last passed)", "Bank passbook", "Photograph"],
+    "documents_required_hi": ["आधार", "शिक्षा का प्रमाण (आख़िरी पास की कक्षा का)", "बैंक पासबुक", "फ़ोटो"],
+    "how_to_apply": "Register at skillindiadigital.gov.in and choose a course.",
+    "how_to_apply_hi": "skillindiadigital.gov.in पर रजिस्टर करें और कोर्स चुनें।",
+    "official_link": "https://www.skillindiadigital.gov.in/login",
+    "verified": true
+  },
+  {
+    "scheme_id": "ddu_gky",
+    "scheme_name": "Deendayal Upadhyaya Grameen Kaushalya Yojana (DDU-GKY)",
+    "scheme_name_hi": "दीनदयाल उपाध्याय ग्रामीण कौशल्य योजना",
+    "ministry": "Ministry of Rural Development",
+    "category": ["skill", "rural", "youth", "placement", "free"],
+    "benefit_summary_en": "Free 3–12 month residential skill training for rural youth from poor households, with guaranteed placement in a paid job at the end. Special drive for women.",
+    "benefit_summary_hi": "ग़रीब परिवारों के ग्रामीण युवाओं के लिए मुफ्त 3 से 12 महीने की आवासीय हुनर ट्रेनिंग — साथ ही कोर्स के बाद नौकरी की पक्की जगह। महिलाओं के लिए ख़ास अभियान।",
+    "benefit_details_en": [
+      "Free residential training (food + lodging) at PIA centres.",
+      "Placement in a job paying at least ₹6,000/month after course completion.",
+      "₹1,000 / month post-placement support for 2 years.",
+      "Travel reimbursement to attend the training centre.",
+      "Domain training in 250+ trades — IT, BPO, retail, healthcare, garment, etc."
+    ],
+    "benefit_details_hi": [
+      "PIA केंद्रों में मुफ्त आवासीय ट्रेनिंग (खाना + रहना)।",
+      "कोर्स के बाद कम से कम ₹6,000/महीना की नौकरी की पक्की जगह।",
+      "नौकरी मिलने के बाद 2 साल तक ₹1,000/महीना की मदद।",
+      "ट्रेनिंग केंद्र पहुँचने का यात्रा ख़र्च भी मिलता है।",
+      "250+ कामों में ट्रेनिंग — IT, BPO, खुदरा, स्वास्थ्य, कपड़ा आदि।"
+    ],
+    "eligibility_lines_en": [
+      "Rural youth, age 15–35 (45 for women / SC / ST / PwD).",
+      "From a household enrolled in DAY-NRLM SHG / SECC list / BPL list.",
+      "Out of school or unemployed."
+    ],
+    "eligibility_lines_hi": [
+      "ग्रामीण युवा, उम्र 15 से 35 (महिलाओं / SC / ST / दिव्यांगों के लिए 45 तक)।",
+      "DAY-NRLM SHG / SECC सूची / BPL सूची में आने वाले परिवार से।",
+      "स्कूल से बाहर या बेरोज़गार।"
+    ],
+    "application_steps_en": [
+      "Approach the Block / District NRLM Office or your village's Bank Sakhi.",
+      "Or visit a Project Implementing Agency (PIA) / Skill India training centre nearby.",
+      "Mobilization team enrols you for a suitable course.",
+      "Free training begins; placement is mandated by the PIA."
+    ],
+    "application_steps_hi": [
+      "ब्लॉक / ज़िला NRLM दफ्तर या गाँव की बैंक सखी से संपर्क करें।",
+      "या पास के Project Implementing Agency (PIA) / स्किल इंडिया ट्रेनिंग केंद्र जाएं।",
+      "मोबिलाइज़ेशन टीम आपको ज़रूरत के कोर्स में लिखती है।",
+      "मुफ्त ट्रेनिंग शुरू; PIA को आपकी नौकरी दिलाना ज़रूरी।"
+    ],
+    "helpline": "Local Block NRLM Office / 1800-123-9626",
+    "timeline_en": "Course: 3–12 months; placement before course end.",
+    "timeline_hi": "कोर्स: 3 से 12 महीने; कोर्स ख़त्म होने से पहले नौकरी की जगह तय।",
+    "has_online_application": false,
+    "eligibility": {
+      "gender": "any", "min_age": 15, "max_age": 45,
+      "marital_status": null, "pregnancy_status": null,
+      "num_children_min": null, "num_children_max": null,
+      "income_max_annual": null, "income_max_monthly": null,
+      "rural_only": true, "states": "all",
+      "conditions": ["rural_poor_household", "shg_or_secc_or_bpl"],
+      "occupation_excluded": [], "occupation_included": [], "caste_categories": []
+    },
+    "documents_required": ["Aadhaar", "SHG / SECC / BPL membership", "Education certificate", "Photograph"],
+    "documents_required_hi": ["आधार", "SHG / SECC / BPL में सदस्यता", "शिक्षा का प्रमाण", "फ़ोटो"],
+    "how_to_apply": "Approach Block NRLM Office or PIA training centre nearby.",
+    "how_to_apply_hi": "ब्लॉक NRLM दफ्तर या पास के PIA ट्रेनिंग केंद्र से शुरू करें।",
+    "official_link": "https://services.india.gov.in/service/detail/kaushal-panjee-ddu-gky--skill-register-portal",
+    "verified": true
+  },
+  {
+    "scheme_id": "up_kanya_sumangala",
+    "scheme_name": "UP Mukhyamantri Kanya Sumangala Yojana",
+    "scheme_name_hi": "उत्तर प्रदेश मुख्यमंत्री कन्या सुमंगला योजना",
+    "ministry": "UP Department of Women Welfare",
+    "category": ["girl_child", "state_scheme", "uttar_pradesh", "education", "cash_benefit"],
+    "benefit_summary_en": "₹25,000 total cash benefit for a girl child in UP, paid in 6 installments — at birth, after 1-year vaccination, on Class 1, Class 6, Class 9, and Class 12 / college admission.",
+    "benefit_summary_hi": "उत्तर प्रदेश में बेटी के लिए कुल ₹25,000 की नकद मदद, 6 बार में — जन्म पर, 1 साल के टीके के बाद, कक्षा 1, कक्षा 6, कक्षा 9, और कक्षा 12 / कॉलेज में दाख़िले पर।",
+    "benefit_details_en": [
+      "₹5,000 at birth.",
+      "₹2,000 after first-year complete vaccination.",
+      "₹3,000 on Class 1 admission.",
+      "₹3,000 on Class 6 admission.",
+      "₹5,000 on Class 9 admission.",
+      "₹7,000 on Class 12 / 2-year diploma / graduation admission."
+    ],
+    "benefit_details_hi": [
+      "जन्म पर ₹5,000।",
+      "1 साल के पूरे टीकाकरण के बाद ₹2,000।",
+      "कक्षा 1 में दाख़िले पर ₹3,000।",
+      "कक्षा 6 में दाख़िले पर ₹3,000।",
+      "कक्षा 9 में दाख़िले पर ₹5,000।",
+      "कक्षा 12 / 2-साल डिप्लोमा / स्नातक में दाख़िले पर ₹7,000।"
+    ],
+    "eligibility_lines_en": [
+      "Girl child resident of Uttar Pradesh.",
+      "Family annual income ≤ ₹3 lakh.",
+      "Maximum 2 girls per family (3 if twin / triplet at second birth).",
+      "Aadhaar of mother / guardian + girl required."
+    ],
+    "eligibility_lines_hi": [
+      "बेटी उत्तर प्रदेश की निवासी हो।",
+      "परिवार की साल भर की कमाई ₹3 लाख तक।",
+      "एक परिवार में ज़्यादा से ज़्यादा 2 बेटियाँ (दूसरी बार जुड़वाँ हो तो 3)।",
+      "माँ / अभिभावक + बेटी का आधार ज़रूरी।"
+    ],
+    "application_steps_en": [
+      "Open mksy.up.gov.in and click 'Citizen Service Portal'.",
+      "Register with mobile, OTP, and create login.",
+      "Fill the application form with Aadhaar, income certificate, address.",
+      "Upload girl's birth certificate / vaccination card / school admission letter (whichever stage applies).",
+      "Application reviewed by Block / District; benefit credited via DBT."
+    ],
+    "application_steps_hi": [
+      "mksy.up.gov.in खोलें और 'Citizen Service Portal' पर क्लिक करें।",
+      "मोबाइल, OTP से रजिस्टर करें और लॉगिन बनाएं।",
+      "आधार, आय प्रमाण पत्र और पते के साथ फॉर्म भरें।",
+      "बेटी का जन्म प्रमाण पत्र / टीका कार्ड / स्कूल दाख़िले की चिट्ठी अपलोड करें।",
+      "ब्लॉक / ज़िला जाँच के बाद DBT से रक़म आती है।"
+    ],
+    "helpline": "0522-2210008 / 18001805131",
+    "timeline_en": "Each installment credited within 60 days of approval.",
+    "timeline_hi": "हर किस्त मंज़ूरी के 60 दिन में आ जाती है।",
+    "has_online_application": true,
+    "eligibility": {
+      "gender": "female", "min_age": 0, "max_age": 21,
+      "marital_status": null, "pregnancy_status": null,
+      "num_children_min": null, "num_children_max": 2,
+      "income_max_annual": 300000, "income_max_monthly": null,
+      "rural_only": false, "states": ["Uttar Pradesh"],
+      "conditions": ["resident_of_uttar_pradesh", "girl_child"],
+      "occupation_excluded": [], "occupation_included": [], "caste_categories": []
+    },
+    "documents_required": ["Girl's birth certificate", "Mother / guardian Aadhaar", "Income certificate (≤ ₹3L)", "UP residence proof", "Bank passbook (Aadhaar-linked)"],
+    "documents_required_hi": ["बेटी का जन्म प्रमाण पत्र", "माँ / अभिभावक का आधार", "आय प्रमाण पत्र (₹3 लाख तक)", "UP निवास का सबूत", "आधार से जुड़ी बैंक पासबुक"],
+    "how_to_apply": "Apply online at mksy.up.gov.in (Citizen Service Portal).",
+    "how_to_apply_hi": "mksy.up.gov.in पर ऑनलाइन अर्ज़ी दीजिए।",
+    "official_link": "https://mksy.up.gov.in/women_welfare/citizen/guest_login.php",
+    "verified": true
+  },
+  {
+    "scheme_id": "mp_ladli_laxmi",
+    "scheme_name": "MP Ladli Laxmi Yojana",
+    "scheme_name_hi": "मध्य प्रदेश लाडली लक्ष्मी योजना",
+    "ministry": "MP Department of Women & Child Development",
+    "category": ["girl_child", "state_scheme", "madhya_pradesh", "education"],
+    "benefit_summary_en": "Total benefit of ₹1,43,000 for a girl child in MP, given in cash and education aid from birth to Class 12, plus a ₹1 lakh on graduation / age 21 if unmarried before 18.",
+    "benefit_summary_hi": "मध्य प्रदेश में बेटी के लिए कुल ₹1,43,000 का लाभ — जन्म से कक्षा 12 तक नकद और शिक्षा मदद, और स्नातक / 21 साल पर ₹1 लाख (अगर 18 से पहले शादी नहीं हुई)।",
+    "benefit_details_en": [
+      "₹6,000/year for 5 years invested as National Savings Certificate at birth.",
+      "₹2,000 on Class 6 admission.",
+      "₹4,000 on Class 9 admission.",
+      "₹6,000 (₹2,000 each) in Class 11 and 12.",
+      "₹1,18,000 lump sum on age 21 if unmarried before 18 and graduated."
+    ],
+    "benefit_details_hi": [
+      "जन्म पर 5 साल के लिए ₹6,000/साल राष्ट्रीय बचत पत्र (NSC) में जमा।",
+      "कक्षा 6 में दाख़िले पर ₹2,000।",
+      "कक्षा 9 में दाख़िले पर ₹4,000।",
+      "कक्षा 11 और 12 में ₹2,000-₹2,000 (कुल ₹6,000)।",
+      "21 साल पर एकमुश्त ₹1,18,000 — अगर 18 से पहले शादी नहीं हुई हो और स्नातक हो।"
+    ],
+    "eligibility_lines_en": [
+      "Girl child resident of Madhya Pradesh.",
+      "Parents must be Income Tax non-payers.",
+      "Born after 1 April 2007.",
+      "First 2 girls per family.",
+      "Family must have an Aadhaar + Samagra ID."
+    ],
+    "eligibility_lines_hi": [
+      "बेटी मध्य प्रदेश की निवासी हो।",
+      "माँ-बाप इनकम टैक्स नहीं भरते हों।",
+      "1 अप्रैल 2007 के बाद जन्म।",
+      "एक परिवार की पहली 2 बेटियाँ।",
+      "परिवार के पास आधार + समग्र आईडी हो।"
+    ],
+    "application_steps_en": [
+      "Open ladlilaxmi.mp.gov.in → 'New Application'.",
+      "Login via Samagra ID + mobile OTP.",
+      "Fill girl's birth, Aadhaar, parents' Aadhaar; upload birth certificate.",
+      "Anganwadi / Project Officer verifies; certificate generated.",
+      "Subsequent installments need school enrolment proof at each stage."
+    ],
+    "application_steps_hi": [
+      "ladlilaxmi.mp.gov.in खोलें → 'New Application' पर क्लिक करें।",
+      "समग्र आईडी और मोबाइल OTP से लॉगिन करें।",
+      "बेटी का जन्म, आधार और माँ-बाप के आधार भरें; जन्म प्रमाण पत्र अपलोड करें।",
+      "आंगनवाड़ी / Project Officer जाँच के बाद सर्टिफिकेट जारी।",
+      "अगली बार के लिए हर स्तर पर स्कूल का दाख़िला सबूत चाहिए।"
+    ],
+    "helpline": "0755-2552603",
+    "timeline_en": "Certificate issued in 30–45 days; future installments at each milestone.",
+    "timeline_hi": "सर्टिफिकेट 30 से 45 दिन में; आगे की किस्तें हर पड़ाव पर।",
+    "has_online_application": true,
+    "eligibility": {
+      "gender": "female", "min_age": 0, "max_age": 21,
+      "marital_status": null, "pregnancy_status": null,
+      "num_children_min": null, "num_children_max": 2,
+      "income_max_annual": null, "income_max_monthly": null,
+      "rural_only": false, "states": ["Madhya Pradesh"],
+      "conditions": ["resident_of_mp", "born_after_apr_2007", "parents_not_income_tax_payers"],
+      "occupation_excluded": ["income_tax_payer"], "occupation_included": [], "caste_categories": []
+    },
+    "documents_required": ["Girl's birth certificate", "Samagra ID", "Aadhaar of girl + both parents", "MP residence proof", "Income tax non-payer self-declaration"],
+    "documents_required_hi": ["बेटी का जन्म प्रमाण पत्र", "समग्र आईडी", "बेटी + माँ-बाप का आधार", "MP निवास का सबूत", "इनकम टैक्स न भरने का स्वघोषणा पत्र"],
+    "how_to_apply": "Apply online at ladlilaxmi.mp.gov.in.",
+    "how_to_apply_hi": "ladlilaxmi.mp.gov.in पर ऑनलाइन अर्ज़ी दीजिए।",
+    "official_link": "https://ladlilaxmi.mp.gov.in/CitizenLLY/Index.aspx",
+    "verified": true
+  },
+  {
+    "scheme_id": "cbse_sgc_scholarship",
+    "scheme_name": "CBSE Merit Scholarship Scheme for Single Girl Child",
+    "scheme_name_hi": "CBSE सिंगल गर्ल चाइल्ड मेरिट छात्रवृत्ति",
+    "ministry": "Central Board of Secondary Education",
+    "category": ["girl_child", "education", "scholarship", "single_girl"],
+    "benefit_summary_en": "₹500 per month scholarship to a girl who is the only child in her family and scored 60%+ in Class 10 CBSE board. Paid for Classes 11 and 12 (24 months total).",
+    "benefit_summary_hi": "जो बेटी अपने परिवार की इकलौती संतान है और CBSE की 10वीं में 60% या ज़्यादा लाई — उसे महीने में ₹500 की छात्रवृत्ति। कक्षा 11 और 12 के लिए कुल 24 महीने।",
+    "benefit_details_en": [
+      "₹500/month for 24 months (Classes 11 and 12) — total ₹12,000.",
+      "Paid via DBT to the girl's bank account.",
+      "Renewal each year subject to good conduct + minimum attendance.",
+      "Helps with tuition, books, uniform, transport during higher secondary."
+    ],
+    "benefit_details_hi": [
+      "24 महीने (कक्षा 11 और 12) के लिए ₹500/महीना — कुल ₹12,000।",
+      "बेटी के बैंक खाते में DBT से।",
+      "हर साल नवीनीकरण — अच्छे व्यवहार और कम से कम हाज़िरी पर।",
+      "हायर सेकेंडरी में फ़ीस, किताबें, यूनिफॉर्म, यातायात के लिए मदद।"
+    ],
+    "eligibility_lines_en": [
+      "You are the only child in your family (no siblings — alive or deceased).",
+      "Passed Class 10 CBSE Board with 60% or above.",
+      "Studying Class 11 in a CBSE-affiliated school.",
+      "Tuition fee in Class 11 and 12 not more than ₹2,500/month for first year, ₹3,000 next."
+    ],
+    "eligibility_lines_hi": [
+      "आप अपने परिवार की इकलौती संतान हैं (कोई भाई-बहन नहीं — न जीवित, न पहले गुज़रा हो)।",
+      "CBSE की 10वीं 60% या ज़्यादा से पास।",
+      "CBSE से जुड़े स्कूल में 11वीं की पढ़ाई कर रही हैं।",
+      "11वीं की फ़ीस ₹2,500/महीना से कम और 12वीं की ₹3,000/महीना से कम।"
+    ],
+    "application_steps_en": [
+      "Open the CBSE Scholarship page and use the current Single Girl Child 'Apply Online' link.",
+      "Register with your CBSE roll number, school code, mobile.",
+      "Upload Aadhaar, single-girl-child affidavit (notarised), Class 10 marksheet, Class 11 fee receipt.",
+      "School principal verifies online; CBSE approves.",
+      "Scholarship credited via DBT to your bank account."
+    ],
+    "application_steps_hi": [
+      "CBSE Scholarship पेज खोलें और मौजूदा Single Girl Child 'Apply Online' लिंक इस्तेमाल करें।",
+      "CBSE रोल नंबर, स्कूल कोड और मोबाइल से रजिस्टर करें।",
+      "आधार, इकलौती बेटी का नोटरी एफ़िडेविट, 10वीं की मार्कशीट, 11वीं की फ़ीस रसीद अपलोड करें।",
+      "स्कूल का प्रिंसिपल ऑनलाइन सत्यापित करता है; CBSE मंज़ूरी देता है।",
+      "DBT से बैंक खाते में छात्रवृत्ति आती है।"
+    ],
+    "helpline": "011-22509256-59 / scholarship@cbseshiksha.in",
+    "timeline_en": "Approval in 2–3 months; first DBT credit by mid-academic year.",
+    "timeline_hi": "मंज़ूरी 2 से 3 महीने में; पहली DBT रक़म पढ़ाई के साल के बीच तक।",
+    "has_online_application": true,
+    "eligibility": {
+      "gender": "female", "min_age": 14, "max_age": 18,
+      "marital_status": null, "pregnancy_status": null,
+      "num_children_min": null, "num_children_max": null,
+      "income_max_annual": null, "income_max_monthly": null,
+      "rural_only": false, "states": "all",
+      "conditions": ["only_child_in_family", "passed_class_10_cbse_with_60_percent", "studying_in_cbse_school"],
+      "occupation_excluded": [], "occupation_included": [], "caste_categories": []
+    },
+    "documents_required": ["Aadhaar", "Single-girl-child notarised affidavit", "Class 10 marksheet (CBSE)", "Class 11 fee receipt", "Bank passbook (in girl's name)"],
+    "documents_required_hi": ["आधार", "इकलौती बेटी का नोटरी एफ़िडेविट", "CBSE 10वीं की मार्कशीट", "11वीं की फ़ीस रसीद", "बेटी के नाम की बैंक पासबुक"],
+    "how_to_apply": "Apply through the current Single Girl Child link on the CBSE Scholarship page.",
+    "how_to_apply_hi": "CBSE Scholarship पेज पर मौजूदा Single Girl Child लिंक से ऑनलाइन अर्ज़ी दीजिए।",
+    "official_link": "https://www.cbse.gov.in/cbsenew/scholar.html",
+    "verified": true
+  },
+  {
+    "scheme_id": "jal_jeevan_mission",
+    "scheme_name": "Jal Jeevan Mission (JJM)",
+    "scheme_name_hi": "जल जीवन मिशन",
+    "ministry": "Ministry of Jal Shakti",
+    "category": ["rural", "drinking_water", "household", "infrastructure"],
+    "benefit_summary_en": "A piped tap-water connection (Functional Household Tap Connection — FHTC) inside every rural home, 55 litres per person per day. No individual application — village-level rollout.",
+    "benefit_summary_hi": "हर ग्रामीण घर के अंदर नल से पानी का कनेक्शन — रोज़ प्रति व्यक्ति 55 लीटर। व्यक्तिगत अर्ज़ी नहीं — गाँव-स्तर पर लागू होती है।",
+    "benefit_details_en": [
+      "Functional Household Tap Connection (FHTC) inside the home.",
+      "55 litres of safe drinking water per person per day.",
+      "Maintenance handled by Village Water and Sanitation Committee (VWSC).",
+      "Free for SC, ST, women-headed, and BPL households; small contribution from others."
+    ],
+    "benefit_details_hi": [
+      "घर के अंदर नल का कनेक्शन (FHTC)।",
+      "हर व्यक्ति को रोज़ 55 लीटर साफ़ पीने का पानी।",
+      "रख-रखाव गाँव की पानी और सफ़ाई समिति (VWSC) करती है।",
+      "SC, ST, महिला-प्रधान और BPL परिवारों के लिए मुफ्त; बाक़ी परिवारों को थोड़ा अपना हिस्सा देना पड़ सकता है।"
+    ],
+    "eligibility_lines_en": [
+      "Your village must be selected for JJM coverage (most rural India is now covered).",
+      "Anyone with a rural household can register through the Gram Panchayat.",
+      "Tap connection given to every household — universal."
+    ],
+    "eligibility_lines_hi": [
+      "आपके गाँव को JJM के तहत चुना गया हो (अब लगभग सारा ग्रामीण भारत शामिल)।",
+      "ग्रामीण परिवार वाला कोई भी ग्राम पंचायत के ज़रिए नाम लिखवा सकता है।",
+      "हर परिवार को नल का कनेक्शन — सार्वभौमिक।"
+    ],
+    "application_steps_en": [
+      "Visit your Gram Panchayat or VWSC and ask about JJM rollout in your village.",
+      "Register your household; small contribution may be required (waived for SC/ST/BPL).",
+      "Tap is installed when the village pipeline is ready.",
+      "Water bills (small) collected by VWSC for maintenance."
+    ],
+    "application_steps_hi": [
+      "अपनी ग्राम पंचायत या VWSC में जाकर पूछें कि गाँव में JJM कब लागू हुआ है।",
+      "अपने परिवार का नाम लिखवाएं; SC/ST/BPL के अलावा थोड़ा अपना हिस्सा देना पड़ सकता है।",
+      "गाँव की पाइपलाइन तैयार होने पर आपके घर पर नल लग जाता है।",
+      "रख-रखाव के लिए VWSC छोटा-सा बिल लेती है।"
+    ],
+    "helpline": "Local Gram Panchayat / 1916",
+    "timeline_en": "Depends on village pipeline — usually 6–18 months from JJM coverage.",
+    "timeline_hi": "गाँव की पाइपलाइन पर निर्भर — आमतौर पर JJM शुरू होने के 6 से 18 महीनों में।",
+    "has_online_application": false,
+    "eligibility": {
+      "gender": "any", "min_age": 18, "max_age": null,
+      "marital_status": null, "pregnancy_status": null,
+      "num_children_min": null, "num_children_max": null,
+      "income_max_annual": null, "income_max_monthly": null,
+      "rural_only": true, "states": "all",
+      "conditions": ["rural_household_in_jjm_covered_village"],
+      "occupation_excluded": [], "occupation_included": [], "caste_categories": []
+    },
+    "documents_required": ["Aadhaar", "Address proof", "BPL / SC / ST certificate (if applicable)"],
+    "documents_required_hi": ["आधार", "पते का सबूत", "BPL / SC / ST प्रमाण पत्र (अगर लागू)"],
+    "how_to_apply": "Approach Gram Panchayat / VWSC; village-level rollout.",
+    "how_to_apply_hi": "ग्राम पंचायत / VWSC से संपर्क करें; गाँव-स्तर पर लागू होती है।",
+    "official_link": "https://ejalshakti.gov.in/jjmreport/JJMIndia.aspx",
+    "verified": true
+  },
+  {
+    "scheme_id": "sbm_g",
+    "scheme_name": "Swachh Bharat Mission — Gramin (SBM-G)",
+    "scheme_name_hi": "साफ भारत मिशन — ग्रामीण",
+    "ministry": "Ministry of Jal Shakti",
+    "category": ["rural", "sanitation", "toilet", "household"],
+    "benefit_summary_en": "₹12,000 incentive to BPL / SC / ST / small-farmer rural households to construct a household toilet (IHHL). Plus help with solid and liquid waste management.",
+    "benefit_summary_hi": "BPL / SC / ST / छोटे किसान परिवारों को घर पर शौचालय (IHHL) बनाने के लिए ₹12,000 की मदद। साथ ही ठोस और तरल कचरे का प्रबंधन।",
+    "benefit_details_en": [
+      "₹12,000 per household for IHHL construction (₹9,000 Centre + ₹3,000 state).",
+      "Money credited in 2 installments — pre-construction (₹6,000) and post-construction.",
+      "Geotagged photo proof required at each stage.",
+      "Convergence with PMAY-G when building a new pucca house."
+    ],
+    "benefit_details_hi": [
+      "घर पर शौचालय बनाने के लिए ₹12,000 प्रति परिवार (₹9,000 केंद्र + ₹3,000 राज्य)।",
+      "दो बार में — निर्माण से पहले ₹6,000 और निर्माण के बाद बाक़ी।",
+      "हर स्तर पर जियो-टैग की हुई तस्वीर का सबूत ज़रूरी।",
+      "नया पक्का घर बनाते समय PMAY-G के साथ जुड़ाव।"
+    ],
+    "eligibility_lines_en": [
+      "Rural household without an existing toilet.",
+      "BPL / SC / ST / small or marginal farmer / landless labourer / women-headed household.",
+      "Ready to construct the toilet within ~3 months of approval."
+    ],
+    "eligibility_lines_hi": [
+      "ग्रामीण परिवार जिसके पास अभी शौचालय नहीं है।",
+      "BPL / SC / ST / छोटे या सीमांत किसान / भूमिहीन मज़दूर / महिला-प्रधान परिवार।",
+      "मंज़ूरी के लगभग 3 महीने में शौचालय बनाने को तैयार।"
+    ],
+    "application_steps_en": [
+      "Visit your Gram Panchayat with documents.",
+      "Application verified by Gram Sabha; first installment of ₹6,000 released.",
+      "Construct the toilet; submit geo-tagged photo via Gram Panchayat.",
+      "Second installment released on completion verification."
+    ],
+    "application_steps_hi": [
+      "ग्राम पंचायत में काग़ज़ों के साथ जाएं।",
+      "ग्राम सभा जांच के बाद पहली किस्त ₹6,000 आती है।",
+      "शौचालय बनाएं; ग्राम पंचायत के ज़रिए जियो-टैग की तस्वीर जमा करें।",
+      "पुष्टि के बाद दूसरी किस्त आती है।"
+    ],
+    "helpline": "1969 / 1800-180-1313",
+    "timeline_en": "First installment in 30 days; second on completion (within ~3 months).",
+    "timeline_hi": "पहली किस्त 30 दिन में; दूसरी निर्माण ख़त्म होने पर (लगभग 3 महीने में)।",
+    "has_online_application": false,
+    "eligibility": {
+      "gender": "any", "min_age": 18, "max_age": null,
+      "marital_status": null, "pregnancy_status": null,
+      "num_children_min": null, "num_children_max": null,
+      "income_max_annual": null, "income_max_monthly": null,
+      "rural_only": true, "states": "all",
+      "conditions": ["rural_household_without_toilet", "bpl_or_sc_st_or_small_marginal_farmer_or_landless_or_women_headed"],
+      "occupation_excluded": [], "occupation_included": [], "caste_categories": ["SC", "ST"]
+    },
+    "documents_required": ["Aadhaar", "BPL / SC / ST / small farmer certificate", "Bank passbook (Aadhaar-linked)", "Photographs", "Self-declaration of no toilet"],
+    "documents_required_hi": ["आधार", "BPL / SC / ST / छोटे किसान का प्रमाण पत्र", "आधार से जुड़ी बैंक पासबुक", "फ़ोटो", "शौचालय न होने का स्वघोषणा"],
+    "how_to_apply": "Apply at the Gram Panchayat with documents; Gram Sabha verifies.",
+    "how_to_apply_hi": "ग्राम पंचायत में काग़ज़ों के साथ अर्ज़ी दीजिए; ग्राम सभा सत्यापित करती है।",
+    "official_link": "https://swachhbharatmission.ddws.gov.in",
+    "verified": true
+  },
+  {
+    "scheme_id": "mission_indradhanush",
+    "scheme_name": "Mission Indradhanush / Intensified Mission Indradhanush 5.0",
+    "scheme_name_hi": "मिशन इंद्रधनुष / इंटेंसिफ़ाइड मिशन इंद्रधनुष 5.0",
+    "ministry": "Ministry of Health and Family Welfare",
+    "category": ["children", "pregnancy", "immunization", "free"],
+    "benefit_summary_en": "Free immunization for all children up to 2 years and pregnant women — covers 12 vaccine-preventable diseases including polio, tuberculosis, diphtheria, measles, rubella, rotavirus, pneumonia.",
+    "benefit_summary_hi": "2 साल तक के सब बच्चों और गर्भवती महिलाओं के लिए मुफ्त टीकाकरण — पोलियो, टीबी, डिप्थीरिया, खसरा, रूबेला, रोटावायरस, न्यूमोनिया समेत 12 बीमारियों से बचाव।",
+    "benefit_details_en": [
+      "Free vaccines for 12 diseases delivered at PHCs, CHCs, district hospitals, and Anganwadi camps.",
+      "All routine childhood vaccines (BCG, OPV, IPV, DPT, Hep-B, Hib, MR, JE, etc.).",
+      "Maternal vaccines: Tetanus and Diphtheria (Td) for pregnant women.",
+      "Special drives in low-coverage areas under IMI rounds."
+    ],
+    "benefit_details_hi": [
+      "PHC, CHC, ज़िला अस्पताल और आंगनवाड़ी शिविरों पर 12 बीमारियों के मुफ्त टीके।",
+      "बच्चों के सारे टीके (BCG, OPV, IPV, DPT, Hep-B, Hib, MR, JE आदि)।",
+      "गर्भवती महिलाओं के लिए: टिटनस और डिप्थीरिया (Td) के टीके।",
+      "जहाँ टीकाकरण कम है वहाँ IMI के तहत ख़ास अभियान।"
+    ],
+    "eligibility_lines_en": [
+      "Children up to 2 years (some vaccines till 5 years).",
+      "Pregnant women (Td vaccine).",
+      "All families — universal, free."
+    ],
+    "eligibility_lines_hi": [
+      "2 साल तक के बच्चे (कुछ टीके 5 साल तक)।",
+      "गर्भवती महिलाएँ (Td टीका)।",
+      "सब परिवारों के लिए — सार्वभौमिक, मुफ्त।"
+    ],
+    "application_steps_en": [
+      "Get an MCP card at any PHC / Anganwadi.",
+      "Follow the printed vaccination schedule on the MCP card.",
+      "Visit the nearest PHC / sub-centre / Anganwadi on the scheduled date.",
+      "Vaccines administered by ANM / CHO; MCP card stamped each time."
+    ],
+    "application_steps_hi": [
+      "किसी भी PHC / आंगनवाड़ी से MCP कार्ड बनवाएं।",
+      "MCP कार्ड पर लिखी टीकाकरण की अनुसूची देखें।",
+      "तय तारीख़ पर पास के PHC / उप-केंद्र / आंगनवाड़ी जाएं।",
+      "ANM / CHO टीका लगाती हैं; हर टीके के बाद MCP कार्ड पर मोहर लगती है।"
+    ],
+    "helpline": "104 (Health) / Local ASHA / ANM",
+    "timeline_en": "All free vaccines administered as per WHO-recommended schedule.",
+    "timeline_hi": "सारे मुफ्त टीके WHO की तय अनुसूची के अनुसार लगते हैं।",
+    "has_online_application": false,
+    "eligibility": {
+      "gender": "any", "min_age": null, "max_age": 5,
+      "marital_status": null, "pregnancy_status": null,
+      "num_children_min": null, "num_children_max": null,
+      "income_max_annual": null, "income_max_monthly": null,
+      "rural_only": false, "states": "all",
+      "conditions": ["child_under_5_or_pregnant_woman"],
+      "occupation_excluded": [], "occupation_included": [], "caste_categories": []
+    },
+    "documents_required": ["MCP card (issued at the PHC / Anganwadi)"],
+    "documents_required_hi": ["MCP कार्ड (PHC / आंगनवाड़ी पर बनता है)"],
+    "how_to_apply": "Walk in to any PHC / Anganwadi with an MCP card.",
+    "how_to_apply_hi": "MCP कार्ड लेकर किसी भी PHC / आंगनवाड़ी जाएं।",
+    "official_link": "https://nhm.gov.in/index1.php?lang=1&level=2&sublinkid=824&lid=220",
+    "verified": true
+  }
+]
