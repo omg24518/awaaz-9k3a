@@ -229,17 +229,19 @@ export default function Home() {
   );
 
   const handleMicClick = useCallback(() => {
-    // Stop path takes priority — flip state to idle synchronously so the
-    // button responds instantly. Don't prime audio here (we're stopping,
-    // not about to play TTS), and don't wait for the recognizer's onend
-    // event — calling stop() returns immediately and the event will fire
-    // shortly after, but the user's click should feel instant.
-    if (micState === 'listening') {
-      recognitionRunRef.current += 1;
+    // Stop path — when actively listening (or a recognizer is alive even if
+    // React state has drifted), tap means STOP. Critically, we must NOT
+    // increment recognitionRunRef here. The recognizer's natural onEnd will
+    // fire opts.onFinal with whatever speech was captured, and submitQuery
+    // will run from there — exactly the same path as the silence-timeout
+    // auto-stop. Bumping runId in this branch invalidated those callbacks
+    // and silently dropped the user's transcript, so click-to-stop produced
+    // no result while only auto-silence-stop worked. Also avoid setting
+    // micState to 'idle' here so we don't flicker through idle on the way
+    // to 'processing'.
+    if (micState === 'listening' || recognizerRef.current) {
       recognizerRef.current?.stop();
-      recognizerRef.current = null;
       setInterimTranscript('');
-      setMicState('idle');
       return;
     }
     primeAudio();
@@ -274,7 +276,9 @@ export default function Home() {
         setTranscript(text);
         setInterimTranscript('');
         recognizerRef.current = null;
-        setMicState('idle');
+        // submitQuery sets state to 'processing' on its first line — letting
+        // it own the transition keeps a clean listening → processing → idle
+        // arc without a brief idle flicker.
         submitQuery(text);
       },
       onError: (err) => {

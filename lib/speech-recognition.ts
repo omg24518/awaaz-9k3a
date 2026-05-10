@@ -107,21 +107,42 @@ export function startRecognition(opts: StartOptions): RecognizerHandle | null {
   };
 
   recog.onresult = (e: SpeechRecognitionEvent) => {
-    let interim = '';
-    let appendedFinal = '';
-    for (let i = e.resultIndex; i < e.results.length; i++) {
+    // Rebuild the full transcript from the full results array on every event,
+    // rather than delta-appending from e.resultIndex.
+    //
+    // Web Speech API behaviour varies between platforms. Standard Chrome
+    // desktop emits one entry per phrase and advances resultIndex each event.
+    // Android Chrome sometimes emits CUMULATIVE SNAPSHOTS — each result entry
+    // contains progressively more of the speech-so-far, and resultIndex does
+    // not advance reliably. The naive delta-append pattern then re-counts
+    // every snapshot and produces duplicated transcripts like
+    // "मैं मैं मैं 15 मैं 15 साल मैं 15 साल की..." (each event adds another
+    // copy of the cumulative phrase).
+    //
+    // Dedup strategy for finalised results:
+    //   - if a new final transcript is a strict prefix-extension of the
+    //     previous one (cumulative-snapshot pattern), replace the previous
+    //   - otherwise, append (true separate-phrase pattern)
+    // For interim results, keep only the latest one in this event.
+    const finals: string[] = [];
+    let latestInterim = '';
+    for (let i = 0; i < e.results.length; i++) {
       const result = e.results[i];
-      const transcript = result[0]?.transcript || '';
+      const transcript = (result[0]?.transcript || '').trim();
+      if (!transcript) continue;
       if (result.isFinal) {
-        appendedFinal += transcript + ' ';
+        const previous = finals.length > 0 ? finals[finals.length - 1] : '';
+        if (previous && transcript.startsWith(previous)) {
+          finals[finals.length - 1] = transcript;
+        } else {
+          finals.push(transcript);
+        }
       } else {
-        interim += transcript;
+        latestInterim = transcript;
       }
     }
-    if (appendedFinal) {
-      finalText += appendedFinal;
-    }
-    const combined = (finalText + interim).trim();
+    finalText = finals.length > 0 ? finals.join(' ') + ' ' : '';
+    const combined = (finalText + latestInterim).trim();
     if (combined) opts.onInterim?.(combined);
 
     clearSilence();
