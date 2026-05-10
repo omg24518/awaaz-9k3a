@@ -1,7 +1,7 @@
 'use client';
 
 import clsx from 'clsx';
-import type { CachedResponse } from '@/lib/schemes';
+import type { CachedResponse, Language } from '@/lib/schemes';
 
 export interface SampleScenario {
   id: string;
@@ -19,18 +19,21 @@ interface SampleScenariosProps {
   scenarios: SampleScenario[];
   onSelect: (scenario: SampleScenario) => void;
   disabled?: boolean;
+  language?: Language;
 }
 
 export function SampleScenarios({
   scenarios,
   onSelect,
   disabled,
+  language = 'hi',
 }: SampleScenariosProps) {
+  const isHi = language === 'hi';
   return (
     <div className="w-full">
       <div className="ornament-rule mb-6">
         <span className="text-xs uppercase tracking-[0.28em] text-ink/55 font-serif italic font-medium">
-          एक उदाहरण चुनिए · try a sample
+          {isHi ? 'एक उदाहरण चुनिए · try a sample' : 'try a sample'}
         </span>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -56,11 +59,19 @@ export function SampleScenarios({
             >
               №{String(i + 1).padStart(2, '0')}
             </span>
-            <span className="inline-flex items-center justify-center w-8 h-8 text-[26px] mb-2.5" aria-hidden>
+            <span
+              className="inline-flex items-center justify-center w-8 h-8 text-[26px] mb-2.5"
+              aria-hidden
+            >
               {s.icon}
             </span>
-            <span className="font-hindi-serif font-normal text-ink text-base leading-snug">
-              {s.label_hi}
+            <span
+              className={clsx(
+                'font-normal text-ink text-base leading-snug',
+                isHi ? 'font-hindi-serif' : 'font-serif',
+              )}
+            >
+              {isHi ? s.label_hi : s.label_en}
             </span>
             <span className="mt-1.5 text-xs text-ink/60 leading-snug font-serif italic">
               {s.description_en}

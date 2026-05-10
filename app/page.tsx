@@ -54,6 +54,12 @@ export default function Home() {
 
   useEffect(() => {
     setVoiceUnsupported(!isSpeechRecognitionSupported());
+    // Pick up ?lang=en in the URL so coming back from a detail page in English
+    // mode keeps the homepage in English too.
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      if (params.get('lang') === 'en') setLanguage('en');
+    }
     return () => {
       recognitionRunRef.current += 1;
       recognizerRef.current?.stop();
@@ -400,6 +406,7 @@ export default function Home() {
             state={micState}
             onClick={handleMicClick}
             disabled={micState === 'processing'}
+            language={language}
           />
           <div className="h-6" aria-hidden />
           {(micState === 'listening' || micState === 'processing') &&
@@ -407,6 +414,7 @@ export default function Home() {
               <LiveTranscript
                 text={interimTranscript || transcript}
                 isInterim={!!interimTranscript}
+                language={language}
               />
             )}
           {voiceUnsupported && micState === 'idle' && !result && (
@@ -436,6 +444,7 @@ export default function Home() {
             }}
             onSubmit={handleTextSubmit}
             disabled={micState === 'processing'}
+            language={language}
           />
         </div>
 
@@ -447,12 +456,13 @@ export default function Home() {
             scenarios={scenarios}
             onSelect={handleSampleClick}
             disabled={micState === 'processing'}
+            language={language}
           />
         </div>
 
         {micState === 'processing' && (
           <div className="mt-12 w-full flex justify-center">
-            <ThinkingIndicator />
+            <ThinkingIndicator language={language} />
           </div>
         )}
 
@@ -474,7 +484,9 @@ export default function Home() {
         )}
 
         <footer className="mt-16 flex items-center gap-3 text-xs uppercase tracking-[0.28em] text-ink/40">
-          <span>आवाज़</span>
+          <span className={language === 'hi' ? 'font-hindi' : 'font-serif italic normal-case tracking-[0.18em]'}>
+            {language === 'hi' ? 'आवाज़' : 'Awaaz'}
+          </span>
           <span aria-hidden className="w-1 h-1 rounded-full bg-saffron-500/50" />
           <span className="font-serif italic normal-case tracking-[0.1em]">
             innovate@ai 2026

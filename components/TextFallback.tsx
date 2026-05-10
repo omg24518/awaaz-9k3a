@@ -1,12 +1,14 @@
 'use client';
 
 import clsx from 'clsx';
+import type { Language } from '@/lib/schemes';
 
 interface TextFallbackProps {
   value: string;
   onChange: (next: string) => void;
   onSubmit: () => void;
   disabled?: boolean;
+  language?: Language;
 }
 
 export function TextFallback({
@@ -14,6 +16,7 @@ export function TextFallback({
   onChange,
   onSubmit,
   disabled,
+  language = 'hi',
 }: TextFallbackProps) {
   const handleKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
     if (e.key === 'Enter' && !e.shiftKey) {
@@ -22,10 +25,17 @@ export function TextFallback({
     }
   };
 
+  const isHi = language === 'hi';
+  const labelText = isHi ? 'अपनी बात लिखें' : 'Type your situation';
+  const placeholder = isHi
+    ? 'अपनी बात यहाँ लिखें या नीचे एक उदाहरण चुनें'
+    : 'Type your situation here, or pick a sample below';
+  const submitAria = isHi ? 'भेजें' : 'Submit';
+
   return (
     <div className="w-full max-w-xl mx-auto">
       <label className="sr-only" htmlFor="fallback-input">
-        अपनी बात लिखें • Type your situation
+        {labelText}
       </label>
       <div
         className={clsx(
@@ -40,9 +50,10 @@ export function TextFallback({
           onKeyDown={handleKeyDown}
           disabled={disabled}
           rows={2}
-          placeholder="अपनी बात यहाँ लिखें या नीचे एक उदाहरण चुनें"
+          placeholder={placeholder}
           className={clsx(
-            'flex-1 resize-none bg-transparent px-3 py-2 font-hindi text-base xs:text-lg leading-relaxed',
+            'flex-1 resize-none bg-transparent px-3 py-2 text-base xs:text-lg leading-relaxed',
+            isHi ? 'font-hindi' : 'font-sans',
             'placeholder:text-ink/40 focus:outline-none disabled:opacity-50',
           )}
         />
@@ -50,7 +61,7 @@ export function TextFallback({
           type="button"
           onClick={onSubmit}
           disabled={disabled || !value.trim()}
-          aria-label="भेजें • Submit"
+          aria-label={submitAria}
           className={clsx(
             'shrink-0 w-12 h-12 rounded-xl flex items-center justify-center transition-all',
             'bg-saffron-500 text-white hover:bg-saffron-600 active:scale-95',

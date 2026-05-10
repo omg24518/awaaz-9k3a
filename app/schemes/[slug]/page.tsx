@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import clsx from 'clsx';
 import { Wordmark } from '@/components/Wordmark';
 import { SchemeAudioGuide } from '@/components/SchemeAudioGuide';
-import { loadSchemes, type Scheme } from '@/lib/schemes';
+import { loadSchemes, type Language, type Scheme } from '@/lib/schemes';
 import { getApplicationMethodCopy } from '@/lib/application-method';
 
 export function generateStaticParams() {
@@ -20,14 +21,18 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
 
 export default function SchemeDetailPage({
   params,
+  searchParams,
 }: {
   params: { slug: string };
+  searchParams?: { lang?: string };
 }) {
   const scheme = loadSchemes().find((s) => s.scheme_id === params.slug);
   if (!scheme) notFound();
 
+  const language: Language = searchParams?.lang === 'en' ? 'en' : 'hi';
+  const isHi = language === 'hi';
   const isOnline = scheme.has_online_application !== false;
-  const applicationMethod = getApplicationMethodCopy(scheme, 'hi');
+  const applicationMethod = getApplicationMethodCopy(scheme, language);
   const ApplicationMethodIcon =
     applicationMethod.mode === 'online'
       ? ExternalLinkIcon
@@ -47,45 +52,71 @@ export default function SchemeDetailPage({
     sourceDomain = scheme.official_link;
   }
 
+  const homeHref = isHi ? '/' : '/?lang=en';
+  const benefitSummary = isHi
+    ? scheme.benefit_summary_hi
+    : scheme.benefit_summary_en;
+  const eligibilityLines = isHi
+    ? scheme.eligibility_lines_hi
+    : scheme.eligibility_lines_en;
+  const benefitDetails = isHi
+    ? scheme.benefit_details_hi
+    : scheme.benefit_details_en;
+  const applicationSteps = isHi
+    ? scheme.application_steps_hi
+    : scheme.application_steps_en;
+  const documents = isHi
+    ? scheme.documents_required_hi
+    : scheme.documents_required;
+  const timeline = isHi ? scheme.timeline_hi : scheme.timeline_en;
+
   return (
     <main className="min-h-screen bg-cream">
-      {/* Sticky header */}
       <header className="sticky top-0 z-30 backdrop-blur-md bg-cream/80 border-b border-cream-300/70">
         <div className="max-w-5xl mx-auto px-5 sm:px-6 py-3 flex items-center justify-between gap-4">
           <Wordmark size="sm" />
           <Link
-            href="/"
+            href={homeHref}
             className="inline-flex items-center gap-2 text-xs sm:text-sm text-ink/65 hover:text-ink transition-colors"
           >
             <ArrowLeftIcon className="w-3.5 h-3.5" />
-            <span className="font-hindi">सभी योजनाएं</span>
-            <span className="text-ink/30 hidden sm:inline">·</span>
-            <span className="hidden sm:inline">All schemes</span>
+            {isHi ? (
+              <>
+                <span className="font-hindi">सभी योजनाएं</span>
+                <span className="text-ink/30 hidden sm:inline">·</span>
+                <span className="hidden sm:inline">All schemes</span>
+              </>
+            ) : (
+              <span className="font-serif italic">All schemes</span>
+            )}
           </Link>
         </div>
       </header>
 
       <div className="max-w-5xl mx-auto px-5 sm:px-6 pt-10 pb-20">
-        {/* Breadcrumb */}
         <nav
           aria-label="Breadcrumb"
           className="text-[11px] uppercase tracking-[0.18em] text-ink/40 mb-6 flex items-center gap-2"
         >
-          <Link href="/" className="hover:text-ink/70 transition-colors">
+          <Link href={homeHref} className="hover:text-ink/70 transition-colors">
             Home
           </Link>
           <span aria-hidden>/</span>
-          <span className="font-hindi normal-case tracking-normal">योजना</span>
+          <span
+            className={clsx(
+              isHi && 'font-hindi normal-case tracking-normal',
+            )}
+          >
+            {isHi ? 'योजना' : 'Scheme'}
+          </span>
           <span aria-hidden>/</span>
           <span className="text-ink/60 truncate max-w-[180px] sm:max-w-none">
-            {scheme.scheme_name}
+            {isHi ? scheme.scheme_name : scheme.scheme_name}
           </span>
         </nav>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-12">
-          {/* Main column */}
           <article className="lg:col-span-2 space-y-12">
-            {/* Hero */}
             <header className="space-y-5">
               <div className="text-[11px] uppercase tracking-[0.22em] text-ink/55 font-semibold">
                 <span>{scheme.ministry}</span>
@@ -99,66 +130,96 @@ export default function SchemeDetailPage({
                 )}
               </div>
 
-              <h1 className="font-hindi-serif text-[28px] xs:text-[32px] sm:text-[40px] md:text-[48px] leading-[1.15] tracking-tight text-ink">
-                {scheme.scheme_name_hi}
-              </h1>
-              <p className="text-base sm:text-lg text-ink/60 leading-snug">
-                {scheme.scheme_name}
-              </p>
+              {isHi ? (
+                <>
+                  <h1 className="font-hindi-serif text-[28px] xs:text-[32px] sm:text-[40px] md:text-[48px] leading-[1.15] tracking-tight text-ink">
+                    {scheme.scheme_name_hi}
+                  </h1>
+                  <p className="text-base sm:text-lg text-ink/60 leading-snug">
+                    {scheme.scheme_name}
+                  </p>
+                </>
+              ) : (
+                <h1 className="font-serif text-[28px] xs:text-[32px] sm:text-[40px] md:text-[44px] leading-[1.15] tracking-tight text-ink font-medium">
+                  {scheme.scheme_name}
+                </h1>
+              )}
 
               <div className="flex flex-wrap items-center gap-2 pt-1">
                 {scheme.verified && (
                   <span className="inline-flex items-center gap-1.5 text-[11px] uppercase tracking-[0.18em] font-semibold text-ashoka border border-ashoka/30 bg-ashoka/[0.04] px-2.5 py-1 rounded-md">
                     <CheckIcon className="w-3 h-3" />
-                    Verified · सही
+                    {isHi ? <>Verified · सही</> : <>Verified</>}
                   </span>
                 )}
                 <span
                   className={`inline-flex items-center gap-1.5 text-[11px] uppercase tracking-[0.18em] font-semibold border px-2.5 py-1 rounded-md ${applicationToneClass}`}
                 >
                   <ApplicationMethodIcon className="w-3 h-3" />
-                  <span className="font-hindi normal-case tracking-normal">
+                  <span
+                    className={clsx(
+                      isHi && 'font-hindi normal-case tracking-normal',
+                    )}
+                  >
                     {applicationMethod.label}
                   </span>
                 </span>
               </div>
 
               <div className="pt-4 border-t border-cream-300/80 space-y-3">
-                <p className="font-hindi text-base sm:text-lg text-ink-soft leading-relaxed">
-                  {scheme.benefit_summary_hi}
+                <p
+                  className={clsx(
+                    'text-base sm:text-lg text-ink-soft leading-relaxed',
+                    isHi && 'font-hindi',
+                  )}
+                >
+                  {benefitSummary}
                 </p>
-                <p className="text-sm text-ink/65 leading-relaxed">
-                  {scheme.benefit_summary_en}
-                </p>
+                {isHi && (
+                  <p className="text-sm text-ink/65 leading-relaxed">
+                    {scheme.benefit_summary_en}
+                  </p>
+                )}
               </div>
             </header>
 
-            {/* Eligibility */}
             <Section
               titleHi="किसको मिलेगा"
               titleEn="Eligibility"
+              language={language}
             >
-              {scheme.eligibility_lines_hi && scheme.eligibility_lines_hi.length > 0 ? (
+              {eligibilityLines && eligibilityLines.length > 0 ? (
                 <ul className="space-y-2.5">
-                  {scheme.eligibility_lines_hi.map((line, i) => (
-                    <li key={i} className="flex items-start gap-3 py-2 border-b border-cream-300/60 last:border-b-0">
+                  {eligibilityLines.map((line, i) => (
+                    <li
+                      key={i}
+                      className="flex items-start gap-3 py-2 border-b border-cream-300/60 last:border-b-0"
+                    >
                       <CheckIcon className="w-4 h-4 mt-1 text-forest-700 shrink-0" />
-                      <p className="font-hindi text-base text-ink-soft leading-relaxed">
+                      <p
+                        className={clsx(
+                          'text-base text-ink-soft leading-relaxed',
+                          isHi && 'font-hindi',
+                        )}
+                      >
                         {line}
                       </p>
                     </li>
                   ))}
                 </ul>
               ) : (
-                <EligibilityFromMachine scheme={scheme} />
+                <EligibilityFromMachine scheme={scheme} language={language} />
               )}
             </Section>
 
-            {/* Benefits */}
-            {scheme.benefit_details_hi && scheme.benefit_details_hi.length > 0 && (
-              <Section titleHi="क्या मिलेगा" titleEn="Benefits">
+            {benefitDetails && benefitDetails.length > 0 && (
+              <Section
+                titleHi="क्या मिलेगा"
+                titleEn="Benefits"
+                language={language}
+              >
                 <ol className="space-y-4">
-                  {scheme.benefit_details_hi.map((line, i) => (
+                  {benefitDetails.map((line, i) => (
                     <li
                       key={i}
                       className="flex items-start gap-4 py-3 border-b border-cream-300/60 last:border-b-0"
@@ -166,7 +227,12 @@ export default function SchemeDetailPage({
                       <span className="font-serif text-saffron-700 font-semibold tabular-nums text-sm tracking-wide shrink-0 pt-0.5 min-w-[28px]">
                         {String(i + 1).padStart(2, '0')}
                       </span>
-                      <p className="font-hindi text-base text-ink-soft leading-relaxed">
+                      <p
+                        className={clsx(
+                          'text-base text-ink-soft leading-relaxed',
+                          isHi && 'font-hindi',
+                        )}
+                      >
                         {line}
                       </p>
                     </li>
@@ -175,23 +241,28 @@ export default function SchemeDetailPage({
               </Section>
             )}
 
-            {/* Application steps */}
-            {scheme.application_steps_hi && scheme.application_steps_hi.length > 0 && (
+            {applicationSteps && applicationSteps.length > 0 && (
               <Section
                 titleHi="कैसे अर्ज़ी दें"
                 titleEn="How to apply"
+                language={language}
               >
                 <ol className="space-y-5">
-                  {scheme.application_steps_hi.map((step, i) => (
+                  {applicationSteps.map((step, i) => (
                     <li key={i} className="flex items-start gap-4">
                       <span className="font-serif text-saffron-700 font-semibold tabular-nums text-sm tracking-wide shrink-0 pt-0.5 min-w-[28px]">
                         {String(i + 1).padStart(2, '0')}
                       </span>
                       <div className="flex-1 space-y-1">
-                        <p className="font-hindi text-base text-ink-soft leading-relaxed">
+                        <p
+                          className={clsx(
+                            'text-base text-ink-soft leading-relaxed',
+                            isHi && 'font-hindi',
+                          )}
+                        >
                           {step}
                         </p>
-                        {scheme.application_steps_en?.[i] && (
+                        {isHi && scheme.application_steps_en?.[i] && (
                           <p className="text-xs text-ink/55 leading-relaxed">
                             {scheme.application_steps_en[i]}
                           </p>
@@ -203,17 +274,20 @@ export default function SchemeDetailPage({
               </Section>
             )}
 
-            {/* Documents */}
-            {scheme.documents_required_hi && scheme.documents_required_hi.length > 0 && (
+            {documents && documents.length > 0 && (
               <Section
                 titleHi="क्या-क्या काग़ज़ चाहिए"
                 titleEn="Documents required"
+                language={language}
               >
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                  {scheme.documents_required_hi.map((d, i) => (
+                  {documents.map((d, i) => (
                     <li
                       key={i}
-                      className="font-hindi text-sm bg-cream-200/70 text-ink-soft px-3 py-2 rounded-md border border-cream-300/60"
+                      className={clsx(
+                        'text-sm bg-cream-200/70 text-ink-soft px-3 py-2 rounded-md border border-cream-300/60',
+                        isHi && 'font-hindi',
+                      )}
                     >
                       {d}
                     </li>
@@ -222,9 +296,10 @@ export default function SchemeDetailPage({
               </Section>
             )}
 
-            {/* Source */}
             <div className="pt-6 border-t border-cream-300/80 text-xs text-ink/55">
-              <span>Source · आधिकारिक स्रोत: </span>
+              <span>
+                {isHi ? 'Source · आधिकारिक स्रोत: ' : 'Source: '}
+              </span>
               <a
                 href={scheme.official_link}
                 target="_blank"
@@ -236,19 +311,21 @@ export default function SchemeDetailPage({
             </div>
           </article>
 
-          {/* Right column — sticky CTA */}
           <aside className="lg:col-span-1">
             <div className="lg:sticky lg:top-24 space-y-4">
-              {/* AI guide — listen to the page aloud */}
-              <SchemeAudioGuide scheme={scheme} language="hi" />
+              <SchemeAudioGuide scheme={scheme} language={language} />
 
-              {/* Primary action */}
               {isOnline ? (
                 <div className="rounded-2xl bg-white border border-saffron-200 p-5 shadow-card">
                   <p className="text-[11px] uppercase tracking-[0.2em] text-ink/55 font-semibold mb-2">
-                    Apply online
+                    {isHi ? 'Apply online' : 'Apply online'}
                   </p>
-                  <p className="font-hindi text-sm text-ink-soft mb-4">
+                  <p
+                    className={clsx(
+                      'text-sm text-ink-soft mb-4',
+                      isHi && 'font-hindi',
+                    )}
+                  >
                     {applicationMethod.description}
                   </p>
                   <a
@@ -257,13 +334,19 @@ export default function SchemeDetailPage({
                     rel="noopener noreferrer"
                     className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-saffron-500 text-white px-5 h-12 text-sm font-semibold hover:bg-saffron-600 active:scale-[0.99] transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-saffron-700/40"
                   >
-                    <span className="font-hindi">{applicationMethod.cta}</span>
-                    <span className="text-saffron-100/80" aria-hidden>·</span>
+                    <span className={isHi ? 'font-hindi' : ''}>
+                      {applicationMethod.cta}
+                    </span>
+                    <span className="text-saffron-100/80" aria-hidden>
+                      ·
+                    </span>
                     <span>Open Portal</span>
                     <ExternalLinkIcon className="w-3.5 h-3.5" />
                   </a>
                   <p className="text-[11px] text-ink/50 mt-3 leading-relaxed">
-                    Opens the official government portal in a new tab.
+                    {isHi
+                      ? 'Opens the official government portal in a new tab.'
+                      : 'Opens the official government portal in a new tab.'}
                   </p>
                 </div>
               ) : (
@@ -271,18 +354,28 @@ export default function SchemeDetailPage({
                   <p className="text-[11px] uppercase tracking-[0.2em] text-saffron-700 font-semibold mb-2">
                     {applicationMethod.shortLabel}
                   </p>
-                  <p className="font-hindi text-sm text-ink-soft leading-relaxed mb-1.5">
+                  <p
+                    className={clsx(
+                      'text-sm text-ink-soft leading-relaxed mb-1.5',
+                      isHi && 'font-hindi',
+                    )}
+                  >
                     {applicationMethod.description}
                   </p>
                   <p className="text-xs text-ink/65 leading-relaxed">
-                    Follow the steps on the left to apply at the right office.
+                    {isHi
+                      ? 'Follow the steps on the left to apply at the right office.'
+                      : 'Follow the steps on the left to apply at the right office.'}
                   </p>
                 </div>
               )}
 
-              {/* Helpline */}
               {scheme.helpline && (
-                <SidebarCard label="Helpline" labelHi="हेल्पलाइन">
+                <SidebarCard
+                  label="Helpline"
+                  labelHi="हेल्पलाइन"
+                  language={language}
+                >
                   <a
                     href={`tel:${(scheme.helpline.match(/[\d-]+/) || [''])[0].replace(/-/g, '')}`}
                     className="inline-flex items-center gap-2 text-base font-semibold text-ink hover:text-saffron-700 transition-colors"
@@ -293,13 +386,21 @@ export default function SchemeDetailPage({
                 </SidebarCard>
               )}
 
-              {/* Timeline */}
-              {scheme.timeline_hi && (
-                <SidebarCard label="Timeline" labelHi="कितना समय लगेगा">
-                  <p className="font-hindi text-sm text-ink-soft leading-relaxed">
-                    {scheme.timeline_hi}
+              {timeline && (
+                <SidebarCard
+                  label="Timeline"
+                  labelHi="कितना समय लगेगा"
+                  language={language}
+                >
+                  <p
+                    className={clsx(
+                      'text-sm text-ink-soft leading-relaxed',
+                      isHi && 'font-hindi',
+                    )}
+                  >
+                    {timeline}
                   </p>
-                  {scheme.timeline_en && (
+                  {isHi && scheme.timeline_en && (
                     <p className="text-xs text-ink/55 mt-1.5 leading-relaxed">
                       {scheme.timeline_en}
                     </p>
@@ -317,22 +418,33 @@ export default function SchemeDetailPage({
 function Section({
   titleHi,
   titleEn,
+  language,
   children,
 }: {
   titleHi: string;
   titleEn: string;
+  language: Language;
   children: React.ReactNode;
 }) {
+  const isHi = language === 'hi';
   return (
     <section>
       <header className="mb-4 pb-2 border-b border-cream-300/80">
         <div className="flex items-baseline gap-3">
-          <h2 className="font-hindi-serif text-[20px] sm:text-[22px] text-ink leading-tight font-normal">
-            {titleHi}
-          </h2>
-          <span className="text-[11px] uppercase tracking-[0.22em] text-ink/45 font-semibold">
-            {titleEn}
-          </span>
+          {isHi ? (
+            <>
+              <h2 className="font-hindi-serif text-[20px] sm:text-[22px] text-ink leading-tight font-normal">
+                {titleHi}
+              </h2>
+              <span className="text-[11px] uppercase tracking-[0.22em] text-ink/45 font-semibold">
+                {titleEn}
+              </span>
+            </>
+          ) : (
+            <h2 className="font-serif text-[22px] sm:text-[26px] text-ink leading-tight font-medium tracking-tight">
+              {titleEn}
+            </h2>
+          )}
         </div>
       </header>
       <div>{children}</div>
@@ -343,39 +455,82 @@ function Section({
 function SidebarCard({
   label,
   labelHi,
+  language,
   children,
 }: {
   label: string;
   labelHi: string;
+  language: Language;
   children: React.ReactNode;
 }) {
+  const isHi = language === 'hi';
   return (
     <div className="rounded-2xl bg-white border border-cream-300 p-4">
       <p className="text-[11px] uppercase tracking-[0.2em] text-ink/55 font-semibold mb-2">
-        {label} · <span className="font-hindi normal-case tracking-normal">{labelHi}</span>
+        {label}
+        {isHi && (
+          <>
+            {' · '}
+            <span className="font-hindi normal-case tracking-normal">
+              {labelHi}
+            </span>
+          </>
+        )}
       </p>
       <div>{children}</div>
     </div>
   );
 }
 
-function EligibilityFromMachine({ scheme }: { scheme: Scheme }) {
+function EligibilityFromMachine({
+  scheme,
+  language,
+}: {
+  scheme: Scheme;
+  language: Language;
+}) {
   const e = scheme.eligibility;
+  const isHi = language === 'hi';
   const lines: string[] = [];
-  if (e.gender === 'female') lines.push('केवल महिलाओं के लिए');
-  if (e.min_age != null) lines.push(`न्यूनतम उम्र: ${e.min_age} साल`);
-  if (e.max_age != null) lines.push(`अधिकतम उम्र: ${e.max_age} साल`);
-  if (e.pregnancy_status === 'pregnant') lines.push('गर्भवती महिलाओं के लिए');
-  if (e.rural_only) lines.push('केवल ग्रामीण क्षेत्र');
-  if (e.income_max_monthly != null)
-    lines.push(`आय की सीमा: ₹${e.income_max_monthly.toLocaleString('en-IN')}/महीना`);
+  if (isHi) {
+    if (e.gender === 'female') lines.push('केवल महिलाओं के लिए');
+    if (e.min_age != null) lines.push(`न्यूनतम उम्र: ${e.min_age} साल`);
+    if (e.max_age != null) lines.push(`अधिकतम उम्र: ${e.max_age} साल`);
+    if (e.pregnancy_status === 'pregnant')
+      lines.push('गर्भवती महिलाओं के लिए');
+    if (e.rural_only) lines.push('केवल ग्रामीण क्षेत्र');
+    if (e.income_max_monthly != null)
+      lines.push(
+        `आय की सीमा: ₹${e.income_max_monthly.toLocaleString('en-IN')}/महीना`,
+      );
+  } else {
+    if (e.gender === 'female') lines.push('Women only');
+    if (e.min_age != null) lines.push(`Minimum age: ${e.min_age} years`);
+    if (e.max_age != null) lines.push(`Maximum age: ${e.max_age} years`);
+    if (e.pregnancy_status === 'pregnant') lines.push('For pregnant women');
+    if (e.rural_only) lines.push('Rural areas only');
+    if (e.income_max_monthly != null)
+      lines.push(
+        `Income limit: ₹${e.income_max_monthly.toLocaleString('en-IN')}/month`,
+      );
+  }
   return (
     <ul className="space-y-2.5">
       {lines.length > 0 ? (
         lines.map((l, i) => (
-          <li key={i} className="flex items-start gap-3 py-2 border-b border-cream-300/60 last:border-b-0">
+          <li
+            key={i}
+            className="flex items-start gap-3 py-2 border-b border-cream-300/60 last:border-b-0"
+          >
             <CheckIcon className="w-4 h-4 mt-1 text-forest-700 shrink-0" />
-            <p className="font-hindi text-base text-ink-soft leading-relaxed">{l}</p>
+            <p
+              className={clsx(
+                'text-base text-ink-soft leading-relaxed',
+                isHi && 'font-hindi',
+              )}
+            >
+              {l}
+            </p>
           </li>
         ))
       ) : (

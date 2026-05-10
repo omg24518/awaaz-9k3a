@@ -1,6 +1,13 @@
 'use client';
 
-export function ThinkingIndicator() {
+import clsx from 'clsx';
+import type { Language } from '@/lib/schemes';
+
+interface ThinkingIndicatorProps {
+  language?: Language;
+}
+
+export function ThinkingIndicator({ language = 'hi' }: ThinkingIndicatorProps) {
   return (
     <div className="flex flex-col items-center gap-3 animate-fade-in-up">
       <div className="flex items-center gap-1.5">
@@ -12,8 +19,15 @@ export function ThinkingIndicator() {
           />
         ))}
       </div>
-      <p className="font-hindi text-base text-ink/65">
-        आपके लिए योजनाएं ढूंढ रहे हैं…
+      <p
+        className={clsx(
+          'text-base text-ink/65',
+          language === 'hi' ? 'font-hindi' : 'font-serif italic',
+        )}
+      >
+        {language === 'hi'
+          ? 'आपके लिए योजनाएं ढूंढ रहे हैं…'
+          : 'Finding schemes for you…'}
       </p>
     </div>
   );

@@ -117,12 +117,20 @@ export function SchemeCard({
         </span>
       </header>
 
-      <h3 className="font-hindi-serif text-[22px] xs:text-[26px] md:text-[34px] font-normal text-ink leading-[1.18] tracking-tight">
-        {scheme.scheme_name_hi}
-      </h3>
-      <p className="mt-1.5 font-serif italic text-[14px] xs:text-[15px] text-ink/60 leading-snug">
-        {scheme.scheme_name}
-      </p>
+      {language === 'hi' ? (
+        <>
+          <h3 className="font-hindi-serif text-[22px] xs:text-[26px] md:text-[34px] font-normal text-ink leading-[1.18] tracking-tight">
+            {scheme.scheme_name_hi}
+          </h3>
+          <p className="mt-1.5 font-serif italic text-[14px] xs:text-[15px] text-ink/60 leading-snug">
+            {scheme.scheme_name}
+          </p>
+        </>
+      ) : (
+        <h3 className="font-serif text-[22px] xs:text-[26px] md:text-[32px] font-medium text-ink leading-[1.2] tracking-tight">
+          {scheme.scheme_name}
+        </h3>
+      )}
 
       <p
         className={clsx(
@@ -330,7 +338,7 @@ export function SchemeCard({
           </a>
         ) : (
           <Link
-            href={`/schemes/${scheme.scheme_id}`}
+            href={`/schemes/${scheme.scheme_id}${language === 'en' ? '?lang=en' : ''}`}
             className={clsx(
               'flex-1 h-14 sm:h-12 rounded-xl border-2 border-forest-500 text-forest-700 px-5 text-base sm:text-sm font-semibold transition-all',
               'hover:bg-forest-50 active:scale-[0.98]',
@@ -349,7 +357,7 @@ export function SchemeCard({
 
       <div className="mt-4 sm:mt-3 text-center">
         <Link
-          href={`/schemes/${scheme.scheme_id}`}
+          href={`/schemes/${scheme.scheme_id}${language === 'en' ? '?lang=en' : ''}`}
           className="text-sm sm:text-xs text-ink/65 hover:text-saffron-700 font-serif italic inline-flex items-center gap-1 transition-colors py-2 px-2"
         >
           {language === 'hi' ? 'और जानकारी पढ़िए' : 'View full details'}

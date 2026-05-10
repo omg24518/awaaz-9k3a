@@ -1,28 +1,49 @@
 'use client';
 
 import clsx from 'clsx';
+import type { Language } from '@/lib/schemes';
 
 interface MicButtonProps {
   state: 'idle' | 'listening' | 'processing';
   onClick: () => void;
   disabled?: boolean;
+  language?: Language;
 }
 
-export function MicButton({ state, onClick, disabled }: MicButtonProps) {
+export function MicButton({
+  state,
+  onClick,
+  disabled,
+  language = 'hi',
+}: MicButtonProps) {
   const isListening = state === 'listening';
   const isProcessing = state === 'processing';
 
-  const ariaLabel = isListening
-    ? 'सुन रहे हैं — रुकने के लिए दबाइए • Listening — tap to stop'
-    : isProcessing
-      ? 'ढूंढ रहे हैं • Processing'
-      : 'बोलने के लिए दबाइए • Tap to speak';
+  const ariaLabel =
+    language === 'hi'
+      ? isListening
+        ? 'सुन रहे हैं — रुकने के लिए दबाइए'
+        : isProcessing
+          ? 'ढूंढ रहे हैं'
+          : 'बोलने के लिए दबाइए'
+      : isListening
+        ? 'Listening — tap to stop'
+        : isProcessing
+          ? 'Processing'
+          : 'Tap to speak';
 
-  const idleHint = isListening
-    ? 'सुन रहे हैं'
-    : isProcessing
-      ? 'ढूंढ रहे हैं'
-      : 'दबाइए और बोलिए';
+  const idleHint =
+    language === 'hi'
+      ? isListening
+        ? 'सुन रहे हैं'
+        : isProcessing
+          ? 'ढूंढ रहे हैं'
+          : 'दबाइए और बोलिए'
+      : isListening
+        ? 'listening'
+        : isProcessing
+          ? 'processing'
+          : 'tap to speak';
 
   return (
     <div className="relative w-[180px] h-[180px] xs:w-[200px] xs:h-[200px] flex items-center justify-center">
@@ -96,7 +117,8 @@ export function MicButton({ state, onClick, disabled }: MicButtonProps) {
         aria-hidden
         className={clsx(
           'absolute -bottom-9 left-1/2 -translate-x-1/2 whitespace-nowrap',
-          'text-xs tracking-[0.28em] uppercase font-medium font-hindi',
+          'text-xs tracking-[0.28em] uppercase font-medium',
+          language === 'hi' ? 'font-hindi' : '',
           'transition-colors duration-300',
           isListening
             ? 'text-saffron-700'
