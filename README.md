@@ -1,11 +1,8 @@
 # आवाज़ • Awaaz
 
-**Voice-first government scheme navigator for rural Indian women.**
+Voice-first navigator for Indian government welfare schemes.
 
-A woman speaks her situation in Hindi (or English). The AI extracts her profile,
-matches her against 50 curated Indian government welfare schemes, and reads back —
-in her language — which schemes she qualifies for, what documents she needs, and
-where to apply.
+A user — typically a rural woman with low literacy — speaks her situation in Hindi or English. The app extracts a structured profile from the speech, matches her against 50 curated central and state schemes, and reads the qualifying ones back to her in her language: what she gets, who she should talk to, what papers she needs, and how long it takes.
 
 Built for the innovate@ai school AI competition (Apeejay Saket).
 
@@ -13,33 +10,24 @@ Built for the innovate@ai school AI competition (Apeejay Saket).
 
 ## Stack
 
-- **Frontend:** Next.js 14 (App Router) + TypeScript + Tailwind CSS, deployed on Vercel
-- **AI / reasoning:** OpenAI GPT-4o (JSON mode) via the OpenAI SDK
-- **Voice input:** Web Speech API (browser-native, supports `hi-IN`)
-- **Voice output:** Google Cloud Text-to-Speech Neural2 (`hi-IN` / `en-IN`), with ElevenLabs and browser SpeechSynthesis fallback
-- **Data:** Static JSON of 50 curated schemes (no vector DB; the full compact scheme set is passed in-context)
+- Next.js 14 (App Router) + TypeScript + Tailwind, deployed on Vercel
+- OpenAI GPT-4o for profile extraction and scheme matching (two calls, both in JSON mode)
+- Google Cloud TTS Neural2 (`hi-IN-Neural2-A`) for the Hindi voice; ElevenLabs and the browser's `speechSynthesis` are fallbacks
+- Web Speech API for `hi-IN` recognition
+- 50 schemes as static JSON — small enough that the whole compact set fits in the matching prompt; no vector DB
 
 ---
 
-## Local setup
+## Run it
 
 ```bash
 npm install
-cp .env.local.example .env.local
-# fill in OPENAI_API_KEY and Google TTS credentials
+cp .env.local.example .env.local   # fill in OPENAI_API_KEY and Google TTS creds
 npm run check:data
 npm run dev
 ```
 
-Visit http://localhost:3000
-
-The app **will boot without env vars** — it still shows cached sample-scenario
-responses and can fall back to browser TTS. Live AI matching needs
-`OPENAI_API_KEY` to be set.
-
-`npm run check:data` validates the 50-scheme dataset, cached scenario links,
-application-step coverage for the voice guide, and stale online-portal URL
-patterns before a demo or handover.
+`check:data` validates the 50-scheme dataset, the cached scenario responses, application-step coverage for the audio guide, and known-stale portal URLs. Run it before any demo.
 
 ---
 
@@ -47,85 +35,61 @@ patterns before a demo or handover.
 
 | Var | Required | Notes |
 |---|---|---|
-| `OPENAI_API_KEY` | yes | Get from https://platform.openai.com/api-keys |
-| `GOOGLE_TTS_API_KEY` | optional | Google Cloud TTS API key. Use this or service-account auth for the best Hindi voice. |
-| `GOOGLE_SERVICE_ACCOUNT_JSON` | optional | Full Google service-account JSON as one line. Preferred when API-key auth is blocked. |
-| `GOOGLE_APPLICATION_CREDENTIALS` | optional | Path to a local Google service-account JSON file. Never commit that file. |
-| `GOOGLE_TTS_VOICE_HI` | optional | Defaults to `hi-IN-Neural2-A`. |
-| `GOOGLE_TTS_VOICE_EN` | optional | Defaults to `en-IN-Neural2-A`. |
-| `ELEVENLABS_API_KEY` | optional | Fallback TTS provider if Google is unavailable. |
-| `ELEVENLABS_VOICE_ID_HINDI` | optional | ElevenLabs fallback voice override. |
-| `ELEVENLABS_VOICE_ID_ENGLISH` | optional | ElevenLabs fallback voice override. |
-| `NEXT_PUBLIC_APP_NAME` | optional | Shown in the wordmark. Defaults to "Awaaz". |
+| `OPENAI_API_KEY` | yes | platform.openai.com/api-keys |
+| `GOOGLE_SERVICE_ACCOUNT_JSON` | one-of | Full service-account JSON as a single line. Preferred. |
+| `GOOGLE_TTS_API_KEY` | one-of | API-key auth. Simpler but blocked on some Google projects. |
+| `GOOGLE_APPLICATION_CREDENTIALS` | one-of | Path to a local service-account JSON file. |
+| `ELEVENLABS_API_KEY` | optional | Fallback TTS if Google fails or hits quota. |
+| `GOOGLE_TTS_VOICE_HI` / `_EN` | optional | Override default voices. |
+| `ELEVENLABS_VOICE_ID_HINDI` / `_ENGLISH` | optional | Override default ElevenLabs voices. |
+| `NEXT_PUBLIC_APP_NAME` | optional | Wordmark text. Defaults to `Awaaz`. |
+
+Without any TTS provider configured the app degrades to the browser's built-in `speechSynthesis` — usable but not native-sounding.
 
 ---
 
-## Deploy to Vercel
+## Deploy
 
 ```bash
-# Option A — Vercel CLI
 npm i -g vercel
-vercel        # link the project
-vercel --prod # deploy
-
-# Option B — GitHub + Vercel dashboard
-git init
-git add .
-git commit -m "Initial AWAAZ MVP"
-gh repo create awaaz --public --source=. --push
-# then go to vercel.com, import the repo, add env vars in Project Settings → Environment Variables
+vercel link
+vercel deploy --prod
 ```
 
-Set the same env vars in Vercel (Project → Settings → Environment Variables).
-Both `/api/query` and `/api/tts` use the Node runtime by default.
+Then add the env vars in the Vercel project settings (Production scope) and redeploy.
 
 ---
 
 ## Demo flow
 
-1. User taps the saffron mic button.
-2. Speaks in Hindi: "मैं 26 साल की हूं, गर्भवती हूं, उत्तर प्रदेश में रहती हूं, पति की कमाई 8000 रुपये महीना है"
-3. Live transcript appears under the mic.
-4. After 3.5 sec of silence the recording auto-stops and the system processes:
-   - **Call 1:** OpenAI extracts a structured profile (age, state, pregnancy, income, etc.)
-   - **Call 2:** OpenAI matches the profile against all 50 schemes in `data/schemes.json`
-   - Returns top 3–5 ranked schemes with eligibility reasoning in Hindi + English
-5. Result cards render. AI speaks the Hindi summary aloud via Google Cloud TTS.
-6. Each card shows the apply method: online form, office/CSC, or helpline.
-7. Tap "और बताइए" to hear the first apply step aloud, or use the apply button:
-   online schemes open the official form, while office/CSC/helpline schemes open the internal step-by-step guide.
+1. Tap the mic. Speak: *"मैं 26 साल की हूं, गर्भवती हूं, उत्तर प्रदेश में रहती हूं, पति की कमाई 8000 रुपये महीना है"*
+2. Live transcript renders under the mic. After 3.5s of silence the recording auto-stops.
+3. The app makes two OpenAI calls — one to extract a profile (age, state, pregnancy, income, etc.) and one to rank the matching schemes — and returns the top 3–5 with eligibility reasoning in Hindi and English.
+4. Result cards render. The Hindi summary plays aloud through Google Cloud TTS.
+5. Each card shows how to apply (online portal, office/CSC, or helpline). The apply button on offline schemes routes to a step-by-step Hindi guide page.
 
-### Demo-proofing on stage
-
-- Three preset scenario buttons sit below the mic. Tap any one to run the full flow without using voice.
-- Each scenario has a hand-curated cached response. If the live API is down, the cached response renders and a small **cached** badge appears bottom-right.
-- A typed-text fallback is always visible below the mic. Voice unsupported in the current browser? The app detects it and shows a hint pointing to the textbox.
+If the network drops or the OpenAI key is missing, the three preset scenarios below the mic still work — each has a curated cached response and the bottom-right badge flips to **cached**. A typed-text fallback is always visible for browsers that don't support the Web Speech API.
 
 ---
 
-## Project structure
+## Project layout
 
 ```
 app/
-  api/query/route.ts      # POST: text → profile + matched schemes (OpenAI × 2 calls)
-  api/tts/route.ts        # POST: text → Google/ElevenLabs/browser-TTS fallback path
-  layout.tsx              # Devanagari + Inter fonts, metadata
-  page.tsx                # Main UI
-components/               # All React components (mic, cards, fallbacks, etc.)
+  api/query/route.ts
+  api/tts/route.ts
+  page.tsx
+  schemes/[slug]/page.tsx
+components/
 lib/
-  openai.ts               # OpenAI SDK wrapper and prompt logic
-  schemes.ts              # Loaders, types, hydrateCached helper
-  google-tts.ts           # Google Cloud TTS wrapper
-  elevenlabs.ts           # Optional ElevenLabs fallback wrapper
-  speech-recognition.ts   # Web Speech API (STT)
-  speech-synthesis.ts     # Browser TTS fallback
+  openai.ts            two-call profile extract + match
+  schemes.ts           types and JSON loader
+  google-tts.ts        primary Hindi voice
+  elevenlabs.ts        fallback voice
+  speech-recognition.ts
+  speech-synthesis.ts
+  tts-text.ts          conversational script for the audio guide
 data/
-  schemes.json            # 50 curated central + state government welfare schemes
-  sample-scenarios.json   # 3 demo presets + cached fallback responses
+  schemes.json         50 central + state schemes
+  sample-scenarios.json
 ```
-
----
-
-## Credits
-
-Project: AWAAZ • innovate@ai 2026 entry
